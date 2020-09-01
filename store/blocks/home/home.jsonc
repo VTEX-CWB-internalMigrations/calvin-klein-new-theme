@@ -1,7 +1,7 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#demo",
+      "info-card#main-infocard",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "__fold__.experimentalLazyAssets",
@@ -13,6 +13,21 @@
       "rich-text#link",
       "newsletter"
     ]
+  },
+
+  "info-card#main-infocard":{
+    "props": {
+      "id": "info-card-main-home",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Título",
+      "subhead": "Texto informativo cadastrado aqui",
+      "callToActionText": "Botão de ação",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
   },
 
   "shelf#home": {

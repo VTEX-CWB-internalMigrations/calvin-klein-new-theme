@@ -4,29 +4,123 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#feminino",
+      "menu-item#masculino",
+      "menu-item#infantil",
+      "menu-item#underwear",
+      "menu-item#outlet"
     ]
   },
-  "menu-item#category-apparel": {
+  "menu-item#feminino": {
     "props": {
-      "id": "menu-item-category-apparel",
+      "blockClass": "main-menu-item",
+      "id": "menu-item-feminino",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/",
+        "href": "/",
         "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
+        "tagTitle": "FEMININO",
+        "text": "FEMININO"
       }
     },
     "blocks": [
       "vtex.menu@2.x:submenu#category-apparel"
     ]
   },
+
+  "menu-item#masculino": {
+    "props": {
+      "blockClass": "main-menu-item",
+      "id": "menu-item-masculino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "MASCULINO",
+        "text": "MASCULINO"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-apparel"
+    ]
+  },
+
+  "menu-item#infantil": {
+    "props": {
+      "blockClass": "main-menu-item",
+      "id": "menu-item-infantil",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "INFANTIL",
+        "text": "INFANTIL"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-apparel"
+    ]
+  },
+
+  "menu-item#underwear": {
+    "props": {
+      "blockClass": "main-menu-item",
+      "id": "menu-item-underwear",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "UNDERWEAR",
+        "text": "UNDERWEAR"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-apparel"
+    ]
+  },
+  "menu-item#outlet": {
+    "props": {
+      "blockClass": "main-menu-item",
+      "id": "menu-item-outlet",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "OUTLET",
+        "text": "OUTLET"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-apparel"
+    ]
+  },
+
+
+
+
+
+
+
+
+
+
+
+
   "vtex.menu@2.x:submenu#category-apparel": {
     "props": {
       "width": "auto"
