@@ -1,3 +1,29 @@
 .styledLinkContent--main-menu-item{
     font-size: 12px
 }
+
+.styledLinkContainer--department-middles{
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 0px 5px;
+    transition: 0.5s;
+}
+
+.styledLinkContent--department-middles{
+    font-size: 13px;
+}
+
+.styledLinkContainer--department-middles:hover{
+    background: #000;
+}
+
+.styledLinkContainer--department-middles:hover .styledLinkContent--department-middles{
+    color: #fff;
+}
+
+.menuContainer--department-middles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}

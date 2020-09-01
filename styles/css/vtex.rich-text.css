@@ -77,6 +77,19 @@
   color: #d1d1d1;
 }
 
+.paragraph--titles-page{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+.container--titles-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;

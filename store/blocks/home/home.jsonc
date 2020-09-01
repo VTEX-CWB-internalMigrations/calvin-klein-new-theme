@@ -5,7 +5,8 @@
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "__fold__.experimentalLazyAssets",
-      "flex-layout.row#deals",
+      "flex-layout.row#department-links",
+      "info-card#second-infocard",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "info-card#home",
@@ -29,6 +30,59 @@
       "textAlignment": "center"
     }
   },
+
+  "info-card#second-infocard":{
+    "props": {
+      "id": "info-card-second-home",
+      "isFullModeStyle": true,
+      "textPosition": "right",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Título",
+      "subhead": "Texto informativo cadastrado aqui",
+      "callToActionText": "Botão de ação",
+      "callToActionUrl": "/sale/d",
+      "blockClass": ["info-card-home", "right-infocard"],
+      "textAlignment": "center"
+    }
+  },
+
+  "flex-layout.row#department-links":{
+    "children":[
+      "flex-layout.col#department-links"
+    ]
+  },
+  "flex-layout.col#department-links":{
+    "children":[
+      "flex-layout.row#department-links-2",
+      "flex-layout.row#department-links-3"
+    ]
+  },
+
+  "flex-layout.row#department-links-2":{
+    "children":[
+      "rich-text#department-titles"
+    ]
+  },
+  "rich-text#department-titles":{
+    "props":{
+      "blockClass": "titles-page",
+      "text": "NAVEGUE"
+    }
+  },
+  "flex-layout.row#department-links-3":{
+    "children":[
+      "vtex.menu@2.x:menu#department-middles-menu"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#department-middles-menu":{
+    "props": {
+      "blockClass": "department-middles",
+      "experimentalOptimizeRendering": true,
+      "orientation": "horizontal"
+    }
+  },
+
 
   "shelf#home": {
     "blocks": ["product-summary.shelf"]
