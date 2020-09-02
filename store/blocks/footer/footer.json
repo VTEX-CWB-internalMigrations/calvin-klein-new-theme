@@ -4,24 +4,133 @@
   },
   "footer-layout.desktop": {
     "children": [
+      "flex-layout.row#footer-0-desktop",
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer-2-desktop",
       "flex-layout.row#footer-3-desktop"
     ]
   },
+  "flex-layout.row#footer-0-desktop":{
+    "children":[
+      "logo#footer-logo"
+    ],
+    "props":{
+      "blockClass": "footer-logo-flex"
+    }
+  },
+  "logo#footer-logo":{
+    "props":{
+
+    }
+  },
+
   "flex-layout.row#footer-1-desktop": {
     "children": [
-      "vtex.menu@2.x:menu#Products",
-      "vtex.menu@2.x:menu#footer-clothing",
-      "vtex.menu@2.x:menu#footer-decoration",
-      "vtex.menu@2.x:menu#footer-bags",
+      "flex-layout.col#1-footer-menu",
+      "flex-layout.col#2-footer-menu",
+      "flex-layout.col#3-footer-menu",
+      "flex-layout.col#4-footer-menu",
       "footer-spacer",
-      "social-networks"
+      "footer-spacer"
     ],
     "props": {
       "blockClass": "menu-row",
       "paddingTop": 6,
       "paddingBottom": 3
+    }
+  },
+
+
+  "flex-layout.col#1-footer-menu":{
+    "children":[
+      "rich-text#1-title-footer",
+      "vtex.menu@2.x:menu#footer-menu-1"
+    ],
+    "props":{
+      "blockClass": "footer-col-layout"
+    }
+  },
+  "flex-layout.col#2-footer-menu":{
+    "children":[
+      "rich-text#2-title-footer",
+      "vtex.menu@2.x:menu#footer-menu-2"
+    ],
+    "props":{
+      "blockClass": "footer-col-layout"
+    }
+  },
+  "flex-layout.col#3-footer-menu":{
+    "children":[
+      "rich-text#3-title-footer",
+      "vtex.menu@2.x:menu#footer-menu-3"
+    ],
+    "props":{
+      "blockClass": "footer-col-layout"
+    }
+  },
+  "flex-layout.col#4-footer-menu":{
+    "children":[
+      "rich-text#4-title-footer",
+      "vtex.menu@2.x:menu#footer-menu-4"
+    ],
+    "props":{
+      "blockClass": "footer-col-layout"
+    }
+  },
+
+  "rich-text#1-title-footer":{
+    "props":{
+      "text": "TÍTULO 1",
+      "blockClass": "footer-title"
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-menu-1":{
+    "props":{
+      "orientation": "vertical",
+      "blockClass": "footer-text"
+    }
+  },
+
+  "rich-text#2-title-footer":{
+    "props":{
+      "text": "TÍTULO 2",
+      "blockClass": "footer-title"
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-menu-2":{
+    "props":{
+      "orientation": "vertical",
+      "blockClass": "footer-text"
+    }
+  },
+
+  "rich-text#3-title-footer":{
+    "props":{
+      "text": "TÍTULO 3",
+      "blockClass": "footer-title"
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-menu-3":{
+    "props":{
+      "orientation": "vertical",
+      "blockClass": "footer-text"
+    }
+  },
+
+  "rich-text#4-title-footer":{
+    "props":{
+      "text": "TÍTULO 4",
+      "blockClass": "footer-title"
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-menu-4":{
+    "props":{
+      "orientation": "vertical",
+      "blockClass": "footer-text"
     }
   },
 
@@ -49,7 +158,7 @@
   },
 
   "flex-layout.row#footer-2-desktop": {
-    "children": ["accepted-payment-methods"],
+    "children": ["social-networks","accepted-payment-methods"],
     "props": {
       "blockClass": "payment-methods"
     }

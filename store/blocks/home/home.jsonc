@@ -10,9 +10,7 @@
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
-      "newsletter"
+      "flex-layout.row#newsletter"
     ]
   },
 
@@ -159,18 +157,25 @@
       "textAlignment": "center"
     }
   },
-
-  "rich-text#question": {
-    "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
-      "blockClass": "question"
+  
+  "flex-layout.row#newsletter":{
+    "children":[
+      "flex-layout.col#newsletter"
+    ],
+    "props":{
+      "blockClass": "newsletter-box"
     }
   },
-
-  "rich-text#link": {
-    "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
-      "blockClass": "link"
+  "flex-layout.col#newsletter":{
+    "children":[
+      "newsletter",
+      "rich-text#newsletter-rich-text"
+    ]
+  },
+  "rich-text#newsletter-rich-text":{
+    "props":{
+      "blockClass": "newsletter-text",
+      "text": "Ao submeter o email, você afirma que gostaria de receber atualizações dos últimos produtos e promoções por e-mail ou outros canais. Por favor veja a nossa política de privacidade para mais informações"
     }
   }
 }

@@ -95,3 +95,20 @@
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
 }
+
+.flexRowContent--newsletter-box :global(.vtex-store-components-3-x-container){
+  padding: 100px 0px 150px !important;
+}
+
+.flexRowContent--newsletter-box{
+  position: relative;
+}
+
+.flexRowContent--footer-logo-flex .stretchChildrenWidth{
+  display: flex;
+  justify-content: left;
+}
+
+.flexCol--footer-col-layout .flexColChild{
+  height: auto !important;
+}

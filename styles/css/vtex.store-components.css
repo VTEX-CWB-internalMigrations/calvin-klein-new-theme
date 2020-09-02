@@ -18,8 +18,8 @@
 }
 
 .newsletter {
-  background-color: #03054e;
-  max-width: 1528px;
+  background-color: #000;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -54,6 +54,16 @@
   color: #fff;
   border: none;
   margin-right: -24px;
+}
+
+.newsletter :global(.vtex-input){
+  background: #fff;
+  height: 30px;
+}
+
+.newsletter :global(.vtex-input-prefix__group){
+  height: 30px;
+  border-radius: 0px;
 }
 
 .buttonContainer {
@@ -105,9 +115,19 @@
   height: 770px;
 }
 
+.newsletter .form{
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter .label{
+  font-size: 30px;
+  text-align: left;
+}
+
 @media only screen and (min-width: 640px) {
   .newsletter .container {
-    padding: 140px;
+    padding: 100px;
   }
 
   .label {

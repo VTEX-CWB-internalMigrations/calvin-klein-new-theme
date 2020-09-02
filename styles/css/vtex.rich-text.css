@@ -90,6 +90,22 @@
   justify-content: center;
 }
 
+.container--newsletter-text{
+  position: absolute;
+  color: #fff;
+  bottom: 70px;
+  width: 430px;
+  font-size: 12px;
+  margin: 0px auto;
+  left: 33.5%;
+}
+
+.paragraph--footer-title{
+  font-size: 15px;
+  font-weight: 600;
+  padding-left: 20px;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;
