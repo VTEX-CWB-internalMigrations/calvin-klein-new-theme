@@ -40,3 +40,13 @@
 .image {
   border-radius: 0.25rem;
 }
+
+.container{
+  max-width: 500px !important;
+}
+
+.imageStackContainer , .imageNormal{
+  width: 100%;
+  max-height: unset !important;
+}
+

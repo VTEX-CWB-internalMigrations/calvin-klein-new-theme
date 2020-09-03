@@ -7,8 +7,9 @@
       "__fold__.experimentalLazyAssets",
       "flex-layout.row#department-links",
       "info-card#second-infocard",
-      "rich-text#shelf-title",
-      "flex-layout.row#shelf",
+
+      "flex-layout.row#first-shelf",
+
       "info-card#home",
       "flex-layout.row#newsletter"
     ]
@@ -115,6 +116,53 @@
     }
   },
 
+  "flex-layout.row#first-shelf":{
+    "children":[
+      "flex-layout.col#first-shelf"
+
+    ]
+  },
+  "flex-layout.col#first-shelf":{
+    "children":[
+      "flex-layout.row#first-shelf-inside",
+      "flex-layout.row#shelf"
+    ]
+  },
+
+  "flex-layout.row#first-shelf-inside":{
+    "children":[
+      "flex-layout.col#first-shelf-inside"
+    ],
+    "props":{
+      "blockClass": ["shelf-flex", "shelf-right"]
+    }
+  },
+
+  "flex-layout.col#first-shelf-inside":{
+    "children":[
+      "rich-text#shelf-title",
+      "flex-layout.row#first-shelf-inside-buttons"
+    ]
+  },
+  "flex-layout.row#first-shelf-inside-buttons":{
+    "children":[
+      "rich-text#button-one-one",
+      "rich-text#button-one-two"
+    ]
+  },
+  "rich-text#button-one-one":{
+    "props":{
+      "text": "COMPRAR FEMININO",
+      "blockClass": "shelf-buttons"
+    }
+  },
+  "rich-text#button-one-two":{
+    "props":{
+      "text": "COMPRAR MASCULINO",
+      "blockClass": "shelf-buttons"
+    }
+  },
+
   "rich-text#shelf-title": {
     "props": {
       "text": "## Summer",
@@ -134,7 +182,7 @@
   "slider-layout#demo-products": {
     "props": {
       "itemsPerPage": {
-        "desktop": 5,
+        "desktop": 3,
         "tablet": 3,
         "phone": 1
       },

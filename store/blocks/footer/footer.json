@@ -30,6 +30,7 @@
       "flex-layout.col#2-footer-menu",
       "flex-layout.col#3-footer-menu",
       "flex-layout.col#4-footer-menu",
+      "flex-layout.col#5-footer-menu",
       "footer-spacer",
       "footer-spacer"
     ],
@@ -71,13 +72,23 @@
   "flex-layout.col#4-footer-menu":{
     "children":[
       "rich-text#4-title-footer",
-      "vtex.menu@2.x:menu#footer-menu-4"
+      "rich-text#contact-info"
     ],
     "props":{
       "blockClass": "footer-col-layout"
     }
   },
 
+  "flex-layout.col#5-footer-menu":{
+    "children":[
+      "rich-text#5-title-footer",
+      "locale-switcher"
+    ],
+    "props":{
+      "blockClass": "footer-col-layout"
+    }
+  },
+  
   "rich-text#1-title-footer":{
     "props":{
       "text": "TÍTULO 1",
@@ -127,10 +138,17 @@
     }
   },
 
-  "vtex.menu@2.x:menu#footer-menu-4":{
+  "rich-text#contact-info":{
     "props":{
-      "orientation": "vertical",
+      "text": "Contact Information",
       "blockClass": "footer-text"
+    }
+  },
+
+  "rich-text#5-title-footer":{
+    "props":{
+      "text": "TÍTULO 5",
+      "blockClass": "footer-title"
     }
   },
 
@@ -158,9 +176,21 @@
   },
 
   "flex-layout.row#footer-2-desktop": {
-    "children": ["social-networks","accepted-payment-methods"],
+    "children": [
+      "social-networks",  
+      "footer-spacer",
+      "footer-spacer",
+      "back-to-top-button"
+    ],
     "props": {
       "blockClass": "payment-methods"
+    }
+  },
+
+  "back-to-top-button":{
+    "props":{
+      "displayThreshold": 800,
+      "display": "caret-icon"
     }
   },
   "accepted-payment-methods": {
@@ -170,14 +200,21 @@
   },
 
   "flex-layout.row#footer-3-desktop": {
-    "children": ["rich-text#footer"],
+    "children": ["rich-text#footer-bottom-one", "rich-text#footer-bottom-two", "footer-spacer", "footer-spacer"],
     "props": {
       "blockClass": "credits"
     }
   },
-  "rich-text#footer": {
+  "rich-text#footer-bottom-one": {
     "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
+      "text": "Web ID: 878384163 <br> Copyright @2019 Calvin Klein. All rights reserved.",
+      "blockClass": "footer"
+    }
+  },
+
+  "rich-text#footer-bottom-two": {
+    "props": {
+      "text": "CA Transparency In Supply Chain & UK Modern Slavery Statement | Privacy Policy | Terms & Conditions",
       "blockClass": "footer"
     }
   },
