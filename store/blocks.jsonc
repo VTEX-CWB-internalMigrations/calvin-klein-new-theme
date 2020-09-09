@@ -39,7 +39,7 @@
   "product-summary.shelf": {
     "children": [
       "stack-layout#prodsum",
-      // "product-summary-name",
+      "product-summary-name",
       "product-rating-inline",
       "product-summary-space",
       "product-list-price#summary",
