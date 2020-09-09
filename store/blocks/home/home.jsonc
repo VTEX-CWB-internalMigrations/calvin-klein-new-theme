@@ -7,13 +7,37 @@
       "__fold__.experimentalLazyAssets",
       "flex-layout.row#department-links",
       "info-card#second-infocard",
-
       "flex-layout.row#first-shelf",
-
-      "info-card#home",
+      "list-context.image-list#bottom-images",
       "flex-layout.row#newsletter"
     ]
   },
+
+
+  "list-context.image-list#bottom-images": {
+    "children": ["slider-layout#bottom-images"],
+    "props": {
+      "blockClass": "images-bottom",
+      "images": [
+      ]
+    }
+  },
+
+  "slider-layout#bottom-images": {
+    "props": {
+      "blockClass": "images-bottom",
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "showPaginationDots": "never",
+      "showNavigationArrows": "mobileOnly"
+    }
+  },
+
+  
 
   "info-card#main-infocard":{
     "props": {
@@ -188,7 +212,8 @@
       },
       "infinite": true,
       "fullWidth": false,
-      "blockClass": "shelf"
+      "blockClass": "shelf",
+      "showPaginationDots": "never"
     }
   },
 

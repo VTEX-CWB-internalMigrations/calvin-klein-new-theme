@@ -120,10 +120,6 @@
   color: #fff;
 }
 
-.infoCardContainer--info-card-home{
-  height: 770px;
-}
-
 .newsletter .form{
   display: flex;
   flex-direction: column;
@@ -135,6 +131,11 @@
 }
 
 @media only screen and (min-width: 640px) {
+
+  .infoCardContainer--info-card-home{
+    height: 770px;
+  }
+
   .newsletter .container {
     padding: 100px;
   }
@@ -179,4 +180,14 @@
   color: #3f3f40;
   font-weight: bold;
   font-size: 30px;
+}
+
+.imageElement--images-bottom{
+  padding: 10px;
+}
+
+.backToTopButtonContainer :global(.vtex-button){
+  background: #000;
+  border: 1px solid #fff;
+  border-radius: 0px;
 }

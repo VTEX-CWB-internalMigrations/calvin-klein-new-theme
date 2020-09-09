@@ -29,3 +29,7 @@
 .sliderLayoutContainer--top-messages{
   background: #000;
 }
+
+.slideChildrenContainer--images-bottom{
+  padding: 5px;
+}

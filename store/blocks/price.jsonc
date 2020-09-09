@@ -35,6 +35,7 @@
   },
   "flex-layout.row#selling-price-savings": {
     "props": {
+      "blockClass": "price-summary-row",
       "colGap": 2,
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,

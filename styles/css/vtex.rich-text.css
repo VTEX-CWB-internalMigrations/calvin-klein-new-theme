@@ -90,16 +90,6 @@
   justify-content: center;
 }
 
-.container--newsletter-text{
-  position: absolute;
-  color: #fff;
-  bottom: 70px;
-  width: 430px;
-  font-size: 12px;
-  margin: 0px auto;
-  left: 33.5%;
-}
-
 .paragraph--footer-title{
   font-size: 15px;
   font-weight: 600;
@@ -153,7 +143,35 @@
   color: #fff;
 }
 
+.container--newsletter-text{
+  position: absolute;
+  color: #fff;
+  bottom: 70px;
+  width: 100%;
+  font-size: 12px;
+  margin: 0px auto;
+}
+
+.paragraph--newsletter-text{
+  padding: 0px 18px;
+}
+
 @media only screen and (min-width: 640px) {
+
+  .container--newsletter-text{
+    position: absolute;
+    color: #fff;
+    bottom: 70px;
+    width: 430px;
+    font-size: 12px;
+    margin: 0px auto;
+    left: 33.5%;
+  }
+
+  .paragraph--newsletter-text{
+    padding: 0px 0px
+  }
+
   .container--question .strong {
     font-size: 40px;
     line-height: 3rem;

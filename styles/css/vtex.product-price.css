@@ -55,3 +55,15 @@
   margin-bottom: 2rem;
   font-size: 0.875rem;
 }
+
+.listPrice--summary , .installments--summary{
+  padding: 0px 55px;
+}
+
+.savings--summary{
+  display: none;
+}
+
+.installments--summary{
+  margin-bottom: 10px;
+}

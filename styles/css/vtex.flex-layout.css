@@ -127,3 +127,8 @@
   max-width: 500px;
   margin: 0px 0px 0px auto;
 }
+
+.flexRowContent--price-summary-row{
+  padding: 0px 55px;
+  margin-bottom: 5px;
+}

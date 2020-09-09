@@ -50,3 +50,24 @@
   max-height: unset !important;
 }
 
+.productNameContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.nameContainer{
+  padding-top: 7px;
+}
+
+.productBrand{
+  font-size: 15px;
+  padding: 0px 55px;
+  line-height: 1.4;
+}
+
+.element :global(.vtex-button){
+  margin: 0px 55px;
+  width: auto;
+  border-radius: 0px;
+}
+
