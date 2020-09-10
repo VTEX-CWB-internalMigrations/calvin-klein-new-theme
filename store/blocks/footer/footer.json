@@ -20,7 +20,10 @@
   },
   "logo#footer-logo":{
     "props":{
-
+      "blockClass": "logo-mobile",
+      "title": "Logo",
+      "href": "/",
+      "url": "https://calvinklein.vtexassets.com/assets/vtex.file-manager-graphql/images/c4ace3a4-bf1b-45b2-a61a-4eabf4b0834b___20e3a17ea318845a7469d2ee21e09397.png"
     }
   },
 
@@ -251,7 +254,12 @@
       "paddingTop": 4,
       "paddingBottom": 4
     },
-    "children": ["vtex.menu@2.x:menu#footer-mobile"]
+    "children": ["logo#footer-logo-mobile","vtex.menu@2.x:menu#footer-mobile"]
+  },
+  "logo#footer-logo-mobile":{
+    "props":{
+
+    }
   },
   "rich-text#footer-mobile": {
     "props": {

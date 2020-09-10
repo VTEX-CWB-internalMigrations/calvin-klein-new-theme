@@ -130,6 +130,19 @@
   text-align: left;
 }
 
+.logoContainer--logo-mobile{
+  padding: 0px;
+  width: 145px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  max-width: unset;
+}
+
+.logoImage--logo-mobile{
+  width: 100%;
+}
+
 @media only screen and (min-width: 640px) {
 
   .infoCardContainer--info-card-home{

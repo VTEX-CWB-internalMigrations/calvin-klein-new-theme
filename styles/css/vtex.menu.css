@@ -32,3 +32,8 @@
 .menuContainer--footer-text .styledLinkContent{
     font-size: 13px;
 }
+
+.styledLinkContent--main-footer-item{
+    padding: 10px 0px;
+    border-top: 0.5px solid #d1d1d1;
+}
