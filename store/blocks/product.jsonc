@@ -92,6 +92,7 @@
       //"product-installments",
       // "product-identifier.product",
       "product-price#product-details",
+      "product-installments",
       "product-separator",
       "sku-selector",
       "product-quantity",
@@ -123,10 +124,17 @@
 
   "product-price#product-details": {
     "props": {
-      "showInstallments": true,
+      "showInstallments": false,
       "showSavings": true,
       "showLabels": false,
       "blockClass": "productDetails-price"
+    }
+  },
+
+  "product-installments":{
+    "props":{
+      "showLabels":false,
+      "blockClass":"productDetails-installments"
     }
   },
 

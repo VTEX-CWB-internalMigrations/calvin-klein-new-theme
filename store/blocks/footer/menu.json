@@ -42,14 +42,15 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#clothing-mobile",
-      "menu-item#decoration-mobile",
-      "menu-item#sale-mobile"
+      "menu-item#infos-mobile",
+      "menu-item#explore-mobile",
+      "menu-item#sobre-mobile"
     ]
   },
 
-  "menu-item#clothing-mobile": {
+  "menu-item#infos-mobile": {
     "props": {
+      "blockClass": "main-footer-item",
       "id": "menu-item-category-clothing",
       "type": "custom",
       "iconId": null,
@@ -81,8 +82,9 @@
     ]
   },
 
-  "menu-item#decoration-mobile": {
+  "menu-item#explore-mobile": {
     "props": {
+      "blockClass": "main-footer-item",
       "itemProps": {
         "tagTitle": "Decoration",
         "text": "Decoration"
@@ -103,8 +105,9 @@
     ]
   },
 
-  "menu-item#sale-mobile": {
+  "menu-item#sobre-mobile": {
     "props": {
+      "blockClass": "main-footer-item",
       "itemProps": {
         "tagTitle": "Sale",
         "text": "Sale"

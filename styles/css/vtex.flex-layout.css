@@ -132,3 +132,11 @@
   padding: 0px 55px;
   margin-bottom: 5px;
 }
+
+.flexRowContent--main-header-mobile{
+  background: #ffff;
+}
+
+.flexRow--newsletter-box{
+  background: #000;
+}

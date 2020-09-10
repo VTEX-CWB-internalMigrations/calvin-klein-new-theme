@@ -152,10 +152,10 @@
   "flex-layout.row#1-mobile": {
     "children": [
       "drawer",
+      "flex-layout.col#spacer",
       "logo#mobile",
       "flex-layout.col#spacer",
-      "login",
-      "minicart.v2"
+      "minicart.v2#mobile"
     ],
     "props": {
       "blockClass": "main-header-mobile",
@@ -170,17 +170,33 @@
 
   "menu#drawer": {
     "children": [
+      "login#mobile"
     ],
     "props": {
       "orientation": "vertical"
     }
   },
 
+  "login#mobile":{
+    "props":{
+      "blockClass": "mobile",
+      "showIconProfile": true,
+      "iconLabel": "FAZER LOGIN"
+    }
+  },
+
+  "minicart.v2#mobile":{
+    "props":{
+      "blockClass": "minicart-mobile"
+    }
+  },
+
   "logo#mobile": {
     "props": {
+      "blockClass": "logo-mobile",
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "url": "https://calvinklein.vtexassets.com/assets/vtex.file-manager-graphql/images/0817ff2b-7721-4ff2-9ed0-7356843c920a___20e3a17ea318845a7469d2ee21e09397.png",
       "width": "70"
     }
   }
