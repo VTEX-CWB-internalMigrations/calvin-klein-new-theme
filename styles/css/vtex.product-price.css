@@ -67,3 +67,7 @@
 .installments--summary{
   margin-bottom: 10px;
 }
+
+/* Product */
+
+.installments--productDetails-installments{font-size:.7rem;color:#000;text-transform:uppercase;}
