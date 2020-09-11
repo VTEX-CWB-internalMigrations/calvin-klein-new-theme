@@ -1,11 +1,14 @@
 .link{color: #999;font-size: 12px;font-weight: 300;    }
 .homeLink,.termArrow,.term{display: none;}
 .arrow{position: relative;color:transparent;padding:0}
-.arrow::after{
+.arrow::before{
     content: "-";
     position: absolute;
-    right: -5.5px;
+    left:;
     top: 2%;
     color:#999; 
 }
 
+.arrow:first-child::before{
+    display:none;
+}
