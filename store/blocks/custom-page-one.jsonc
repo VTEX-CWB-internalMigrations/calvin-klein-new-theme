@@ -1,0 +1,99 @@
+{
+    "store.custom#first-type": {
+      "blocks": [
+        "flex-layout.row#title-menu",
+        "info-card#dep-one",
+        "info-card#dep-two",
+        "info-card#dep-three",
+        "info-card#dep-four",
+        "info-card#dep-five"
+      ]
+    },
+
+    "flex-layout.row#title-menu":{
+        "children":[
+            "flex-layout.col#title-menu"
+        ],
+        "props":{
+            
+        }
+    },
+
+    "flex-layout.col#title-menu":{
+        "children":[
+            "flex-layout.row#department-links-2",
+            "flex-layout.row#department-links-3"
+        ],
+        "props":{
+
+        }
+    },
+
+    "info-card#dep-one":{
+        "props": {
+            "id": "info-card-dep-one-one",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+            "headline": "Título",
+            "callToActionText": "Texto de ação",
+            "callToActionUrl": "",
+            "blockClass": "department-infocard",
+            "textAlignment": "left"
+          }
+    },
+    "info-card#dep-two":{
+        "props": {
+            "id": "info-card-dep-one-two",
+            "isFullModeStyle": false,
+            "textPosition": "right",
+            "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+            "headline": "Título",
+            "callToActionText": "Texto de ação",
+            "callToActionUrl": "",
+            "blockClass": "department-infocard",
+            "textAlignment": "left"
+          }
+    },
+    "info-card#dep-three":{
+        "props": {
+            "id": "info-card-dep-one-three",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+            "headline": "Título",
+            "callToActionText": "Texto de ação",
+            "callToActionUrl": "",
+            "blockClass": "department-infocard",
+            "textAlignment": "left"
+          }
+    },
+    "info-card#dep-four":{
+        "props": {
+            "id": "info-card-dep-one-four",
+            "isFullModeStyle": false,
+            "textPosition": "right",
+            "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+            "headline": "Título",
+            "callToActionText": "Texto de ação",
+            "callToActionUrl": "",
+            "blockClass": "department-infocard",
+            "textAlignment": "left"
+          }
+    },
+    "info-card#dep-five":{
+        "props": {
+            "id": "info-card-dep-one-five",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+            "headline": "Título",
+            "callToActionText": "Texto de ação",
+            "callToActionUrl": "",
+            "blockClass": "department-infocard",
+            "textAlignment": "left"
+          }
+    }
+  
+  
+  }

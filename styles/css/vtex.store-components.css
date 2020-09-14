@@ -101,22 +101,26 @@
   padding: 10px;
 }
 
-.infoCardCallActionContainer--info-card-home :global(.vtex-button){
+.infoCardCallActionContainer--info-card-home :global(.vtex-button),
+.infoCardCallActionContainer--department-infocard :global(.vtex-button){
   background: #0000;
   border: 1px solid #000;
   border-radius: 0px;
   transition: 0.5s;
 }
 
-.infoCardCallActionContainer--info-card-home :global(.vtex-button__label){
+.infoCardCallActionContainer--info-card-home :global(.vtex-button__label),
+.infoCardCallActionContainer--department-infocard :global(.vtex-button__label){
   color: #000;
 }
 
-.infoCardCallActionContainer--info-card-home:hover :global(.vtex-button){
+.infoCardCallActionContainer--info-card-home:hover :global(.vtex-button),
+.infoCardCallActionContainer--department-infocard:hover :global(.vtex-button){
   background: #000;
 }
 
-.infoCardCallActionContainer--info-card-home:hover :global(.vtex-button__label){
+.infoCardCallActionContainer--info-card-home:hover :global(.vtex-button__label),
+.infoCardCallActionContainer--department-infocard:hover :global(.vtex-button__label){
   color: #fff;
 }
 
@@ -206,6 +210,23 @@
 
 .infoCardCallActionContainer--info-card-double:hover :global(.vtex-button__label){
   color: #fff;
+}
+
+.infoCardSubhead--info-card-double{
+  margin: 0px;
+  font-size: 15px;
+}
+
+.infoCardImage--department-infocard{
+  width: 100%;
+}
+
+.infoCardImageContainer--department-infocard{
+  width: 80%;
+}
+
+.infoCardTextContainer--department-infocard{
+  width: 30%;
 }
 
 @media only screen and (min-width: 640px) {
