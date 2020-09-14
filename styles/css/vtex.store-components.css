@@ -186,6 +186,39 @@
   width: 100%;
 }
 
+.infoCardImageContainer--info-card-double , .infoCardTextContainer--info-card-double{
+  width: 100%;
+}
+
+.infoCardContainer--info-card-double{
+  flex-direction: column-reverse;
+}
+
+.infoCardCallActionContainer--info-card-double :global(.vtex-button){
+  background: #0000;
+  border: 1px solid #000;
+  border-radius: 0px;
+  transition: 0.5s;
+  padding-top: .25em;
+  padding-bottom: .32em;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.infoCardCallActionContainer--info-card-double :global(.vtex-button__label){
+  color: #000;
+}
+
+.infoCardCallActionContainer--info-card-double:hover :global(.vtex-button){
+  background: #0000;
+}
+
+.infoCardCallActionContainer--info-card-double:hover :global(.vtex-button__label){
+  color: #fff;
+}
+
 @media only screen and (min-width: 640px) {
 
   .infoCardContainer--info-card-home{
