@@ -27,8 +27,93 @@
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
+      "vtex.menu@2.x:submenu#main-submenu"
     ]
+  },
+
+  "vtex.menu@2.x:submenu#main-submenu":{
+    "props":{
+      "blockClass": "main-submenu"
+    },
+    "children":[
+      "flex-layout.row#menu-main"
+    ]
+  },
+  "flex-layout.row#menu-main":{
+    "children":[
+      "flex-layout.col#submenu-one",
+      "flex-layout.col#submenu-two",
+      "flex-layout.col#submenu-three",
+      "flex-layout.col#submenu-four",
+      "flex-layout.col#submenu-five",
+      "flex-layout.col#submenu-six"
+    ],
+    "props":{
+      "blockClass": "flex-row-menu"
+    }
+  },
+
+  "flex-layout.col#submenu-one":{
+    "children":[
+      "vtex.menu@2.x:menu#submenu-one"
+    ]
+  },
+  "flex-layout.col#submenu-two":{
+    "children":[
+      "vtex.menu@2.x:menu#submenu-two"
+    ]
+  },
+  "flex-layout.col#submenu-three":{
+    "children":[
+      "vtex.menu@2.x:menu#submenu-three"
+    ]
+  },
+  "flex-layout.col#submenu-four":{
+    "children":[
+      "vtex.menu@2.x:menu#submenu-four"
+    ]
+  },
+  "flex-layout.col#submenu-five":{
+    "children":[
+      "vtex.menu@2.x:menu#submenu-five"
+    ]
+  },
+  "flex-layout.col#submenu-six":{
+    "children":[
+      "image#menu-image"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#submenu-one":{
+    "props":{
+      "blockClass": "submenuTitle"
+    }
+  },
+  "vtex.menu@2.x:menu#submenu-two":{
+    "props":{
+      "blockClass": "submenuTitle"
+    }
+  },
+  "vtex.menu@2.x:menu#submenu-three":{
+    "props":{
+      "blockClass": "submenuTitle"
+    }
+  },
+  "vtex.menu@2.x:menu#submenu-four":{
+    "props":{
+      "blockClass": "submenuTitle"
+    }
+  },
+  "vtex.menu@2.x:menu#submenu-five":{
+    "props":{
+      "blockClass": "submenuTitle"
+    }
+  },
+  "vtex.menu@2.x:menu#submenu-six":{
+    "props":{}
+  },
+  "image#menu-image":{
+    "props":{}
   },
 
   "menu-item#masculino": {
@@ -47,7 +132,7 @@
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
+      "vtex.menu@2.x:submenu#main-submenu"
     ]
   },
 
@@ -67,7 +152,7 @@
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
+      "vtex.menu@2.x:submenu#main-submenu"
     ]
   },
 
@@ -87,7 +172,7 @@
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
+      "vtex.menu@2.x:submenu#main-submenu"
     ]
   },
   "menu-item#outlet": {
@@ -106,7 +191,7 @@
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
+      "vtex.menu@2.x:submenu#main-submenu"
     ]
   },
 
@@ -227,20 +312,15 @@
   },
   "flex-layout.row#menu-more": {
     "children": [
-      "flex-layout.col#menu-more-1",
-      "flex-layout.col#menu-more-2"
+      "flex-layout.col#menu-more-1"
     ]
   },
   "flex-layout.col#menu-more-1": {
     "children": [
-      "vtex.menu@2.x:menu#more"
+
     ]
   },
-  "flex-layout.col#menu-more-2": {
-    "children": [
-      "info-card#home"
-    ]
-  },
+
   "vtex.menu@2.x:menu#more": {
     "props": {
       "orientation": "vertical"

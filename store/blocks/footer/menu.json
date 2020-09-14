@@ -17,7 +17,6 @@
     ]
   },
 
-  
   "vtex.menu@2.x:menu#footer-bags": {
     "props": {
       "orientation": "vertical"
@@ -25,8 +24,6 @@
     "children": [
     ]
   },
-
-
 
   "vtex.menu@2.x:menu#footer-clothing": {
     "props": {
@@ -44,82 +41,151 @@
     "children": [
       "menu-item#infos-mobile",
       "menu-item#explore-mobile",
-      "menu-item#sobre-mobile"
+      "menu-item#sobre-mobile",
+      "menu-item#atendimento-mobile",
+      "menu-item#idioma-mobile"
     ]
   },
 
-  "menu-item#infos-mobile": {
+  "menu-item#atendimento-mobile":{
     "props": {
       "blockClass": "main-footer-item",
-      "id": "menu-item-category-clothing",
+      "id": "menu-item-category-atendimento",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/d",
+        "href": "",
         "noFollow": true,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "ATENDIMENTO AO CLIENTE",
+        "text": "ATENDIMENTO AO CLIENTE"
       }
     },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
+    "blocks": ["vtex.menu@2.x:submenu.accordion#atendimento"]
   },
-  "vtex.menu@2.x:submenu.accordion#clothing": {
-    "children": ["vtex.menu@2.x:menu#clothing-accordion"]
+  "menu-item#idioma-mobile":{
+    "props": {
+      "blockClass": "main-footer-item",
+      "id": "menu-item-category-idioma",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "IDIOMA",
+        "text": "IDIOMA"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#idioma"]
   },
 
-  "vtex.menu@2.x:menu#clothing-accordion": {
+  "menu-item#infos-mobile": {
+    "props": {
+      "blockClass": "main-footer-item",
+      "id": "menu-item-category-infos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "INFORMAÇÕES ÚTEIS",
+        "text": "INFORMAÇÕES ÚTEIS"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#infos"]
+  },
+  "vtex.menu@2.x:submenu.accordion#infos": {
+    "children": ["vtex.menu@2.x:menu#infos"]
+  },
+
+  "vtex.menu@2.x:menu#infos": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#shorts",
-      "menu-item#tank-tops",
-      "menu-item#shirts",
-      "menu-item#sweatshirt",
-      "menu-item#cropped"
     ]
   },
 
   "menu-item#explore-mobile": {
     "props": {
       "blockClass": "main-footer-item",
+      "id": "menu-item-category-explore",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
       "itemProps": {
-        "tagTitle": "Decoration",
-        "text": "Decoration"
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "EXPLORE",
+        "text": "EXPLORE"
       }
     },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
+    "blocks": ["vtex.menu@2.x:submenu.accordion#explore"]
   },
-  "vtex.menu@2.x:submenu.accordion#decoration": {
-    "children": ["vtex.menu@2.x:menu#footer-decoration-mobile"]
-  },
-
-  "vtex.menu@2.x:menu#footer-decoration-mobile": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-
-    ]
+  "vtex.menu@2.x:submenu.accordion#explore": {
+    "children": ["vtex.menu@2.x:menu#explore"]
   },
 
   "menu-item#sobre-mobile": {
     "props": {
       "blockClass": "main-footer-item",
+      "id": "menu-item-category-sobre",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
       "itemProps": {
-        "tagTitle": "Sale",
-        "text": "Sale"
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "SOBRE",
+        "text": "SOBRE"
       }
     },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
+    "blocks": ["vtex.menu@2.x:submenu.accordion#sobre"]
   },
-  "vtex.menu@2.x:submenu.accordion#sale": {
-    "children": ["vtex.menu@2.x:menu#footer-sale-mobile"]
+  "vtex.menu@2.x:submenu.accordion#sobre": {
+    "children": ["vtex.menu@2.x:menu#footer-sobre"]
   },
 
-  "vtex.menu@2.x:menu#footer-sale-mobile": {
+  "vtex.menu@2.x:submenu.accordion#atendimento":{
+    "children": ["vtex.menu@2.x:menu#footer-atendimento"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#idioma":{
+    "children":["vtex.menu@2.x:menu#footer-idioma"]
+  },
+
+  "vtex.menu@2.x:menu#footer-atendimento":{
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+    ]
+  },
+
+  "vtex.menu@2.x:menu#explore":{
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+    ]
+  },
+
+  "vtex.menu@2.x:menu#footer-sobre": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+    ]
+  },
+
+  "vtex.menu@2.x:menu#footer-idioma":{
     "props": {
       "orientation": "vertical"
     },

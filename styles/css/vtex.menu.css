@@ -37,3 +37,29 @@
     padding: 10px 0px;
     border-top: 0.5px solid #d1d1d1;
 }
+
+@media only screen and (min-width: 640px) {
+    .submenuContainer--main-submenu{
+        position: absolute;
+        left: 0px;
+        width: 100vw;
+        height: fit-content;
+        background: #fff;
+    }
+
+    .submenuWrapper--main-submenu{
+        width: 100%;
+        border-bottom: 0px;
+        padding-top: 40px;
+    }
+
+    .submenu--main-submenu{
+        width: 100%;
+    }
+
+    .menuContainer--submenuTitle .menuItem--submenuTitle:first-child .styledLinkContent{
+        font-size: 17px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+}

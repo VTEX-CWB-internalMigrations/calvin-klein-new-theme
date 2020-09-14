@@ -8,6 +8,7 @@
       "flex-layout.row#department-links",
       "info-card#second-infocard",
       "flex-layout.row#first-shelf",
+      "flex-layout.row#double-images",
       "list-context.image-list#bottom-images",
       "flex-layout.row#newsletter"
     ]
@@ -217,17 +218,55 @@
     }
   },
 
-  "info-card#home": {
+  "flex-layout.row#double-images":{
+    "children":[
+      "flex-layout.col#first-info",
+      "flex-layout.col#second-info"
+    ]
+  },
+
+  "flex-layout.col#first-info":{
+    "children":[
+      "info-card#middle-first"
+    ],
+    "props":{
+      "blockClass": "double-image-block"
+    }
+  },
+  "flex-layout.col#second-info":{
+    "children":[
+      "info-card#middle-second"
+    ],
+    "props":{
+      "blockClass": "double-image-block"
+    }
+  },
+
+  "info-card#middle-first":{
     "props": {
-      "id": "info-card-home",
+      "id": "info-card-firts",
       "isFullModeStyle": false,
       "textPosition": "left",
       "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
-      "textAlignment": "center"
+      "headline": "Título",
+      "callToActionText": "Texto de ação",
+      "callToActionUrl": "",
+      "blockClass": "info-card-double",
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#middle-second":{
+    "props": {
+      "id": "info-card-second",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Título",
+      "callToActionText": "Texto de ação",
+      "callToActionUrl": "",
+      "blockClass": "info-card-double",
+      "textAlignment": "left"
     }
   },
   
