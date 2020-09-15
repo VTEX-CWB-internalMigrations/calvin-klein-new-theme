@@ -164,7 +164,13 @@
 .shareLabel::after{content: "";width: 0;height: 0;border-left: 4px solid transparent;border-right: 4px solid transparent;border-top: 4px solid #333;position: absolute;top: 6px;left: 7.5em;}
 .shareSocialIcon {width:20px;}
 .productDescriptionTitle,.specificationsTitle{display:none;}
+.specificationsTableHead{display:none;}
 .productDescriptionText{font-size: 12px;margin: 0 .5em;}
+.specificationsTableContainer{padding-left: 0;}
+.specificationsTablePropertyHeading, .specificationsTableSpecificationHeading{padding:.3rem;border-top:0;text-transform:uppercase}
+.specificationItemProperty, .specificationItemSpecifications{font-size:.8rem;border:0;}
+.specificationsTableRow:nth-child(even){background:#f9f9f9;}
+.vtex-address-form__postalCode{background:#f20;}
 
 .logoContainer--logo-mobile{
   padding: 0px;
