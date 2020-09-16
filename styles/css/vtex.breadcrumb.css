@@ -1,3 +1,4 @@
+.container{text-align:center;}
 .link{color: #999;font-size: 12px;font-weight: 300;    }
 .homeLink,.termArrow,.term{display: none;}
 .arrow{position: relative;color:transparent;padding:0}
@@ -11,4 +12,10 @@
 
 .arrow:first-child::before{
     display:none;
+}
+
+@media only screen and (min-width: 640px) {
+
+        .container{text-align:left;}
+
 }
