@@ -18,8 +18,8 @@
             "subhead": "Texto informativo cadastrado aqui",
             "callToActionText": "Botão de ação",
             "callToActionUrl": "/sale/d",
-            "blockClass": "info-card-home",
-            "textAlignment": "center"
+            "blockClass": "department-infocard",
+            "textAlignment": "left"
           }
     },
     "info-card#men-two":{
@@ -32,22 +32,22 @@
             "subhead": "Texto informativo cadastrado aqui",
             "callToActionText": "Botão de ação",
             "callToActionUrl": "/sale/d",
-            "blockClass": "info-card-home",
-            "textAlignment": "center"
+            "blockClass": ["department-infocard", "middle-department"],
+            "textAlignment": "left"
           }
     },
     "info-card#men-three":{
         "props": {
             "id": "info-card-main-home",
             "isFullModeStyle": false,
-            "textPosition": "left",
+            "textPosition": "right",
             "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
             "headline": "Título",
             "subhead": "Texto informativo cadastrado aqui",
             "callToActionText": "Botão de ação",
             "callToActionUrl": "/sale/d",
-            "blockClass": "info-card-home",
-            "textAlignment": "center"
+            "blockClass": "department-infocard",
+            "textAlignment": "left"
           }
     }
   
