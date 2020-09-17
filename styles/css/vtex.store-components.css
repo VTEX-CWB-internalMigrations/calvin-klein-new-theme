@@ -263,6 +263,14 @@
 
 .infoCardContainer--middle-department{
   margin: 10px 0px;
+  height: 750px;
+}
+
+.infoCardSubhead--bottom-type{
+  margin: 0px;
+  font-size: 15px;
+  width: 100%;
+  text-align: left;
 }
 
 @media only screen and (min-width: 640px) {

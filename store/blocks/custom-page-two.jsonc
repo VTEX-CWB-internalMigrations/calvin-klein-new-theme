@@ -2,9 +2,11 @@
     "store.custom#second-type": {
       "blocks": [
         "flex-layout.row#double-images",
+        "flex-layout.row#bottom-row",
         "info-card#men-one",
         "info-card#men-two",
-        "info-card#men-three"
+        "info-card#men-three",
+        "flex-layout.row#bottom-row"
       ]
     },
 
