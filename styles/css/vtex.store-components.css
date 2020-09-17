@@ -246,7 +246,11 @@
 
 .infoCardSubhead--info-card-double{
   margin: 0px;
-  font-size: 15px;
+  font-size: 14px;
+}
+
+.infoCardSubhead--department-infocard{
+  font-size: 14px;
 }
 
 .infoCardImage--department-infocard{
