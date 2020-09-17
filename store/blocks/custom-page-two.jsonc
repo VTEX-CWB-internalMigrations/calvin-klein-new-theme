@@ -51,6 +51,18 @@
             "blockClass": "department-infocard",
             "textAlignment": "left"
           }
+    },
+    "flex-layout.row#bottom-row-2":{
+        "children":[
+            "info-card#custom-bottom-one",
+            "info-card#custom-bottom-two",
+            "info-card#custom-bottom-three",
+            "info-card#custom-bottom-four",
+            "info-card#custom-bottom-five"
+        ],
+        "props":{
+            "blockClass": "department-bottom"
+        }
     }
   
   }
