@@ -156,6 +156,11 @@
   padding: 0px 18px;
 }
 
+.wrapper--atendimento-footer{
+  margin: 0px 10px;
+  font-size: 14px;
+}
+
 @media only screen and (min-width: 640px) {
 
   .container--newsletter-text{
