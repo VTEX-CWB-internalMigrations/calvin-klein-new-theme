@@ -6,7 +6,8 @@
         "info-card#dep-two",
         "info-card#dep-three",
         "info-card#dep-four",
-        "info-card#dep-five"
+        "info-card#dep-five",
+        "flex-layout.row#bottom-row"
       ]
     },
 
@@ -93,7 +94,88 @@
             "blockClass": "department-infocard",
             "textAlignment": "left"
           }
+    },
+    "flex-layout.row#bottom-row":{
+      "children":[
+        "info-card#custom-bottom-one",
+        "info-card#custom-bottom-two",
+        "info-card#custom-bottom-three",
+        "info-card#custom-bottom-four",
+        "info-card#custom-bottom-five"
+      ],
+      "props":{
+        "blockClass": "department-bottom"
+      }
+    },
+    "info-card#custom-bottom-one":{
+      "props":{
+          "id": "info-card-main-home",
+          "isFullModeStyle": false,
+          "textPosition": "left",
+          "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+          "headline": "Título",
+          "subhead": "Texto informativo cadastrado aqui",
+          "callToActionText": "Botão de ação",
+          "callToActionUrl": "/sale/d",
+          "blockClass": ["info-card-double", "bottom-type"],
+          "textAlignment": "center"
+        }
+    },
+    "info-card#custom-bottom-two":{
+      "props":{
+        "id": "info-card-main-home",
+        "isFullModeStyle": false,
+        "textPosition": "left",
+        "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+        "headline": "Título",
+        "subhead": "Texto informativo cadastrado aqui",
+        "callToActionText": "Botão de ação",
+        "callToActionUrl": "/sale/d",
+        "blockClass": ["info-card-double", "bottom-type"],
+        "textAlignment": "center"
+      }
+    },
+    "info-card#custom-bottom-three":{
+      "props":{
+        "id": "info-card-main-home",
+        "isFullModeStyle": false,
+        "textPosition": "left",
+        "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+        "headline": "Título",
+        "subhead": "Texto informativo cadastrado aqui",
+        "callToActionText": "Botão de ação",
+        "callToActionUrl": "/sale/d",
+        "blockClass": ["info-card-double", "bottom-type"],
+        "textAlignment": "center"
+      }
+    },
+    "info-card#custom-bottom-four":{
+      "props":{
+        "id": "info-card-main-home",
+        "isFullModeStyle": false,
+        "textPosition": "left",
+        "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+        "headline": "Título",
+        "subhead": "Texto informativo cadastrado aqui",
+        "callToActionText": "Botão de ação",
+        "callToActionUrl": "/sale/d",
+        "blockClass": ["info-card-double", "bottom-type"],
+        "textAlignment": "center"
+      }
+    },
+    "info-card#custom-bottom-five":{
+      "props":{
+        "id": "info-card-main-home",
+        "isFullModeStyle": false,
+        "textPosition": "left",
+        "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+        "headline": "Título",
+        "subhead": "Texto informativo cadastrado aqui",
+        "callToActionText": "Botão de ação",
+        "callToActionUrl": "/sale/d",
+        "blockClass": ["info-card-double", "bottom-type"],
+        "textAlignment": "center"
+      }
     }
-  
   
   }

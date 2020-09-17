@@ -134,6 +134,25 @@
   text-align: left;
 }
 
+.infoCardTextContainer--bottom-type{
+  display: flex;
+  justify-content: left;
+}
+
+.infoCardHeadline--bottom-type{
+  margin: 0px;
+  font-size: 22px;
+  text-align: left;
+  display: flex;
+  align-self: baseline;
+}
+
+.infoCardCallActionContainer--bottom-type{
+  margin: 10px 0px 1px 0px;
+  display: block;
+  width: 100%;
+}
+
 /* Product */
 
 .productBrand{font-size:.8rem;font-weight: 300;text-transform: uppercase;}
@@ -216,7 +235,7 @@
 }
 
 .infoCardCallActionContainer--info-card-double:hover :global(.vtex-button){
-  background: #0000;
+  background: #000;
 }
 
 .infoCardCallActionContainer--info-card-double:hover :global(.vtex-button__label){

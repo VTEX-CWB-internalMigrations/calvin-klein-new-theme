@@ -144,3 +144,11 @@
 .flexRow--flex-row-menu{
   width: 100%;
 }
+
+.flexRow--department-bottom{
+  margin-bottom: 50px;
+}
+
+.flexRow--main-header{
+  border-bottom: 1px solid #d1d1d1;
+}

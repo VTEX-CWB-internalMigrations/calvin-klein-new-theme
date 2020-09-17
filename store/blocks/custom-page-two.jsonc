@@ -1,0 +1,54 @@
+{
+    "store.custom#second-type": {
+      "blocks": [
+        "flex-layout.row#double-images",
+        "info-card#men-one",
+        "info-card#men-two",
+        "info-card#men-three"
+      ]
+    },
+
+    "info-card#men-one":{
+        "props": {
+            "id": "info-card-main-home",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+            "headline": "Título",
+            "subhead": "Texto informativo cadastrado aqui",
+            "callToActionText": "Botão de ação",
+            "callToActionUrl": "/sale/d",
+            "blockClass": "info-card-home",
+            "textAlignment": "center"
+          }
+    },
+    "info-card#men-two":{
+        "props": {
+            "id": "info-card-main-home",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+            "headline": "Título",
+            "subhead": "Texto informativo cadastrado aqui",
+            "callToActionText": "Botão de ação",
+            "callToActionUrl": "/sale/d",
+            "blockClass": "info-card-home",
+            "textAlignment": "center"
+          }
+    },
+    "info-card#men-three":{
+        "props": {
+            "id": "info-card-main-home",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+            "headline": "Título",
+            "subhead": "Texto informativo cadastrado aqui",
+            "callToActionText": "Botão de ação",
+            "callToActionUrl": "/sale/d",
+            "blockClass": "info-card-home",
+            "textAlignment": "center"
+          }
+    }
+  
+  }
