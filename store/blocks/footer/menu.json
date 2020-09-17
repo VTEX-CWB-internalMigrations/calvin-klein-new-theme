@@ -154,11 +154,18 @@
   },
 
   "vtex.menu@2.x:submenu.accordion#atendimento":{
-    "children": ["vtex.menu@2.x:menu#footer-atendimento"]
+    "children": ["rich-text#atendimento-footer"]
+  },
+
+  "rich-text#atendimento-footer":{
+    "props":{
+      "blockClass": "atendimento-footer",
+      "text": "Telefone: (11) 2388-8250 Horário de Atendimento Segunda à Sexta das 8h às 20h Exceto Feriados ENDEREÇO Rod Coronel Policia Militar Nelson Tranchesi, 1730, Galpão 01 e 02. Bairro Itaqui, Itapevi - SP CEP: 06969-110"
+    }
   },
 
   "vtex.menu@2.x:submenu.accordion#idioma":{
-    "children":["vtex.menu@2.x:menu#footer-idioma"]
+    "children":["locale-switcher"]
   },
 
   "vtex.menu@2.x:menu#footer-atendimento":{
