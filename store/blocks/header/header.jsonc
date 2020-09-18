@@ -165,7 +165,23 @@
     }
   },
   "drawer": {
-    "children": ["menu#drawer"]
+    "children": ["flex-layout.row#drawer-row"]
+  },
+
+  "flex-layout.row#drawer-row":{
+    "children":[
+      "flex-layout.col#drawer-col"
+    ],
+    "props":{
+      "blockClass": "drawer-row"
+    }
+  },
+
+  "flex-layout.col#drawer-col":{
+    "children":[
+      "menu#drawer",
+      "vtex.menu@2.x:menu#header-mobile"
+    ]
   },
 
   "menu#drawer": {
@@ -175,6 +191,146 @@
     "props": {
       "orientation": "vertical"
     }
+  },
+
+  "vtex.menu@2.x:menu#header-mobile":{
+    "children":[
+      "menu-item#feminino-mobile",
+      "menu-item#masculino-mobile",
+      "menu-item#infantil-mobile",
+      "menu-item#underwear-mobile",
+      "menu-item#outlet-mobile"
+    ],
+    "props":{
+      "blockClass": "mobile-menu",
+      "orientation": "vertical"
+    }
+  },
+
+  "menu-item#feminino-mobile":{
+    "blocks": [
+        "vtex.menu@2.x:submenu.accordion#feminino-mobile"
+    ],
+    "props": {
+        "blockClass": ["main-mobile", "feminino-mobile"],
+        "id": "menu-item-category-feminino",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "FEMININO",
+            "text": "FEMININO"
+        }
+    }
+  },
+  "menu-item#masculino-mobile":{
+    "blocks": [
+        "vtex.menu@2.x:submenu.accordion#masculino-mobile"
+    ],
+    "props": {
+        "blockClass": ["main-mobile", "masculino-mobile"],
+        "id": "menu-item-category-masculino",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "MASCULINO",
+            "text": "MASCULINO"
+        }
+    }
+  },
+  "menu-item#infantil-mobile":{
+  "blocks": [
+        "vtex.menu@2.x:submenu.accordion#infantil-mobile"
+    ],
+    "props": {
+        "blockClass": ["main-mobile", "infantil-mobile"],
+        "id": "menu-item-category-infantil",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "INFANTIL",
+            "text": "INFANTIL"
+        }
+    }
+  },
+  "menu-item#underwear-mobile":{
+    "blocks": [
+        "vtex.menu@2.x:submenu.accordion#underwear-mobile"
+    ],
+    "props": {
+        "blockClass": ["main-mobile", "underwear-mobile"],
+        "id": "menu-item-category-underwear",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "UNDERWEAR",
+            "text": "UNDERWEAR"
+        }
+    }
+  },
+  "menu-item#outlet-mobile":{
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#outlet-mobile"
+  ],
+  "props": {
+      "blockClass": ["main-mobile", "outlet-mobile"],
+      "id": "menu-item-category-outlet",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "OUTLET",
+          "text": "OUTLET"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:submenu.accordion#feminino-mobile":{
+    "children":[
+
+    ]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#masculino-mobile":{
+    "children":[
+      
+    ]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#infantil-mobile":{
+    "children":[
+      
+    ]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#underwear-mobile":{
+    "children":[
+      
+    ]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#outlet-mobile":{
+    "children":[
+      
+    ]
   },
 
   "login#mobile":{
