@@ -156,3 +156,12 @@
 .flexRow--drawer-row{
   width: 100%;
 }
+
+.flexRowContent--flex-outlet{
+  max-width: 500px;
+  margin: 0px auto;
+}
+
+.flexRow--flex-outlet{
+  margin: 20px 0px 60px;
+}

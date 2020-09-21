@@ -161,6 +161,20 @@
   font-size: 14px;
 }
 
+.container--outlet-title , .container--outlet-text , .container--outlet-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paragraph--outlet-buttons{
+  text-align: center;
+}
+
+.wrapper--outlet-buttons{
+  width: 100%;
+}
+
 @media only screen and (min-width: 640px) {
 
   .container--newsletter-text{

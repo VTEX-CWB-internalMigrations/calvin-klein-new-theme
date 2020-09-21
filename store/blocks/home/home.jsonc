@@ -8,6 +8,9 @@
       "flex-layout.row#department-links",
       "info-card#second-infocard",
       "flex-layout.row#first-shelf",
+      "info-card#third-infocard",
+      "flex-layout.row#third-shelf",
+      "flex-layout.row#outlet-text",
       "flex-layout.row#double-images",
       "list-context.image-list#bottom-images",
       "flex-layout.row#newsletter"
@@ -67,6 +70,94 @@
       "callToActionUrl": "/sale/d",
       "blockClass": ["info-card-home", "right-infocard"],
       "textAlignment": "center"
+    }
+  },
+
+  "info-card#third-infocard":{
+    "props": {
+      "id": "info-card-second-home",
+      "isFullModeStyle": true,
+      "textPosition": "right",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Título",
+      "subhead": "Texto informativo cadastrado aqui",
+      "callToActionText": "Botão de ação",
+      "callToActionUrl": "/sale/d",
+      "blockClass": ["info-card-home", "right-infocard"],
+      "textAlignment": "center"
+    }
+  },
+
+  "flex-layout.row#outlet-text":{
+    "children":[
+      "flex-layout.col#outlet-text"
+    ],
+    "props":{
+      "blockClass": "flex-outlet"
+    }
+  },
+
+  "flex-layout.col#outlet-text":{
+    "children":[
+      "flex-layout.row#outlet-one",
+      "flex-layout.row#outlet-two",
+      "flex-layout.row#outlet-three"
+    ]
+  },
+
+  "flex-layout.row#outlet-one":{
+    "children":[
+      "rich-text#outlet-one"
+    ],
+    "props":{
+      "blockClass": "flex-outlet-inside"
+    }
+  },
+  "flex-layout.row#outlet-two":{
+    "children":[
+      "rich-text#outlet-two"
+    ]
+  },
+  "flex-layout.row#outlet-three":{
+    "children":[
+      "flex-layout.col#oulet-button",
+      "flex-layout.col#oulet-button-two"
+    ]
+  },
+
+  "flex-layout.col#oulet-button":{
+    "children":[
+      "rich-text#outlet-button"
+    ]
+  },
+  "flex-layout.col#oulet-button-two":{
+    "children":[
+      "rich-text#outlet-button-two"
+    ]
+  },
+
+  "rich-text#outlet-one":{
+    "props":{
+      "text": "## TÍTULO",
+      "blockClass": ["shelfTitle", "outlet-title"]
+    }
+  },
+  "rich-text#outlet-two":{
+    "props":{
+      "text": "Texto descritivo",
+      "blockClass": ["outlet-text"]
+    }
+  },
+  "rich-text#outlet-button":{
+    "props":{
+      "text": "BOTÃO UM",
+      "blockClass": ["shelf-buttons", "outlet-buttons"]
+    }
+  },
+  "rich-text#outlet-button-two":{
+    "props":{
+      "text": "BOTÃO DOIS",
+      "blockClass": ["shelf-buttons", "outlet-buttons"]
     }
   },
 
@@ -144,9 +235,15 @@
   "flex-layout.row#first-shelf":{
     "children":[
       "flex-layout.col#first-shelf"
-
     ]
   },
+
+  "flex-layout.row#third-shelf":{
+    "children":[
+      "flex-layout.col#first-shelf"
+    ]
+  },
+
   "flex-layout.col#first-shelf":{
     "children":[
       "flex-layout.row#first-shelf-inside",
