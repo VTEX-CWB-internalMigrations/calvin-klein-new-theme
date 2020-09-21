@@ -288,6 +288,7 @@
   background: #eaeaea;
   display: flex;
   flex-direction: column-reverse;
+  margin-bottom: 20px;
 }
 
 .infoCardSubhead--info-card-home-mobile{

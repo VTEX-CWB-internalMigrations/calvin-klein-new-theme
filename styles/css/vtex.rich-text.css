@@ -114,7 +114,6 @@
 
 .heading--shelfTitle{
   margin-bottom: 0px;
-  font-size: 50px;
   font-weight: 600;
   color: #000;
   margin-top: 15px;
@@ -176,7 +175,19 @@
   width: 100%;
 }
 
+.container--outlet-buttons .paragraph--outlet-buttons{
+  margin: 5px 0px;
+}
+
+.heading--shelfTitle{
+  font-size: 35px;
+}
+
 @media only screen and (min-width: 640px) {
+
+  .heading--shelfTitle{
+    font-size: 50px;
+  }
 
   .container--newsletter-text{
     position: absolute;
