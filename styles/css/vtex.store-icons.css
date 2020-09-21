@@ -1,3 +1,7 @@
 .expandIcon {
   color: #727273;
 }
+
+.cartIcon--minicart-empty-state{
+  height: 70px;
+}
