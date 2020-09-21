@@ -103,7 +103,7 @@
       "callToActionText": "Botão de ação",
       "callToActionUrl": "/sale/d",
       "blockClass": ["info-card-home" , "info-card-home-desktop"],
-      "textAlignment": "center"
+      "textAlignment": "left"
     }
   },
 
@@ -118,7 +118,7 @@
       "callToActionText": "Botão de ação",
       "callToActionUrl": "/sale/d",
       "blockClass": ["info-card-home","info-card-home-desktop","right-infocard"],
-      "textAlignment": "center"
+      "textAlignment": "left"
     }
   },
 
@@ -133,7 +133,7 @@
       "callToActionText": "Botão de ação",
       "callToActionUrl": "/sale/d",
       "blockClass": ["info-card-home", "info-card-home-desktop" ,"right-infocard"],
-      "textAlignment": "center"
+      "textAlignment": "left"
     }
   },
 
