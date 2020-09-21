@@ -2,13 +2,16 @@
   "store.home": {
     "blocks": [
       "info-card#main-infocard",
+      "info-card#main--mobile",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "__fold__.experimentalLazyAssets",
       "flex-layout.row#department-links",
       "info-card#second-infocard",
+      "info-card#second-infocard-mobile",
       "flex-layout.row#first-shelf",
       "info-card#third-infocard",
+      "info-card#third-infocard-mobile",
       "flex-layout.row#third-shelf",
       "flex-layout.row#outlet-text",
       "flex-layout.row#double-images",
@@ -16,6 +19,52 @@
       "flex-layout.row#newsletter"
     ]
   },
+
+  "info-card#main--mobile":{
+    "props":{
+      "id": "info-card-main-home-mobile",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Título",
+      "subhead": "Texto informativo cadastrado aqui",
+      "callToActionText": "Botão de ação",
+      "callToActionUrl": "/sale/d",
+      "blockClass": ["info-card-home", "info-card-home-mobile"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#second-infocard-mobile":{
+    "props":{
+      "id": "info-card-main-home-mobile",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Título",
+      "subhead": "Texto informativo cadastrado aqui",
+      "callToActionText": "Botão de ação",
+      "callToActionUrl": "/sale/d",
+      "blockClass": ["info-card-home", "info-card-home-mobile"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#third-infocard-mobile":{
+    "props":{
+      "id": "info-card-main-home-mobile",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Título",
+      "subhead": "Texto informativo cadastrado aqui",
+      "callToActionText": "Botão de ação",
+      "callToActionUrl": "/sale/d",
+      "blockClass": ["info-card-home", "info-card-home-mobile"],
+      "textAlignment": "left"
+    }
+  },
+  
 
 
   "list-context.image-list#bottom-images": {
@@ -53,7 +102,7 @@
       "subhead": "Texto informativo cadastrado aqui",
       "callToActionText": "Botão de ação",
       "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
+      "blockClass": ["info-card-home" , "info-card-home-desktop"],
       "textAlignment": "center"
     }
   },
@@ -68,7 +117,7 @@
       "subhead": "Texto informativo cadastrado aqui",
       "callToActionText": "Botão de ação",
       "callToActionUrl": "/sale/d",
-      "blockClass": ["info-card-home", "right-infocard"],
+      "blockClass": ["info-card-home","info-card-home-desktop","right-infocard"],
       "textAlignment": "center"
     }
   },
@@ -77,13 +126,13 @@
     "props": {
       "id": "info-card-second-home",
       "isFullModeStyle": true,
-      "textPosition": "right",
+      "textPosition": "left",
       "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
       "headline": "Título",
       "subhead": "Texto informativo cadastrado aqui",
       "callToActionText": "Botão de ação",
       "callToActionUrl": "/sale/d",
-      "blockClass": ["info-card-home", "right-infocard"],
+      "blockClass": ["info-card-home", "info-card-home-desktop" ,"right-infocard"],
       "textAlignment": "center"
     }
   },
