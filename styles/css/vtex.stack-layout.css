@@ -7,3 +7,7 @@
   top: 0;
   left: auto;
 }
+
+.stackItem--quickview{
+  display: none;
+}

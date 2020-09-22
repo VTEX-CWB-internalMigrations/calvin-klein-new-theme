@@ -266,8 +266,17 @@
       "verticalAlign": "middle"
     },
     "children":[
-      "add-to-cart-button"
+      "buy-button#product"
     ]
+  },
+
+  "buy-button#product":{
+    "props":{
+      "shouldOpenMinicart": true,
+      "showToast": false,
+      "shouldAddToCart": true,
+      "showTooltipOnSkuNotSelected": true
+    }
   },
 
   "share#default": {

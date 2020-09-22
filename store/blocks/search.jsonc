@@ -96,6 +96,13 @@
       "fullWidth": true
     }
   },
+
+  "filter-navigator.v3":{
+    "props":{
+      "initiallyCollapsed": true
+    }
+  },
+
   "flex-layout.col#filter": {
     "children": ["filter-navigator.v3"],
     "props": {

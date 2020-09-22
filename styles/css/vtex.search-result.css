@@ -14,6 +14,14 @@
     font-size: 12px;
 }
 
+.galleryTitle--layout{
+    margin: 5px 0px 20px;
+}
+
+.searchResultContainer{
+    padding-top: 10px;
+}
+
 .filterPopupTitle{
     font-size: 12px;
 }
@@ -46,4 +54,9 @@
 
 .filters--layout{
     padding: 10px;
+}
+
+.galleryItem--small{
+    flex-basis: 100% !important;
+    max-width: 100% !important;
 }

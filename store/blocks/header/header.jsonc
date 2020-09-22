@@ -115,8 +115,19 @@
       "flex-layout.col#spacer",
       "search-bar",
       "login",
-      "minicart.v2"
+      "minicart"
     ]
+  },
+  "minicart":{
+    "blocks": [
+      "product-summary"
+    ],
+    "props": {
+      "type": "popup",
+      "showDiscount": true,
+      "labelMiniCartEmpty": "",
+      "labelButtonFinishShopping": "Finalizar Compra"
+    }
   },
   "login":{
     "props":{
@@ -155,7 +166,7 @@
       "flex-layout.col#spacer",
       "logo#mobile",
       "flex-layout.col#spacer",
-      "minicart.v2#mobile"
+      "minicart#mobile"
     ],
     "props": {
       "blockClass": "main-header-mobile",
@@ -376,7 +387,7 @@
     }
   },
 
-  "minicart.v2#mobile":{
+  "minicart#mobile":{
     "props":{
       "blockClass": "minicart-mobile"
     }
