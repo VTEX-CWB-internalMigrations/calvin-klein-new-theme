@@ -1,0 +1,49 @@
+.galleryTitle--layout{
+    font-size: 40px;
+    text-align: center;
+}
+
+.galleryItem--normal{
+    flex-basis: 33% !important;
+    max-width: 33% !important;
+}
+
+.totalProducts--layout{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.filterPopupTitle{
+    font-size: 12px;
+}
+
+.buttonShowMore--layout{
+    margin-bottom: 60px;
+}
+
+.filter__container--title{
+    display: none;
+}
+
+.filtersWrapper{
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+}
+
+.filtersWrapper::before{
+    content: "FILTROS";
+    font-size: 20px;
+    display: block;
+    width: 133px;
+    color: #fff;
+    position: absolute;
+    top: -26px;
+    background: #000;
+    padding: 5px 10px;
+}
+
+.filters--layout{
+    padding: 10px;
+}
