@@ -109,7 +109,8 @@
 .container--shelfTitle{
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
+  margin-top: 35px;
 }
 
 .heading--shelfTitle{
@@ -120,7 +121,7 @@
 }
 
 .paragraph--shelfTitle{
-  text-align: left;
+  text-align: center;
   margin: 0px;
   color: #000;
 }
@@ -128,7 +129,7 @@
 .container--shelf-buttons .link{
   text-decoration: none;
   color: #000;
-},
+}
 
 .container--shelf-buttons .paragraph{
   background: #0000;
@@ -143,9 +144,13 @@
   cursor: pointer;
 }
 
-.container--shelf-buttons .paragraph:hover, .container--shelf-buttons .paragraph:hover .link{
+.container--shelf-buttons .paragraph:hover {
   text-decoration: none;
   background: #000;
+  color: #fff;
+}
+
+.container--shelf-buttons .paragraph:hover .link {
   color: #fff;
 }
 
@@ -188,6 +193,15 @@
 
 .heading--shelfTitle{
   font-size: 35px;
+}
+
+.paragraph--shelf-buttons{
+  margin: 5px 0px;
+}
+
+.wrapper--shelf-buttons{
+  width: 100%;
+  text-align: center;
 }
 
 @media only screen and (min-width: 640px) {

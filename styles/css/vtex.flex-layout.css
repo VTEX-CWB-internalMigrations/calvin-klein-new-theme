@@ -125,7 +125,8 @@
 
 .flexRow--shelf-right{
   max-width: 500px;
-  margin: 0px 0px 0px auto;
+  margin: 0px auto;
+  margin-top: 45px;
 }
 
 .flexRow--flex-outlet{
@@ -172,4 +173,8 @@
 
 .flexRow--flex-outlet{
   margin: 20px 0px 20px;
+}
+
+.flexRowContent--shelf-right{
+  margin-bottom: 10px;
 }
