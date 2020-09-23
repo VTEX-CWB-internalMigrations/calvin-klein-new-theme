@@ -1,6 +1,7 @@
 {
     "store.custom#second-type": {
       "blocks": [
+        "flex-layout.row#title-menu",
         "flex-layout.row#double-images",
         "flex-layout.row#bottom-row",
         "info-card#men-one-right",
