@@ -311,6 +311,8 @@
 .infoCardContainer--department-infocard{
   background: #eaeaea;
   margin-bottom: 25px;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .infoCardTextContainer--department-infocard{
@@ -321,7 +323,13 @@
   width: 100%;
 }
 
+
 @media only screen and (min-width: 640px) {
+
+  .infoCardContainer--department-infocard{
+    display: flex;
+    flex-direction: row;
+  }
 
   .infoCardImageContainer--department-infocard{
     width: 80%;
