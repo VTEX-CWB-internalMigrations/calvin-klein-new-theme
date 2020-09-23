@@ -125,6 +125,11 @@
   color: #000;
 }
 
+.container--shelf-buttons .link{
+  text-decoration: none;
+  color: #000;
+},
+
 .container--shelf-buttons .paragraph{
   background: #0000;
   border: 1px solid #000;
