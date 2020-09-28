@@ -12,7 +12,7 @@
       "flex-layout.row#first-shelf",
       "info-card#third-infocard",
       "info-card#third-infocard-mobile",
-      "flex-layout.row#third-shelf",
+      //"flex-layout.row#third-shelf",
       "flex-layout.row#outlet-text",
       "flex-layout.row#double-images",
       "list-context.image-list#bottom-images",
@@ -295,8 +295,8 @@
 
   "flex-layout.col#first-shelf":{
     "children":[
-      "flex-layout.row#first-shelf-inside",
-      "flex-layout.row#shelf"
+      "flex-layout.row#first-shelf-inside"
+      //"flex-layout.row#shelf"
     ]
   },
 

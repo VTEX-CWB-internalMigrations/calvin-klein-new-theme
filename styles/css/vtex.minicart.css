@@ -5,3 +5,7 @@
 .cartIcon{
     height: 20px;
 }
+
+.labelDiscountText , .sellingPrice{
+    font-family: calvin-klein;
+}

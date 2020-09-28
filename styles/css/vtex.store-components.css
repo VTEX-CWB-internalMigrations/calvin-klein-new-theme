@@ -1,3 +1,11 @@
+.infoCardHeadline , .infoCardSubhead , .infoCardCallActionContainer :global(.vtex-button__label), .label , .productBrand , .sellingPriceValue{
+  font-family: calvin-klein;
+}
+
+:global(.vtex-button__label){
+  font-family: calvin-klein;
+}
+
 .notificationBarContainer {
   background-color: #e6f1e6;
   color: #03034e;

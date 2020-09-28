@@ -1,3 +1,7 @@
+.paragraph , .heading , .link{
+  font-family: calvin-klein;
+}
+
 .container--deals {
   color: #ffffff;
   text-align: center;

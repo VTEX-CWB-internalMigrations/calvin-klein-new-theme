@@ -1,3 +1,7 @@
+.productBrand{
+  font-family: calvin-klein;
+}
+
 .skuSelectorContainer--quickview .skuSelectorItemImage .frameAround, .skuSelectorContainer--quickview .skuSelectorItemImage .skuSelectorInternalBox {
   border-radius: 50%;
 }
