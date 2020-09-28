@@ -9,6 +9,7 @@
       "flex-layout.row#department-links",
       "info-card#second-infocard",
       "info-card#second-infocard-mobile",
+      "flex-layout.row#buttons-text",
       "flex-layout.row#first-shelf",
       "info-card#third-infocard",
       "info-card#third-infocard-mobile",
@@ -134,6 +135,15 @@
       "callToActionUrl": "/sale/d",
       "blockClass": ["info-card-home", "info-card-home-desktop" ,"right-infocard"],
       "textAlignment": "left"
+    }
+  },
+
+  "flex-layout.row#buttons-text":{
+    "children":[
+      "flex-layout.col#outlet-text"
+    ],
+    "props":{
+      "blockClass": "flex-outlet"
     }
   },
 
