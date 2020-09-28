@@ -10,7 +10,7 @@
       "info-card#second-infocard",
       "info-card#second-infocard-mobile",
       "flex-layout.row#buttons-text",
-      "flex-layout.row#first-shelf",
+      //"flex-layout.row#first-shelf",
       "info-card#third-infocard",
       "info-card#third-infocard-mobile",
       //"flex-layout.row#third-shelf",
