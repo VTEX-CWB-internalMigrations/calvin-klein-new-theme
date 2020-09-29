@@ -190,9 +190,16 @@
 
   "flex-layout.col#drawer-col":{
     "children":[
+      "search-bar#mobile",
       "menu#drawer",
       "vtex.menu@2.x:menu#header-mobile"
     ]
+  },
+
+  "search-bar#mobile":{
+    "props":{
+      "blockClass": "mobile-search"
+    }
   },
 
   "menu#drawer": {

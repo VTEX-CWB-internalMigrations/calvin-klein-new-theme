@@ -331,6 +331,19 @@
   width: 100%;
 }
 
+.autoCompleteOuterContainer--mobile-search :global(.vtex-input-prefix__group){
+  width: 100%;
+  max-width: unset;
+}
+
+.autoCompleteOuterContainer--mobile-search :global(.vtex-styleguide-9-x-input){
+  max-width: unset;
+}
+
+.resultsList--mobile-search{
+  display: none;
+}
+
 
 @media only screen and (min-width: 640px) {
 
