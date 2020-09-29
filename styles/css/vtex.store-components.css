@@ -221,10 +221,6 @@
   width: 100%;
 }
 
-.infoCardContainer--info-card-double{
-  flex-direction: column-reverse;
-  margin-top: 25px;
-}
 
 .infoCardCallActionContainer--info-card-double :global(.vtex-button){
   background: #0000;
@@ -337,8 +333,52 @@
   display: none;
 }
 
+@media only screen and (max-width: 640px) {
+  .infoCardContainer--department-infocard{
+    background: #eaeaea;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .infoCardContainer--bottom-type{
+    display: flex;
+    flex-direction: column-reverse;
+    background: #eaeaea;
+  }
+
+  .infoCardTextContainer--bottom-type{
+    padding: 10px;
+  }
+
+  .infoCardContainer--bottom-type{
+    margin-bottom: 25px;
+  }
+  .infoCardContainer--info-card-double{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 25px;
+    background: #eaeaea;
+  }
+}
+
+.infoCardContainer--desktop-infocard-dept{
+  display: none;
+}
+
+.infoCardContainer--mobile-infocard-dept{
+  display: flex;
+}
 
 @media only screen and (min-width: 640px) {
+
+  .infoCardContainer--mobile-infocard-dept{
+    display: none;
+  }
+
+  .infoCardContainer--desktop-infocard-dept{
+    display: flex;
+  }
 
   .infoCardImageContainer--department-infocard{
     width: 80%;
@@ -390,27 +430,11 @@
   /* Product */
   .productDescriptionText{margin-top:15px;}
 }
-@media only screen and (max-width: 640px) {
-  .infoCardContainer--department-infocard{
-    background: #eaeaea;
-    margin-bottom: 25px;
-    display: flex;
-    flex-direction: column-reverse;
-  }
 
-  .infoCardContainer--bottom-type{
-    display: flex;
-    flex-direction: column-reverse;
-    background: #eaeaea;
-  }
-
-  .infoCardTextContainer--bottom-type{
-    padding: 10px;
-  }
-
-  .infoCardContainer--bottom-type{
-    margin-bottom: 25px;
-  }
+.infoCardContainer--info-card-double{
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 25px;
 }
 
 .productImagesContainer--quickview .carouselContainer {
