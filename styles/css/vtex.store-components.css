@@ -161,7 +161,7 @@
 
 /* Product */
 
-.productBrand{font-size:.8rem;font-weight: 300;text-transform: uppercase;}
+.productBrand{font-size:22px;font-weight: 300;text-transform: uppercase;}
 
 .price_className--productDetails-price{display: flex;align-items: baseline;}
 .price_savingsContainer{margin-left:0;background: #861e1f;color: #fff;padding: .3rem;}
@@ -316,13 +316,6 @@
   width: 100%;
 }
 
-.infoCardContainer--department-infocard{
-  background: #eaeaea;
-  margin-bottom: 25px;
-  display: flex;
-  flex-direction: column-reverse;
-}
-
 .infoCardTextContainer--department-infocard{
   width: 100%;
 }
@@ -347,11 +340,6 @@
 
 @media only screen and (min-width: 640px) {
 
-  .infoCardContainer--department-infocard{
-    display: flex;
-    flex-direction: row;
-  }
-
   .infoCardImageContainer--department-infocard{
     width: 80%;
   }
@@ -363,6 +351,7 @@
   .infoCardContainer--department-infocard{
     background: transparent;
     margin-bottom: 25px;
+    margin: 0px 30px 25px;
   }
 
   .infoCardContainer--info-card-home-desktop{
@@ -400,6 +389,28 @@
 
   /* Product */
   .productDescriptionText{margin-top:15px;}
+}
+@media only screen and (max-width: 640px) {
+  .infoCardContainer--department-infocard{
+    background: #eaeaea;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .infoCardContainer--bottom-type{
+    display: flex;
+    flex-direction: column-reverse;
+    background: #eaeaea;
+  }
+
+  .infoCardTextContainer--bottom-type{
+    padding: 10px;
+  }
+
+  .infoCardContainer--bottom-type{
+    margin-bottom: 25px;
+  }
 }
 
 .productImagesContainer--quickview .carouselContainer {
