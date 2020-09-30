@@ -159,9 +159,19 @@
   width: 100%;
 }
 
+.price_sellingPrice--productDetails-price{
+  font-size: 20px;
+}
+
+.shippingContainer :global(.vtex-address-form__postalCode){
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* Product */
 
-.productBrand{font-size:22px;font-weight: 300;text-transform: uppercase;}
+.productBrand{font-size:30px;font-weight: 300;text-transform: uppercase;}
 
 .price_className--productDetails-price{display: flex;align-items: baseline;}
 .price_savingsContainer{margin-left:0;background: #861e1f;color: #fff;padding: .3rem;}
@@ -172,12 +182,12 @@
 .price_listPrice--productDetails-price{padding:0 .35rem 0 0;font-size:.75rem;}
 .price_sellingPrice--productDetails-price,
 .price_installmentContainer--productDetails-price,
-.price_installment--productDetails-price{font-size:.75rem;padding-left:0;text-transform: uppercase;font-weight: 300;color:#000;}
+.price_installment--productDetails-price{padding-left:0;text-transform: uppercase;font-weight: 300;color:#000;}
 .skuSelectorContainer--sku-selector-product{margin:.5rem 0;}
 .skuSelectorContainer--sku-selector-product .skuSelectorName{font-size:0.75rem;color:#000;text-transform: uppercase;}
 .skuSelectorInternalBox--sku-selector-product{border-radius:0;border-color:#bebebe;}
 .skuSelectorItem{margin-left:0;margin-right:.50rem;}
-.skuSelectorItemTextValue--sku-selector-product{font-size:.75rem;padding:0 .7rem;}
+.skuSelectorItemTextValue--sku-selector-product{font-size:.75rem;padding:0 1.7rem;}
 .frameAround{bottom:0;left:0;top:0;right:0;border-radius:0;}
 .diagonalCross{background:#bebebe;}
 .diagonalCross::before, 
@@ -199,7 +209,18 @@
 .shippingContainer :global(.vtex-address-form__postalCode){display:flex}
 .shippingContainer :global(.vtex-input){width:48%;justify-content: space-between;}
 .shippingContainer :global(.vtex-input__label){text-transform: uppercase;margin-bottom: .3rem;color:transparent;}
-.shippingContainer :global(.vtex-button){background: #000;width: 80px;justify-content: space-between;position: absolute;top: 1.3rem;left: 18rem;padding: 0;color: transparent;max-height: 2.5rem;line-height: 2.2;}
+.shippingContainer :global(.vtex-button){
+  background: #000;
+  width: 80px;
+  justify-content: space-between;
+  position: absolute;
+  top: 1.3rem;
+  right: 18rem;
+  padding: 0;
+  color: transparent;
+  max-height: 2.5rem;
+  line-height: 2.2;
+}
 .shippingContainer :global(.vtex-button)::before{content:"OK";color:#fff;font-size:1rem;text-align:center;}
 .shippingContainer :global(.vtex-button__label){display:none;}
 
@@ -428,7 +449,12 @@
   }
 
   /* Product */
-  .productDescriptionText{margin-top:15px;}
+  .productDescriptionText{
+    font-size: 15px;
+    margin: 0 .5em;
+    background: #f3f3f3;
+    padding: 15px 10px;margin-top:15px;
+  }
 }
 
 .infoCardContainer--info-card-double{

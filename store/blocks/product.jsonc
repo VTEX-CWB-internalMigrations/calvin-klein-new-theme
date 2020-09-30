@@ -92,8 +92,7 @@
     },
   "tab-content.item#product-specification": {
     "children": [
-      "product-specifications",
-      "shipping-simulator"
+      "product-specifications"
     ],
     "props": {
       "tabId": "product-specification"

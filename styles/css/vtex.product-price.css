@@ -72,6 +72,10 @@
   margin-bottom: 10px;
 }
 
+.installments--productDetails-installments{
+  font-size: 15px;
+}
+
 /* Product */
 
-.installments--productDetails-installments{font-size:.7rem;color:#000;text-transform:uppercase;}
+.installments--productDetails-installments{color:#000;text-transform:uppercase;}
