@@ -1,7 +1,7 @@
 {
   "vendor": "calvinklein",
   "name": "calvin-klein-new-theme",
-  "version": "0.0.56",
+  "version": "0.0.57",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
