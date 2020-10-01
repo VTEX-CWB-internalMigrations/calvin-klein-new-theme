@@ -179,3 +179,15 @@
 .flexRowContent--shelf-right{
   margin-bottom: 10px;
 }
+
+.flexRow--main-institutional-box{
+  background: #f9f9f9;
+}
+
+.flexRowContent--main-institutional-box{
+  justify-content: center;
+}
+
+.flexColChild--menu-inst-box{
+  max-height: 85px;
+}

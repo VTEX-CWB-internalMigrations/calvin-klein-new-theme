@@ -1,0 +1,268 @@
+{
+    "store.custom#institutional-main": {
+      "blocks": [
+        "flex-layout.row#title-institutional",
+        "flex-layout.row#content-institutional",
+        "flex-layout.row#newsletter"
+      ]
+    },
+
+    "flex-layout.row#title-institutional":{
+        "children":[
+            "flex-layout.col#title-institutional"
+        ]
+    },
+    "flex-layout.col#title-institutional":{
+        "children":[
+            "rich-text#title-institutional",
+            "rich-text#title-institutional-text"
+        ],
+        "props":{
+
+        }
+    },
+    "rich-text#title-institutional":{
+        "props":{
+            "text": "ASSISTÊNCIA AO COMPRADOR",
+            "blockClass": "institutional-title"
+        }
+    },
+    "rich-text#title-institutional-text":{
+        "props":{
+            "text": "Aqui você encontrará as respostas às suas perguntas sobre compras neste site, seu pedido, opções de pagamento e muito mais. Basta selecionar uma das categorias abaixo para obter informações completas. <br /> <br /> O atendimento ao cliente está disponível pelo telefone (11) 2388-8250 das 8h às 20h (horário do leste dos EUA), de segunda a sexta-feira.",
+            "blockClass": "institutional-subtitle"
+        }
+    },
+
+
+    "flex-layout.row#content-institutional":{
+        "children":[
+            "flex-layout.col#menu-institutional",
+            "flex-layout.col#main-content-institutional"
+        ],
+        "props":{
+            "blockClass": "main-institutional-box"
+        }
+    },
+    "flex-layout.col#menu-institutional":{
+        "children":[
+            "rich-text#text-institutional-menu-title",
+            "vtex.menu@2.x:menu#institutional-main"
+        ],
+        "props":{
+            "width": "20%",
+            "blockClass": "menu-inst-box"
+        }
+    },
+
+    "rich-text#text-institutional-menu-title":{
+        "props":{
+            "text": "ASSISTÊNCIA AO COMPRADOR",
+            "blockClass": "menu-title-inst"
+        }
+    },
+    "flex-layout.col#main-content-institutional":{
+        "children":[
+            "flex-layout.row#main-content-institutional"
+        ],
+        "props":{
+            "width": "60%"
+        }
+    },
+    "flex-layout.row#main-content-institutional":{
+        "children":[
+            "flex-layout.col#main-content-institutional-inside"
+        ],
+        "props":{
+            "blockClass": "main-content-institutional"
+        }
+    },
+    "flex-layout.col#main-content-institutional-inside":{
+        "children":[
+            "rich-text#title-institutional-tab",
+            "rich-text#text-institutional-tab"
+        ]
+    },
+    "vtex.menu@2.x:menu#institutional-main":{
+        "children":[
+            "menu-item#zero-institutional",
+            "menu-item#first-institutional",
+            "menu-item#second-institutional",
+            "menu-item#third-institutional",
+            "menu-item#fourth-institutional",
+            "menu-item#fifth-institutional",
+            "menu-item#sixth-institutional"
+        ],
+        "props":{
+            "orientation": "vertical"
+        } 
+    },
+    "rich-text#title-institutional-tab":{
+        "props":{
+            "blockClass": ["institutional-title" , "inside-title"]
+        }
+    },
+    "rich-text#text-institutional-tab":{
+        "props":{
+            "blockClass": ["institutional-subtitle" , "inside-text"]
+        }
+    },
+
+
+
+
+
+    "menu-item#zero-institutional":{
+        "props": {
+            "blockClass": ["institutional-item"],
+            "id": "menu-item-category-sobre",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/sobre-a-calvin-klein",
+                "noFollow": true,
+                "tagTitle": "Sobre a Calvin Klein",
+                "text": "Sobre a Calvin Klein"
+            }
+        }
+    },
+
+    "menu-item#first-institutional":{
+        "props": {
+            "blockClass": ["institutional-item"],
+            "id": "menu-item-category-entrega",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/politica-de-entrega",
+                "noFollow": true,
+                "tagTitle": "Política de Entrega",
+                "text": "Política de Entrega"
+            }
+        }
+    },
+
+    "menu-item#second-institutional":{
+        "props": {
+            "blockClass": ["institutional-item"],
+            "id": "menu-item-category-rastreie",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/account/orders#/",
+                "noFollow": true,
+                "tagTitle": "Rastreie seu Pedido",
+                "text": "Rastreie seu Pedido"
+            }
+        }
+    },
+
+    "menu-item#third-institutional":{
+        "props": {
+            "blockClass": ["institutional-item"],
+            "id": "menu-item-category-trocas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/trocas-e-devolucoes",
+                "noFollow": true,
+                "tagTitle": "Trocas e Devoluções",
+                "text": "Trocas e Devoluções"
+            }
+        }
+    },
+
+    "menu-item#fourth-institutional":{
+        "props": {
+            "blockClass": ["institutional-item"],
+            "id": "menu-item-category-direito",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/direito-de-arrependimento",
+                "noFollow": true,
+                "tagTitle": "Direito de Arrependimento",
+                "text": "Arrependimento"
+            }
+        }
+    },
+
+    "menu-item#fifth-institutional":{
+        "props": {
+            "blockClass": ["institutional-item"],
+            "id": "menu-item-category-lojas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/nossas-lojas",
+                "noFollow": true,
+                "tagTitle": "Nossas Lojas",
+                "text": "Nossas Lojas"
+            }
+        }
+    },
+
+    "menu-item#sixth-institutional":{
+        "props": {
+            "blockClass": ["institutional-item"],
+            "id": "menu-item-category-politica",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/politica-e-privacidade",
+                "noFollow": true,
+                "tagTitle": "Política e Privacidade",
+                "text": "Política e Privacidade"
+            }
+        }
+    },
+
+    "menu-item#seventh-institutional":{
+        "props": {
+            "blockClass": ["institutional-item"],
+            "id": "menu-item-category-avisos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Avisos e Cookies",
+                "noFollow": true,
+                "tagTitle": "Avisos e Cookies",
+                "text": "Avisos e Cookies"
+            }
+        }
+    },
+
+    "menu-item#eigth-institutional":{
+        "props": {
+            "blockClass": ["institutional-item"],
+            "id": "menu-item-category-regulamentos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Regulamentos",
+                "noFollow": true,
+                "tagTitle": "Regulamentos",
+                "text": "Regulamentos"
+            }
+        }
+    }
+   
+  }
