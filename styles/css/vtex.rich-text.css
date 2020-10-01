@@ -223,6 +223,26 @@
   padding: 0px 20px;
 }
 
+.paragraph--video-department{
+  font-size: 0px;
+  width: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.wrapper--video-department{
+  width: 100%;
+}
+
+.wrapper--subtitle-custom{
+  width: 100%;
+}
+
+.paragraph--subtitle-custom{
+  text-align: center;
+}
+
 @media only screen and (min-width: 640px) {
 
   .container--outlet-buttons .paragraph--outlet-buttons{

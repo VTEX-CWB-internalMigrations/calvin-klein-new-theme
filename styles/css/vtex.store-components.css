@@ -391,7 +391,23 @@
   display: flex;
 }
 
+.imageElement--desktop-custom-image{
+  display: none;
+}
+
+.imageElement--mobile-custom-image{
+  display: flex;
+}
+
 @media only screen and (min-width: 640px) {
+
+  .imageElement--mobile-custom-image{
+    display: none;
+  }
+
+  .imageElement--desktop-custom-image{
+    display: flex;
+  }
 
   .infoCardContainer--mobile-infocard-dept{
     display: none;

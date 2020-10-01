@@ -305,8 +305,8 @@
 
   "flex-layout.col#first-shelf":{
     "children":[
-      "flex-layout.row#first-shelf-inside"
-      //"flex-layout.row#shelf"
+      //"flex-layout.row#first-shelf-inside"
+      "flex-layout.row#shelf"
     ]
   },
 
