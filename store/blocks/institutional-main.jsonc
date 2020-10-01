@@ -91,7 +91,10 @@
             "menu-item#third-institutional",
             "menu-item#fourth-institutional",
             "menu-item#fifth-institutional",
-            "menu-item#sixth-institutional"
+            "menu-item#sixth-institutional",
+            "menu-item#seventh-institutional",
+            "menu-item#eigth-institutional",
+            "menu-item#nineth-institutional"
         ],
         "props":{
             "orientation": "vertical"
@@ -261,6 +264,23 @@
                 "noFollow": true,
                 "tagTitle": "Regulamentos",
                 "text": "Regulamentos"
+            }
+        }
+    },
+
+    "menu-item#nineth-institutional":{
+        "props": {
+            "blockClass": ["institutional-item"],
+            "id": "menu-item-category-termos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/termos-e-condicoes",
+                "noFollow": true,
+                "tagTitle": "Termos e Condições",
+                "text": "Termos e Condições"
             }
         }
     }
