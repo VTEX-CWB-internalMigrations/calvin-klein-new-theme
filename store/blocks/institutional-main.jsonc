@@ -226,10 +226,10 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/politica-e-privacidade",
+                "href": "/politica-de-privacidade",
                 "noFollow": true,
-                "tagTitle": "Política e Privacidade",
-                "text": "Política e Privacidade"
+                "tagTitle": "Política de Privacidade",
+                "text": "Política de Privacidade"
             }
         }
     },
@@ -243,7 +243,7 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/Avisos e Cookies",
+                "href": "/Avisos-e-Cookies",
                 "noFollow": true,
                 "tagTitle": "Avisos e Cookies",
                 "text": "Avisos e Cookies"
@@ -260,7 +260,7 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/Regulamentos",
+                "href": "/regulamento-natal",
                 "noFollow": true,
                 "tagTitle": "Regulamentos",
                 "text": "Regulamentos"
