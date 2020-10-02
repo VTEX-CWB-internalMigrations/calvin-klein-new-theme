@@ -158,7 +158,7 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/account/orders#/",
+                "href": "/account#/orders/",
                 "noFollow": true,
                 "tagTitle": "Rastreie seu Pedido",
                 "text": "Rastreie seu Pedido"
