@@ -93,8 +93,8 @@
             "menu-item#fifth-institutional",
             "menu-item#sixth-institutional",
             "menu-item#seventh-institutional",
-            "menu-item#eigth-institutional",
-            "menu-item#nineth-institutional"
+            "menu-item#eigth-institutional"
+            //"menu-item#nineth-institutional"
         ],
         "props":{
             "orientation": "vertical"
@@ -251,7 +251,7 @@
         }
     },
 
-    "menu-item#eigth-institutional":{
+    "menu-item#nineth-institutional":{
         "props": {
             "blockClass": ["institutional-item"],
             "id": "menu-item-category-regulamentos",
@@ -268,7 +268,7 @@
         }
     },
 
-    "menu-item#nineth-institutional":{
+    "menu-item#eigth-institutional":{
         "props": {
             "blockClass": ["institutional-item"],
             "id": "menu-item-category-termos",
