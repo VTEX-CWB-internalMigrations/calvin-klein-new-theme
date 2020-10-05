@@ -1,0 +1,35 @@
+{
+    "store.custom#attendance-two-items": {
+    "blocks": [
+      "flex-layout.row#title-menu-attendance",
+      "rich-text#attendance-title",
+      "flex-layout.row#disclosure-one",
+      "rich-text#attendance-bottom",
+      "flex-layout.row#attendance-bottom"
+    ]
+  },
+  "flex-layout.row#disclosure-one":{
+    "children":[
+        "flex-layout.col#disclosure-one"
+    ],
+    "props":{
+        "blockClass": "disclosure-box"
+    }
+},
+
+"flex-layout.col#disclosure-one":{
+    "children":[
+        "disclosure-layout-group#group-one"
+    ]
+},
+
+"disclosure-layout-group#group-one": {
+    "children": [
+        "disclosure-layout#first",
+        "disclosure-layout#second"
+    ],
+    "props":{
+        "blockClass": "disclosure-box"
+    }
+  }
+}

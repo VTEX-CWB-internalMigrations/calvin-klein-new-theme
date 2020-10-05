@@ -297,6 +297,90 @@
   font-size: 20px;
 }
 
+.container--up::before{
+  content: "";
+  background: url(https://calvinklein.vteximg.com.br/arquivos/up-icon.png);
+  width: 30px;
+  height: 25px;
+  background-size: 22px;
+  background-repeat: no-repeat;
+}
+
+.container--down::before{
+  content: "";
+  background: url(https://calvinklein.vteximg.com.br/arquivos/down-icon.png);
+  width: 30px;
+  height: 25px;
+  background-size: 22px;
+  background-repeat: no-repeat;
+}
+
+.container--title-attendance{
+  max-width: 960px;
+  margin: 0px auto;
+  margin-top: 30px;
+}
+
+.wrapper--title-attendance{
+  width: 100%;
+}
+
+.heading--title-attendance{
+  font-size: 30px;
+}
+
+.container--attendance-bottom-text{
+  font-size: 14px;
+  max-width: 930px;
+  margin: 15px auto 0px;
+}
+
+.container--disclosure-text{
+  background: #f8f8f8;
+  padding: 0px 15px;
+}
+
+.wrapper--attendance-mail, .wrapper--attendance-chat, .wrapper--attendance-phone{
+  display: flex;
+  align-items: center;
+}
+
+.paragraph--attendance-mail, .paragraph--attendance-chat, .paragraph--attendance-phone{
+  margin-left: 10px;
+}
+
+.wrapper--attendance-mail::before{
+  content: "";
+  background: url(https://calvinklein.vteximg.com.br/arquivos/attendance-icon-1.png);
+  width: 30px;
+  height: 25px;
+  display: inline-flex;
+  background-size: 30px;
+  background-repeat: no-repeat;
+}
+
+.wrapper--attendance-chat::before{
+  content: "";
+  background: url(https://calvinklein.vteximg.com.br/arquivos/attendance-icon-2.png);
+  width: 30px;
+  height: 25px;
+  display: inline-flex;
+  background-size: 30px;
+  background-repeat: no-repeat;
+}
+
+.wrapper--attendance-phone::before{
+  content: "";
+  background: url(https://calvinklein.vteximg.com.br/arquivos/attendance-icon-3.png);
+  width: 30px;
+  height: 25px;
+  display: inline-flex;
+  background-size: 30px;
+  background-repeat: no-repeat;
+}
+
+
+
 @media only screen and (min-width: 640px) {
 
   .container--outlet-buttons .paragraph--outlet-buttons{

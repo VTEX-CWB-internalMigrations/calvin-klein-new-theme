@@ -57,7 +57,8 @@
     "vtex.product-price": "1.x",
     "vtex.tab-layout": "0.x",
     "vtex.iframe": "0.x",
-    "calvinkleinnew.store-locator": "0.x"
+    "calvinkleinnew.store-locator": "0.x",
+    "vtex.disclosure-layout": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

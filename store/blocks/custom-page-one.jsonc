@@ -29,6 +29,7 @@
 
         }
     },
+    
 
     "info-card#dep-one":{
         "props": {

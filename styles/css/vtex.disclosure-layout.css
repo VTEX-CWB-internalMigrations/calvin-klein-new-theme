@@ -1,0 +1,7 @@
+.trigger{
+    background: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 0px !important;
+}

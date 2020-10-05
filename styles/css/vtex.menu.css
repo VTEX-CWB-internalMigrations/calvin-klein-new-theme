@@ -58,6 +58,25 @@
     font-size: 14px;
 }
 
+.menuContainer--attendance-menu{
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+.menuContainer--attendance-menu .styledLinkContainer{
+    padding: 10px 10px 6px;
+    margin: 10px;
+    border: 1px solid #000;
+}
+
+.menuContainer--attendance-menu .styledLinkContainer:hover {
+    background: #000;
+}
+
+.menuContainer--attendance-menu .styledLinkContainer:hover .styledLinkContent--attendance{
+    color: #fff;
+}
+
 @media only screen and (min-width: 640px) {
     .submenuContainer--main-submenu{
         position: absolute;
