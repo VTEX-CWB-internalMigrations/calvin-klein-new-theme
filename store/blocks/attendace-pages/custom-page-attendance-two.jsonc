@@ -3,9 +3,9 @@
     "blocks": [
       "flex-layout.row#title-menu-attendance",
       "rich-text#attendance-title",
-      "flex-layout.row#disclosure-one",
-      "rich-text#attendance-bottom",
-      "flex-layout.row#attendance-bottom"
+      "flex-layout.row#disclosure-one"
+      //"rich-text#attendance-bottom",
+      //"flex-layout.row#attendance-bottom"
     ]
   },
   "flex-layout.row#disclosure-one":{
