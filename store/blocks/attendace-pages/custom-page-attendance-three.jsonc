@@ -3,27 +3,27 @@
     "blocks": [
       "flex-layout.row#title-menu-attendance",
       "rich-text#attendance-title",
-      "flex-layout.row#disclosure-one"
+      "flex-layout.row#disclosure-three"
       //"rich-text#attendance-bottom",
       //"flex-layout.row#attendance-bottom"
     ]
   },
-  "flex-layout.row#disclosure-one":{
+  "flex-layout.row#disclosure-three":{
     "children":[
-        "flex-layout.col#disclosure-one"
+        "flex-layout.col#disclosure-three"
     ],
     "props":{
         "blockClass": "disclosure-box"
     }
 },
 
-"flex-layout.col#disclosure-one":{
+"flex-layout.col#disclosure-three":{
     "children":[
-        "disclosure-layout-group#group-one"
+        "disclosure-layout-group#group-three"
     ]
 },
 
-"disclosure-layout-group#group-one": {
+"disclosure-layout-group#group-three": {
     "children": [
         "disclosure-layout#first",
         "disclosure-layout#second",
