@@ -4,13 +4,36 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
+      "menu-item#novidades",
       "menu-item#feminino",
       "menu-item#masculino",
       "menu-item#infantil",
       "menu-item#underwear",
+      "menu-item#perfumes",
       "menu-item#outlet"
     ]
   },
+
+  "menu-item#novidades": {
+    "props": {
+      "blockClass": "main-menu-item",
+      "id": "menu-item-novidades",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "NOVIDADES",
+        "text": "NOVIDADES"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#main-submenu"
+    ]
+  },
+
   "menu-item#feminino": {
     "props": {
       "blockClass": "main-menu-item",
@@ -24,6 +47,26 @@
         "noFollow": false,
         "tagTitle": "FEMININO",
         "text": "FEMININO"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#main-submenu"
+    ]
+  },
+
+  "menu-item#perfumes": {
+    "props": {
+      "blockClass": "main-menu-item",
+      "id": "menu-item-perfumes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/perfumes",
+        "noFollow": false,
+        "tagTitle": "PERFUMES",
+        "text": "PERFUMES"
       }
     },
     "blocks": [
@@ -194,17 +237,6 @@
       "vtex.menu@2.x:submenu#main-submenu"
     ]
   },
-
-
-
-
-
-
-
-
-
-
-
 
   "vtex.menu@2.x:submenu#category-apparel": {
     "props": {

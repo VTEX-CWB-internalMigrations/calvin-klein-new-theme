@@ -7,7 +7,8 @@
       "flex-layout.row#footer-0-desktop",
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer-2-desktop",
-      "flex-layout.row#footer-3-desktop"
+      "flex-layout.row#footer-3-desktop",
+      "floating-chat"
     ]
   },
   "flex-layout.row#footer-0-desktop":{
@@ -225,7 +226,8 @@
   "footer-layout.mobile": {
     "children": [
       "flex-layout.row#1-footer-mobile",
-      "flex-layout.row#2-footer-mobile"
+      "flex-layout.row#2-footer-mobile",
+      "floating-chat"
     ]
   },
   "flex-layout.row#2-footer-mobile": {
