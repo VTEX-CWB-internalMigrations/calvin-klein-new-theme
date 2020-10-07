@@ -1,11 +1,44 @@
 {
     "store.custom#institutional-main": {
       "blocks": [
+        "responsive-layout.mobile#institutional-menu",
         "flex-layout.row#title-institutional",
         "flex-layout.row#content-institutional",
         "flex-layout.row#newsletter"
       ]
     },
+
+    "responsive-layout.mobile#institutional-menu":{
+        "children":[
+            "disclosure-layout#menu-institutional"
+        ]
+    },
+
+    "disclosure-layout#menu-institutional": {
+        "children": ["disclosure-trigger#simple", "disclosure-content#simple"],
+        "props":{
+            "blockClass": "new-institutional"
+        }
+      },
+      "disclosure-trigger#simple": {
+        "children": ["rich-text#title-menu-inst"]
+      },
+      "disclosure-content#simple": {
+        "children": ["vtex.menu@2.x:menu#institutional-main"]
+      },
+      "rich-text#title-menu-inst": {
+        "props": {
+          "text": "MENU INSTITUCIONAL",
+          "blockClass": "new-institutional"
+        }
+      },
+      "vtex.menu@2.x:menu#institutional-mobile": {
+        "props": {
+            "blockClass": "mobile-menu",
+            "orientation": "vertical"
+        }
+      },
+
 
     "flex-layout.row#title-institutional":{
         "children":[
@@ -37,6 +70,7 @@
 
     "flex-layout.row#content-institutional":{
         "children":[
+            
             "flex-layout.col#menu-institutional",
             "flex-layout.col#main-content-institutional"
         ],
@@ -46,13 +80,19 @@
     },
     "flex-layout.col#menu-institutional":{
         "children":[
-            "rich-text#text-institutional-menu-title",
-            "vtex.menu@2.x:menu#institutional-main"
+            "responsive-layout.desktop#institutional-menu"
         ],
         "props":{
             "width": "20%",
             "blockClass": "menu-inst-box"
         }
+    },
+
+    "responsive-layout.desktop#institutional-menu":{
+        "children":[
+            "rich-text#text-institutional-menu-title",
+            "vtex.menu@2.x:menu#institutional-main"
+        ]
     },
 
     "rich-text#text-institutional-menu-title":{
@@ -97,7 +137,8 @@
             //"menu-item#nineth-institutional"
         ],
         "props":{
-            "orientation": "vertical"
+            "orientation": "vertical",
+            "blockClass": "main-menu-inst"
         } 
     },
     "rich-text#title-institutional-tab":{

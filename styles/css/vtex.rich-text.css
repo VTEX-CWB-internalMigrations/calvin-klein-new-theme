@@ -384,6 +384,19 @@
   color: #7d7d7d;
 }
 
+.container--new-institutional , .wrapper--new-institutional{
+  width: 100%;
+  text-align: center;
+}
+
+.paragraph--new-institutional{
+  font-size: 13px;
+}
+
+.wrapper--new-institutional{
+  border-bottom: 1px solid #cdcdcd;
+}
+
 @media only screen and (min-width: 640px) {
 
   .container--outlet-buttons .paragraph--outlet-buttons{
