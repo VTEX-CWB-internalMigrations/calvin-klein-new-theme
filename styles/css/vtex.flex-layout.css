@@ -209,4 +209,9 @@
   margin: 0px auto;
 }
 
+@media screen and (max-width: 40em) {
+  .flexRowContent--main-institutional-box .stretchChildrenWidth:first-child{
+    height: 320px;
+  }
+}
 
