@@ -52,7 +52,8 @@
     "props": {
       "showBadge": false,
       "aspectRatio": "1:1",
-      "maxHeight": 300
+      "height": 500,
+      "width": 500
     }
   },
   "stack-layout#prodsum": {
@@ -60,12 +61,6 @@
       "product-summary-image#shelf",
       "modal-trigger#quickview"
     ]
-  },
-
-  "product-summary-image": {
-    "props": {
-      "height": 220
-    }
   },
 
   "product-summary-specification-badges": {
