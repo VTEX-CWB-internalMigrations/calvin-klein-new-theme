@@ -79,3 +79,9 @@
 /* Product */
 
 .installments--productDetails-installments{color:#000;text-transform:uppercase;}
+
+@media only screen and (max-width: 640px) {
+  .installments--productDetails-installments{
+    font-size: 13px;
+  }
+}

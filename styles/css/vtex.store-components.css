@@ -355,6 +355,9 @@
 }
 
 @media only screen and (max-width: 640px) {
+  .share-social{display:none;}
+  .productBrand{font-size:30px;font-weight: 300;text-transform: uppercase;}
+  .productNameContainer{text-align:center;}
   .infoCardContainer--department-infocard{
     background: #eaeaea;
     margin-bottom: 25px;
@@ -500,7 +503,6 @@
 .productNameContainer {
   color: #3f3f40;
   font-weight: bold;
-  font-size: 30px;
 }
 
 .imageElement--images-bottom{

@@ -12,3 +12,9 @@
 }
 
 .quantitySelectorContainer--container-product-quantity{margin-bottom:0;}
+
+@media screen and (max-width: 640px) {
+    .quantitySelectorStepper :global(.vtex-numeric-stepper__input){
+        width:3em;
+    }
+}
