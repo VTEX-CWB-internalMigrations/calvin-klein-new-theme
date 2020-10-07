@@ -1,5 +1,5 @@
 .listContainer--container-tabsDescription{justify-content: space-between;display: flex;margin-bottom:1em;}
-.listItem{border: 1px solid #ccc;font-size: 12px;text-transform: uppercase;margin-top: 10px;padding: 0;width: 32%;}
+.listItem{border: 1px solid #ccc;font-size: 12px;text-transform: uppercase;margin-top: 10px;padding: 0;width: 31%;}
 .listItemActive{border-color:#000;outline: #000 solid 1px;}
 .listItem :global(.vtex-button){font-size:1em;width:100%;}
 .listItemActive :global(.vtex-button){background:none;color:#000;border:0}
