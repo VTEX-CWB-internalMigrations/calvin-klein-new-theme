@@ -213,15 +213,58 @@
 
   "vtex.menu@2.x:menu#header-mobile":{
     "children":[
+      "menu-item#novidades-mobile",
       "menu-item#feminino-mobile",
       "menu-item#masculino-mobile",
-      "menu-item#infantil-mobile",
+      "menu-item#infantil-feminino-mobile",
+      "menu-item#infantil-masculino-mobile",
+      "menu-item#perfumes-mobile",
       "menu-item#underwear-mobile",
       "menu-item#outlet-mobile"
     ],
     "props":{
       "blockClass": "mobile-menu",
       "orientation": "vertical"
+    }
+  },
+
+  "menu-item#novidades-mobile":{
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#novidades-mobile"
+    ],
+    "props": {
+        "blockClass": ["main-mobile", "feminino-mobile"],
+        "id": "menu-item-category-novidades",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "NOVIDADES",
+            "text": "NOVIDADES"
+        }
+    }
+  },
+
+  "menu-item#perfumes-mobile":{
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#perfumes-mobile"
+    ],
+    "props": {
+        "blockClass": ["main-mobile", "feminino-mobile"],
+        "id": "menu-item-category-perfumes",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "PERFUMES",
+            "text": "PERFUMES"
+        }
     }
   },
 
@@ -263,7 +306,7 @@
         }
     }
   },
-  "menu-item#infantil-mobile":{
+  "menu-item#infantil-masculino-mobile":{
   "blocks": [
         "vtex.menu@2.x:submenu.accordion#infantil-mobile"
     ],
@@ -277,11 +320,30 @@
             "type": "internal",
             "href": "/",
             "noFollow": true,
-            "tagTitle": "INFANTIL",
-            "text": "INFANTIL"
+            "tagTitle": "INFANTIL-MASCULINO",
+            "text": "INFANTIL-MASCULINO"
         }
     }
   },
+  "menu-item#infantil-feminino-mobile":{
+    "blocks": [
+          "vtex.menu@2.x:submenu.accordion#infantil-mobile"
+      ],
+      "props": {
+          "blockClass": ["main-mobile", "infantil-mobile"],
+          "id": "menu-item-category-infantil",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+              "type": "internal",
+              "href": "/",
+              "noFollow": true,
+              "tagTitle": "INFANTIL-FEMININO",
+              "text": "INFANTIL-FEMININO"
+          }
+      }
+    },
   "menu-item#underwear-mobile":{
     "blocks": [
         "vtex.menu@2.x:submenu.accordion#underwear-mobile"
@@ -327,6 +389,18 @@
     ]
   },
 
+  "vtex.menu@2.x:submenu.accordion#novidades-mobile":{
+    "children":[
+      "vtex.menu@2.x:menu#novidades-m"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#perfumes-mobile":{
+    "children":[
+      "vtex.menu@2.x:menu#perfumes-m"
+    ]
+  },
+
   "vtex.menu@2.x:submenu.accordion#masculino-mobile":{
     "children":[
       "vtex.menu@2.x:menu#masculino-m"
@@ -352,6 +426,20 @@
   },
 
   "vtex.menu@2.x:menu#feminino-m":{
+    "props":{
+      "blockClass": "feminino-m",
+      "orientation": "vertical"
+    }
+  },
+
+  "vtex.menu@2.x:menu#novidades-m":{
+    "props":{
+      "blockClass": "feminino-m",
+      "orientation": "vertical"
+    }
+  },
+
+  "vtex.menu@2.x:menu#perfumes-m":{
     "props":{
       "blockClass": "feminino-m",
       "orientation": "vertical"
