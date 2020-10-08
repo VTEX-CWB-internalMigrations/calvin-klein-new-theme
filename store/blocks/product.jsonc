@@ -180,7 +180,8 @@
         "displayThumbnailsArrows": true
       },
       "showNavigationArrows": false,
-      "showPaginationDots": true
+      "showPaginationDots": true,
+      "hiddenImages": "quadradodecor"
     }
   },
   "flex-layout.col#right-col": {

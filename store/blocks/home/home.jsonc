@@ -9,6 +9,7 @@
       "flex-layout.row#department-links",
       "info-card#second-infocard",
       "info-card#second-infocard-mobile",
+      "__fold__",
       "flex-layout.row#buttons-text",
       //"flex-layout.row#first-shelf",
       "info-card#third-infocard",
@@ -17,9 +18,10 @@
       "flex-layout.row#outlet-text",
       "flex-layout.row#double-images",
       "list-context.image-list#bottom-images",
-      "flex-layout.row#newsletter"
+      "newsletter"
     ]
   },
+
 
   "info-card#main--mobile":{
     "props":{
