@@ -3,11 +3,17 @@
 }
 
 .stackItem--quickview {
-  right: 0;
-  top: 0;
-  left: auto;
+  bottom: 65px;
+  height: 60px;
+  top: auto;
 }
 
 .stackItem--quickview{
-  display: none;
+  width: 100%;
 }
+
+.stackItem--quickview{
+  z-index: 999 !important;
+}
+
+

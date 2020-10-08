@@ -1,11 +1,19 @@
 {
   "modal-trigger#quickview": {
     "children": [
-      "icon-expand",
+      "rich-text#compra-rapida",
       "modal-layout#quickview"
     ],
     "props": {
       "blockClass": "quickview"
+    }
+  },
+
+  
+  "rich-text#compra-rapida":{
+    "props":{
+      "text": "COMPRA RÁPIDA",
+      "blockClass": "fast-buy"
     }
   },
 
@@ -18,6 +26,7 @@
       "blockClass": "quickview"
     }
   },
+
   "modal-header#quickview": {
     "props": {
       "blockClass": "quickview"
@@ -75,7 +84,7 @@
   },
   "flex-layout.col#quickview-add-to-card-button": {
     "children": [
-      "add-to-cart-button"
+      "buy-button#product"
     ],
     "props": {
       "width": "grow"
