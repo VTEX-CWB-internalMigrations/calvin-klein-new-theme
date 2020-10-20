@@ -60,7 +60,8 @@
     "calvinkleinnew.store-locator": "0.x",
     "vtex.disclosure-layout": "1.x",
     "calvinkleinnew.floating-chat": "0.x",
-    "vtex.responsive-layout": "0.x"
+    "vtex.responsive-layout": "0.x",
+    "calvinkleinnew.newsletterck": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

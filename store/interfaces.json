@@ -1,0 +1,9 @@
+{
+    "newsletterck": {
+        "composition": "children",
+        "component": "calvinkleinnew.newsletterck/Newsletter",
+        "allowed": [
+          "newsletter"
+        ]
+      }
+}

@@ -18,8 +18,19 @@
       "flex-layout.row#outlet-text",
       "flex-layout.row#double-images",
       "list-context.image-list#bottom-images",
-      "newsletter"
+      //"newsletter",
+      "newsletterck"
     ]
+  },
+  "newsletterck": {
+    "children": ["newsletter"]
+  },
+  "newsletter": {
+    "props": {
+      "label": "",
+      "placeholder": "Insira seu e-mail",
+      "submit": "Enviar"
+    }
   },
 
 

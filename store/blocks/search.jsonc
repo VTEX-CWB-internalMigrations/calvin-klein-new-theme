@@ -117,6 +117,7 @@
   },
   "flex-layout.col#content": {
     "children": [
+      "image#searchImage",
       "flex-layout.row#searchinfo",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#products",
@@ -126,6 +127,13 @@
     "props": {
       "width": "grow",
       "preventVerticalStretch": true
+    }
+  },
+
+  "image#searchImage":{
+    "props":{
+      "src": "",
+      "blockClass": "image-search"
     }
   },
 
