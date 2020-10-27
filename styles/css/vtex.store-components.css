@@ -173,10 +173,18 @@
 
 .productBrand{font-size:30px;font-weight: 300;text-transform: uppercase;}
 
-.price_className--productDetails-price{display: flex;align-items: baseline;}
-.price_savingsContainer{margin-left:0;background: #861e1f;color: #fff;padding: .3rem;}
+.price_className--productDetails-price{
+  display: flex;
+  align-items: center;
+}
+.price_savingsContainer{
+  margin-left: 0;
+  background: #861e1f;
+  color: #fff;
+  padding: 1px 5px;
+  margin: 0px;
+}
 .price_savings--productDetails-price{font-size:0;}
-.price_sellingPriceContainer--productDetails-price{margin-right:auto;}
 .price_savings_value--productDetails-price{font-size:12px;}
 .price_savings_value--productDetails-price::after{content:" OFF";}
 .price_listPrice--productDetails-price{padding:0 .35rem 0 0;font-size:.75rem;}
