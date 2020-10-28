@@ -120,10 +120,10 @@
   },
   "minicart":{
     "blocks": [
-      "product-summary"
+      "product-summary.shelf#minicart"
     ],
     "props": {
-      "type": "popup",
+      "type": "product-summary.shelf",
       "showDiscount": true,
       "labelMiniCartEmpty": "",
       "labelButtonFinishShopping": "Finalizar Compra"
@@ -483,6 +483,9 @@
   },
 
   "minicart#mobile":{
+    "blocks":[
+      "product-summary.shelf#minicart"
+    ],
     "props":{
       "blockClass": "minicart-mobile"
     }

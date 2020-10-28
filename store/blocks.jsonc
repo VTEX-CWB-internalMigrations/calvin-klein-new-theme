@@ -48,8 +48,30 @@
     ]
   },
 
+  "product-summary.shelf#minicart":{
+    "children":[
+      "product-summary-image#shelf-minicart",
+      "product-summary-name",
+      //"product-rating-inline",
+      "product-list-price#summary"
+    ],
+    "props":{
+      "blockClass": "minicart"
+    }
+  },
+
+  "product-summary-image#shelf-minicart": {
+    "props": {
+      "showBadge": false,
+      "aspectRatio": "1:1",
+      "height": 300,
+      "width": 300
+    }
+  },
+
   "product-summary-image#shelf": {
     "props": {
+      "blockClass": "minicart-image",
       "showBadge": false,
       "aspectRatio": "1:1",
       "height": 400,
@@ -57,6 +79,7 @@
       "hoverImageLabel": "over"
     }
   },
+
   "stack-layout#prodsum": {
     "children": [
       "product-summary-image#shelf",

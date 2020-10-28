@@ -215,6 +215,8 @@
   margin: 0px auto;
 }
 
-@media screen and (max-width: 40em) {
+.flexRowContent--container-price-and-quantity .stretchChildrenWidth:first-child{
+  min-width: 160px;
 }
+
 

@@ -75,3 +75,22 @@
   border-radius: 0px;
 }
 
+.element--minicart{
+  display: flex;
+  flex-direction: row;
+}
+
+.element--minicart .imageNormal{
+  max-height: 140px !important;
+}
+
+.element--minicart .imageContainer{
+  max-width: 170px;
+}
+
+.element--minicart .productBrand{
+  padding: 0px 40px 0px 0px;
+}
+
+
+
