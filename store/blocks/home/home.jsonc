@@ -19,20 +19,74 @@
       "flex-layout.row#double-images",
       "list-context.image-list#bottom-images",
       //"newsletter",
-      "newsletterck"
+      "flex-layout.row#newsletter"
+
     ]
   },
-  "newsletterck": {
-    "children": ["newsletter"]
-  },
-  "newsletter": {
-    "props": {
-      "label": "",
-      "placeholder": "Insira seu e-mail",
-      "submit": "Enviar"
+
+  "flex-layout.row#newsletter":{
+    "children":[
+      "flex-layout.col#newsletter"
+    ],
+    "props":{
+      "blockClass": "newsletter-row"
     }
   },
 
+  "flex-layout.col#newsletter":{
+    "children":[
+      "rich-text#newsletter-title",
+      "newsletter-form"
+    ],
+    "props":{
+      "blockClass": "newsletter-col"
+    }
+  },
+
+  "rich-text#newsletter-title":{
+    "props":{
+      "text": "ASSINE NOSSA NEWSLETTER",
+      "blockClass": "newsletter-title"
+    }
+  },
+
+  "newsletter-form": {
+    "children": [
+      "flex-layout.row#top-newsletter",
+      "newsletter-checkbox-confirmation"
+
+    ]
+  },
+
+  "flex-layout.row#top-newsletter":{
+    "children":[
+      "newsletter-input-email",
+      "newsletter-submit"
+    ],
+    "props":{
+      "blockClass": "newsletter-input"
+    }
+  },
+
+  "newsletter-input-email":{
+    "props":{
+
+    }
+  },
+  "newsletter-checkbox-confirmation":{
+    "props":{
+      "checkboxLabel": "Gostaria de receber atualizações dos últimos produtos e promoções por e-mail ou outros canais. Por favor veja a nossa {firstLink} para mais informações",
+      "firstLabelLink": {
+        "url": "/politica-de-privacidade",
+        "text": "política de privacidade"
+      }
+    }
+  },
+  "newsletter-submit":{
+    "props":{
+      
+    }
+  },
 
   "info-card#main--mobile":{
     "props":{
@@ -437,9 +491,9 @@
       "blockClass": "info-card-double",
       "textAlignment": "left"
     }
-  },
+  }
   
-  "flex-layout.row#newsletter":{
+  /*"flex-layout.row#newsletter":{
     "children":[
       "flex-layout.col#newsletter"
     ],
@@ -458,5 +512,5 @@
       "blockClass": "newsletter-text",
       "text": "Ao submeter o email, você afirma que gostaria de receber atualizações dos últimos produtos e promoções por e-mail ou outros canais. Por favor veja a nossa política de privacidade para mais informações"
     }
-  }
+  }*/
 }

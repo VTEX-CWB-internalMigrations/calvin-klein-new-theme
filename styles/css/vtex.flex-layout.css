@@ -219,4 +219,28 @@
   min-width: 160px;
 }
 
+.flexRow--newsletter-row{
+  background: #1d1d1d;
+  padding: 70px 0px;
+}
+
+.flexCol--newsletter-col{
+  max-width: 550px;
+}
+
+.flexRowContent--newsletter-input{
+  position: relative;
+}
+
+.flexRowContent--newsletter-input .stretchChildrenWidth:last-child{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: auto !important;
+}
+
+.flexRowContent--newsletter-input .stretchChildrenWidth:first-child{
+  width: 100% !important;
+}
+
 
