@@ -165,11 +165,17 @@
 }
 
 .flexRow--main-header{
-  border-bottom: 1px solid #d1d1d1;
+  max-width: 1600px;
+  margin: 0px auto;
 }
 
 .flexRow--drawer-row{
   width: 100%;
+}
+
+.flexRow--flex-outlet{
+  max-width: 1600px;
+  margin: 50px auto;
 }
 
 .flexRowContent--flex-outlet{
@@ -178,9 +184,6 @@
   padding-bottom: 35px;
 }
 
-.flexRow--flex-outlet{
-  margin: 20px 0px 20px;
-}
 
 .flexRowContent--shelf-right{
   margin-bottom: 10px;
