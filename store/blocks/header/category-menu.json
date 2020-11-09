@@ -84,15 +84,23 @@
   },
   "flex-layout.row#menu-main":{
     "children":[
+      "flex-layout.col#spacer-menu",
       "flex-layout.col#submenu-one",
       "flex-layout.col#submenu-two",
       "flex-layout.col#submenu-three",
       "flex-layout.col#submenu-four",
       "flex-layout.col#submenu-five",
-      "flex-layout.col#submenu-six"
+      "flex-layout.col#submenu-six",
+      "flex-layout.col#spacer-menu"
     ],
     "props":{
       "blockClass": "flex-row-menu"
+    }
+  },
+
+  "flex-layout.col#spacer-menu":{
+    "props":{
+      "width": "10%"
     }
   },
 
