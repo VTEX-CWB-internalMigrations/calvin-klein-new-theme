@@ -1,0 +1,16 @@
+{
+    "store.custom#custom-register": {
+        "children":[
+            "form#register"
+        ]
+    },
+
+    "form#register": {
+        "props": {
+          "entity": "Atualização Cadastral",
+          "schema": "Atualização Cadastral"
+        }
+    }
+
+
+}
