@@ -106,7 +106,7 @@
     }
 
     .menuContainer--submenuTitle .menuItem--submenuTitle:first-child .styledLinkContent{
-        font-size: 17px;
+        font-size: 16px;
         font-weight: 600;
         text-transform: uppercase;
     }
