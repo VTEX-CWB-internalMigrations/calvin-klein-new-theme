@@ -164,7 +164,9 @@
     "props":{}
   },
   "image#menu-image":{
-    "props":{}
+    "props":{
+      "blockClass": "main-menu-image"
+    }
   },
 
   "menu-item#masculino": {

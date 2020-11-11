@@ -425,6 +425,13 @@
   display: flex;
 }
 
+.imageElement--main-menu-image{
+  position: absolute;
+  right: 0px;
+  height: 100%;
+  top: 40px;
+}
+
 @media only screen and (min-width: 640px) {
 
   .imageElement--mobile-custom-image{
@@ -506,6 +513,7 @@
     width: 85% !important;
   }
 }
+
 
 @media only screen and (min-width: 1200px) {
   .productImagesGallerySlide{

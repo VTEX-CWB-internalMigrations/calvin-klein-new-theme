@@ -112,6 +112,13 @@
     }
 }
 
+.submenuWrapper--main-submenu{
+    position: relative;
+    min-height: 400px;
+}
+
+
+
 @media only screen and (max-width: 640px) {
     .styledLinkContent--institutional-item{
         text-align: center;
