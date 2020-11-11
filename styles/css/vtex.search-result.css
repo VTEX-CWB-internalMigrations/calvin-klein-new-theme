@@ -20,6 +20,7 @@
 
 .galleryTitle--layout{
     margin: 5px 0px 20px;
+    display: none;
 }
 
 .searchResultContainer{
