@@ -78,7 +78,7 @@
 }
 
 .styledLinkContent--submenuTitle{
-    white-space: normal;
+    white-space: nowrap;
 }
 
 
@@ -98,7 +98,7 @@
     }
 
     .submenu--main-submenu{
-        background: #f3f3f3;
+        background: #fff;
         width: 100%;
         max-width: 1600px;
         margin: 0px auto;
