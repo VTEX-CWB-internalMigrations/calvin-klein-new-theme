@@ -64,3 +64,7 @@
     flex-basis: 100% !important;
     max-width: 100% !important;
 }
+
+.buttonShowMore{
+    margin-bottom: 20px;
+}
