@@ -432,6 +432,36 @@
   top: 40px;
 }
 
+/* .carouselContainer{
+  display: flex;
+  flex-direction: column-reverse;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.carouselContainer{
+  display: flex;
+  flex-direction: column-reverse;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.carouselGaleryThumbs{
+  width: 65% !important;
+  position: relative;
+  cursor: none;
+}
+
+.carouselGaleryCursor {
+  display: none;
+} */
+
+.skuSelectorNameContainer{
+  margin-top: 20px;
+}
+
 @media only screen and (min-width: 640px) {
 
   .imageElement--mobile-custom-image{

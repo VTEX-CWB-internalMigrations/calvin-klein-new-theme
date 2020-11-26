@@ -3,7 +3,18 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-    border: 0px !important;
     width: 100%;
     padding-bottom: 0px;
+}
+
+.trigger--disclosure-product-infos{
+    border-top: 1px solid #c3c3c33d;
+    border-bottom: 1px solid #c3c3c33d;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.trigger--disclosure-product-infos{
+    display: flex;
+    justify-content: space-between;
 }

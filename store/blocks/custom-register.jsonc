@@ -1,16 +1,279 @@
 {
     "store.custom#custom-register": {
         "children":[
-            "form#register"
+            "flex-layout.row#updateRegister"
         ]
+    },
+
+    "flex-layout.row#updateRegister":{
+        "children":[
+            "flex-layout.col#updateRegister"
+
+        ]
+    },
+
+    "flex-layout.col#updateRegister":{
+        "children":[
+            "rich-text#formTitle",
+            "form#register"
+        ],
+        "props":{
+            "blockClass": "register-box"
+        }
+    },
+    
+    "rich-text#formTitle":{
+        "props":{
+            "text": "ATUALIZAÇÃO CADASTRAL",
+            "blockClass": "form-main-title"
+        }
+    },
+
+    "rich-text#formSubTitle1":{
+        "props":{
+            "text": "INFORMAÇÕES PESSOAIS",
+            "blockClass": "form-sub-title"
+        }
+    },
+
+    "rich-text#formSubTitle2":{
+        "props":{
+            "text": "CONTATO",
+            "blockClass": "form-sub-title"
+        }
+    },
+
+    "rich-text#formSubTitle3":{
+        "props":{
+            "text": "ENDEREÇO",
+            "blockClass": "form-sub-title"
+        }
+    },
+
+    "rich-text#formSubTitle4":{
+        "props":{
+            "text": "CENTRAL DE PREFERÊNCIAS",
+            "blockClass": "form-sub-title"
+        }
     },
 
     "form#register": {
         "props": {
-          "entity": "Atualização Cadastral",
-          "schema": "Atualização Cadastral"
+          "entity": "AC",
+          "schema": "mdv1",
+          "blockClass": "register-update-form"
+        },
+        "blocks": ["form-success"],
+        "children":[
+            "rich-text#formSubTitle1",
+            "form-input.text#cpf",
+            "flex-layout.row#form-one",
+            "rich-text#formSubTitle2",
+            "flex-layout.row#form-two",
+            "rich-text#formSubTitle3",
+            "flex-layout.row#form-three",
+            "flex-layout.row#form-four",
+            "flex-layout.row#form-five",
+            "rich-text#formSubTitle4",
+            "flex-layout.row#form-six",
+            "form-submit"
+        ]
+    },
+
+    "flex-layout.row#form-one":{
+        "children":[
+            "form-input.text#nome",
+            "form-input.text#sobrenome",
+            "form-input.text#genero"
+        ]
+    },
+
+    "form-input.text#cpf":{
+        "props":{
+            "pointer": "#/properties/cpf"
+        }
+    },
+
+    "form-input.text#nome":{
+        "props":{
+            "pointer": "#/properties/nome"
+        }
+    },
+
+    "form-input.text#sobrenome":{
+        "props":{
+            "pointer": "#/properties/sobrenome"
+        }
+    },
+    
+    "form-input.text#genero":{
+        "props":{
+            "pointer": "#/properties/genero"
+        }
+    },
+
+    "flex-layout.row#form-two":{
+        "children":[
+            "form-input.text#celular",
+            "form-input.text#residencial",
+            "form-input.text#email"
+            //"form-input.checkbox#opcoes"
+        ]
+    },
+
+    "form-input.text#celular":{
+        "props":{
+            "pointer": "#/properties/celular"
+        }
+    },
+
+    "form-input.text#residencial":{
+        "props":{
+            "pointer": "#/properties/telefone"
+        }
+    },
+
+    "form-input.text#email":{
+        "props":{
+            "pointer": "#/properties/email"
+        }
+    },
+
+    "flex-layout.row#form-three":{
+        "children":[
+            "form-input.text#cep",
+            "form-input.text#endereco",
+            "form-input.text#numero"
+        ],
+        "props":{}
+    },
+
+    "form-input.text#cep":{
+        "props":{
+            "pointer": "#/properties/cep"
+        }
+    },
+
+    "form-input.text#endereco":{
+        "props":{
+            "pointer": "#/properties/endereco"
+        }
+    },
+
+    "form-input.text#numero":{
+        "props":{
+            "pointer": "#/properties/numero"
+        }
+    },
+
+    "flex-layout.row#form-four":{
+        "children":[
+            "form-input.text#complemento",
+            "form-input.text#bairro",
+            "form-input.text#cidade"
+        ],
+        "props":{}
+    },
+
+    
+    "form-input.text#complemento":{
+        "props":{
+            "pointer": "#/properties/complemento"
+        }
+    },
+
+    "form-input.text#bairro":{
+        "props":{
+            "pointer": "#/properties/bairro"
+        }
+    },
+
+    "form-input.text#cidade":{
+        "props":{
+            "pointer": "#/properties/cidade"
+        }
+    },
+
+    "flex-layout.row#form-five":{
+        "children":[
+            "form-input.text#estado"
+        ],
+        "props":{}
+    },
+
+    "form-input.text#estado":{
+        "props":{
+            "pointer": "#/properties/estado"
+        }
+    },
+
+    "flex-layout.row#form-six":{
+        "children":[
+            "flex-layout.col#form-six-1",
+            "flex-layout.col#form-six-2"
+        ]
+    },
+
+    "flex-layout.col#form-six-1":{
+        "children":[
+            "image#image-form-1",
+            "flex-layout.row#form-six-1-1"
+        ]
+    },
+
+    "image#image-form-1":{
+        "props":{
+            "src": "assets/form-1.png"
+        }
+    },
+
+    "flex-layout.row#form-six-1-1":{
+        "children":[
+            "form-input.text#lancamentos"
+        ]
+    },
+
+    "form-input.text#lancamentos":{
+        "props":{
+            "pointer": "#/properties/primeiraopcao"
+        }
+    },
+
+    "flex-layout.col#form-six-2":{
+        "children":[
+            "image#image-form-2",
+            "flex-layout.row#form-six-2-1"
+        ]
+    },
+
+    "image#image-form-2":{
+        "props":{
+            "src": "assets/form-2.png"
+        }
+    },
+
+    "flex-layout.row#form-six-2-1":{
+        "children":[
+            "form-input.text#genero-promotion"
+        ]
+    },
+
+    "form-input.text#genero-promotion":{
+        "props":{
+            "pointer": "#/properties/segundaopcao"
+        }
+    },
+
+    "form-input.checkbox#opcoes":{
+        "props":{
+            "pointer": "#/properties/sms"
+        }
+    },
+
+    "form-submit":{
+        "props":{
+            "label": "Submit"
         }
     }
-
 
 }

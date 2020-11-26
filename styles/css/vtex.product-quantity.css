@@ -13,6 +13,22 @@
 
 .quantitySelectorContainer--container-product-quantity{margin-bottom:0;}
 
+.quantitySelectorStepper :global(.vtex-numeric-stepper__input){
+    padding: 25px 0px;
+}
+
+.quantitySelectorStepper :global(.vtex-numeric-stepper__input){
+    padding: 25px 0px;
+}
+
+.quantitySelectorStepper :global(.vtex-numeric-stepper__plus-button){
+    padding: 25px 0px;
+}
+
+.quantitySelectorStepper :global(.vtex-numeric-stepper__minus-button){
+    padding: 25px 0px;
+}
+
 @media screen and (max-width: 640px) {
     .quantitySelectorStepper :global(.vtex-numeric-stepper__input){
         width:3em;

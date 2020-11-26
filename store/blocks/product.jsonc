@@ -18,104 +18,10 @@
       "homeLink": false
     }
   },
-  "flex-layout.row#description": {
-    "props": {
-      "marginBottom": 7
-    },
-    "children": [
-      "tab-layout#description"
-    ]
-  },
-
-  "tab-layout#description":{
-    "children":[
-      "tab-list#listDescription",
-      "tab-content#contentDescription"
-    ],
-    "props":{
-      "blockClass":"content-description"
-    }
-  },
-  "tab-list#listDescription": {
-    "children": [
-      "tab-list.item#product-description",
-      "tab-list.item#product-specification",
-      "tab-list.item#product-shipping"
-    ],
-    "props": {
-      "blockClass": "container-tabsDescription"
-    }
-  },
-  "tab-list.item#product-description": {
-    "props": {
-      "tabId": "product-description",
-      "label": "Visão geral",
-      "defaultActiveTab": true,
-      "blockClass": "btn-description"
-    }
-  },
-  "tab-list.item#product-specification": {
-    "props": {
-      "tabId": "product-specification",
-      "label": "Especificações",
-      "blockClass": "btn-description"
-    }
-  },
-  "tab-list.item#product-shipping":{
-    "props":{
-      "tabId": "product-shipping",
-      "label": "Frete e Entrega",
-      "blockClass": "btn-description"      
-    }
-  },
-  "tab-content#contentDescription": {
-    "children": [
-      "tab-content.item#product-description",
-      "tab-content.item#product-specification",
-      "tab-content.item#product-shipping"
-    ]
-  },
-  "tab-content.item#product-description": {
-    "children": [
-      "product-description"
-    ],
-    "props": {
-      "tabId": "product-description"
-    }
-  },
-    "product-description": {
-      "props": {
-        "collapseContent": false
-      }
-    },
-  "tab-content.item#product-specification": {
-    "children": [
-      "product-specifications"
-    ],
-    "props": {
-      "tabId": "product-specification"
-    }
-  },
-    "product-specifications": {
-      "props": {
-        "collapsible": "never"
-      }
-    },  
-    
-  "tab-content.item#product-shipping":{
-    "children":[
-      "shipping-simulator"
-    ],
-    "props":{
-      "tabId":"product-shipping"
-    }
-  },   
-  "shipping-simulator":{
-
-  },
 
   "flex-layout.row#product-main": {
     "props": {
+      "blockClass": "product-main",
       "colGap": 7,
       "rowGap": 7,
       "marginTop": 4,
@@ -158,7 +64,6 @@
   },
   "responsive-layout.desktop":{
     "children":[
-      "flex-layout.row#description",
       "product-reviews"      
     ]
   },
@@ -173,10 +78,11 @@
   "product-images": {
     "props": {
       "aspectRatio": {
-        "desktop": "16:9",
+        "desktop": "1920:1080",
         "phone": "16:9",
-        "displayThumbnailsArrows": true
+        "displayThumbnailsArrows": false
       },
+      "thumbnailAspectRatio": "16:10",
       "showNavigationArrows": false,
       "showPaginationDots": true,
       "hiddenImages": "quadradodecor"
@@ -184,6 +90,7 @@
   },
   "flex-layout.col#right-col": {
     "props": {
+      "blockClass": "infosMain",
       "preventVerticalStretch": true,
       "rowGap": 0
     },
@@ -196,16 +103,147 @@
       // "product-identifier.product",
       "product-price#product-details",
       "product-installments",
-      "product-separator",
+      //"product-separator",
       "sku-selector",
       "flex-layout.row#buy-button",
       "product-assembly-options",
       "product-gifts",      
       "availability-subscriber",
       "responsive-layout.desktop#share",
+      "disclosure-layout-group#product-infos",
       "responsive-layout.phone"
     ]
   },
+
+  "disclosure-layout-group#product-infos":{
+    "children":[
+      "disclosure-layout#1-description" ,
+      "disclosure-layout#2-specifications",
+      "disclosure-layout#3-shipping"
+    ],
+    "props":{
+      "blockClass": "disclosure-product-infos"
+    }
+  },
+
+  "disclosure-state-indicator#main": {
+    "props": {
+      "Show": "image#plusCK",
+      "Hide": "image#minusCK"
+    }
+  },
+
+  "image#plusCK":{
+    "props":{
+      "src": "https://calvinklein.vteximg.com.br/arquivos/plusCK.png"
+    }
+  },
+
+  "image#minusCK":{
+    "props":{
+      "src": "https://calvinklein.vteximg.com.br/arquivos/minusCK.png"
+    }
+  },
+
+  // DISCLOSURE ONE
+  "disclosure-layout#1-description":{
+    "children":[
+      "disclosure-trigger#1-description", 
+      "disclosure-content#1-description"
+    ],
+    "props":{
+      "blockClass": "disclosure-product-infos"
+    }
+  },
+
+  "disclosure-trigger#1-description":{
+    "children":[
+      "rich-text#description-title",
+      "disclosure-state-indicator#main"
+    ],
+    "props":{
+      "blockClass": "disclosure-product-infos"
+    }
+  },
+  "rich-text#description-title":{
+    "props":{
+      "text": "DESCRIÇÃO",
+      "blockClass": "disclosure-product-infos"
+    }
+  },
+
+  "disclosure-content#1-description":{
+    "children":[
+      "product-description"
+    ]
+  },
+
+  // DISCLOSURE TWO
+  "disclosure-layout#2-specifications":{
+    "children":[
+      "disclosure-trigger#2-specifications", 
+      "disclosure-content#2-specifications"
+    ],
+    "props":{
+      "blockClass": "disclosure-product-infos"
+    }
+  },
+
+  "disclosure-trigger#2-specifications":{
+    "children":[
+      "rich-text#specifications-title",
+      "disclosure-state-indicator#main"
+    ],
+    "props":{
+      "blockClass": "disclosure-product-infos"
+    }
+  },
+  "rich-text#specifications-title":{
+    "props":{
+      "text": "ESPECIFICAÇÃO",
+      "blockClass": "disclosure-product-infos"
+    }
+  },
+
+  "disclosure-content#2-specifications":{
+    "children":[
+      "product-specifications"
+    ]
+  },
+
+  // DISCLOSURE THREE
+  "disclosure-layout#3-shipping":{
+    "children":[
+      "disclosure-trigger#3-shipping", 
+      "disclosure-content#3-shipping"
+    ],
+    "props":{
+      "blockClass": "disclosure-product-infos"
+    }
+  },
+
+  "disclosure-trigger#3-shipping":{
+    "children":[
+      "rich-text#shipping-title",
+      "disclosure-state-indicator#main"
+    ],
+    "props":{
+      "blockClass": "disclosure-product-infos"
+    }
+  },
+  "rich-text#shipping-title":{
+    "props":{
+      "text": "FRETE E ENTREGA",
+      "blockClass": "disclosure-product-infos"
+    }
+  },
+
+  "disclosure-content#3-shipping":{
+    "children":[
+      "shipping-simulator"
+    ]
+  },
+
   "responsive-layout.desktop#share":{
     "children":[
       "share#default"
@@ -213,7 +251,6 @@
   },
   "responsive-layout.phone":{
     "children":[
-        "flex-layout.row#description",
         "product-reviews"       
     ]
   },
@@ -281,7 +318,8 @@
   "flex-layout.col#content-buybutton":{
     "props":{
       "width":"50%",
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "blockClass": "buyButton"
     },
     "children":[
       "buy-button#product"
