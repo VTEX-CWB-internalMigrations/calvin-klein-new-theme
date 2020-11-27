@@ -2,7 +2,8 @@
   "store.product": {
     "children": [
       "flex-layout.row#product-breadcrumb",
-      "flex-layout.row#product-main"
+      "flex-layout.row#product-main",
+      "responsive-layout.desktop#reviews"
       //"shelf.relatedProducts"
     ]
   },
@@ -54,15 +55,14 @@
 
   "flex-layout.col#stack": {
     "children": [
-      "stack-layout",
-      "responsive-layout.desktop"
+      "stack-layout"
     ],
     "props": {
       "width": "50%",
       "rowGap": 0
     }
   },
-  "responsive-layout.desktop":{
+  "responsive-layout.desktop#reviews":{
     "children":[
       "product-reviews"      
     ]
