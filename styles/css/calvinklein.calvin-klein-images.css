@@ -1,0 +1,10 @@
+.ckImagesContainer{
+    display: flex;
+    flex-direction: column;
+    max-height: 1200px;
+    overflow: scroll;
+}
+
+.initialImages{
+    margin-bottom: 25px;
+}
