@@ -38,8 +38,8 @@
       "blockClass": "product"
     },
     "children": [
-      "calvin-klein-images",
-      //"flex-layout.row#product-image",
+      //"calvin-klein-images",
+      "flex-layout.row#product-image",
       "product-bookmark",
       "product-specification-badges"
     ]
@@ -47,7 +47,7 @@
 
   "calvin-klein-images":{
     "props":{
-      
+
     }
   },
 
