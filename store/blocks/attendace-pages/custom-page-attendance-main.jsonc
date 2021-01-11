@@ -1,0 +1,416 @@
+{
+    "store.custom#attendance-type": {
+      "blocks": [
+        "flex-layout.row#title-menu-attendance"
+        //"rich-text#attendance-title",
+        //"flex-layout.row#disclosure",
+        //"rich-text#attendance-bottom",
+        //"flex-layout.row#attendance-bottom"
+      ]
+    },
+
+    "flex-layout.row#title-menu-attendance":{
+        "children":[
+            "flex-layout.col#title-menu-attendance"
+        ],
+        "props":{
+            
+        }
+    },
+
+    "flex-layout.col#title-menu-attendance":{
+        "children":[
+            "flex-layout.row#attendance-navigation",
+            "flex-layout.row#links-attendance"
+        ],
+        "props":{
+
+        }
+    },
+
+    "flex-layout.row#attendance-navigation":{
+      "children":[
+        "rich-text#attendance-navigation"
+      ]
+    },
+    "rich-text#attendance-navigation":{
+      "props":{
+        "blockClass": "titles-page",
+        "text": "TÓPICOS PRINCIPAIS"
+      }
+    },
+
+    "flex-layout.row#links-attendance":{
+      "children":[
+        "vtex.menu@2.x:menu#attendance-middles-menu"
+      ]
+    },
+  
+    "vtex.menu@2.x:menu#attendance-middles-menu":{
+      "children":[
+        "menu-item#a-cadastro",
+        "menu-item#a-cancelamento",
+        "menu-item#a-como-comprar",
+        "menu-item#a-contato",
+        "menu-item#a-entrega",
+        "menu-item#a-formas",
+        "menu-item#a-servico",
+        "menu-item#a-sobre-a",
+        "menu-item#a-troca-e-devolucao"
+      ],
+      "props": {
+        "blockClass": ["department-middles", "attendance-menu"],
+        "experimentalOptimizeRendering": true,
+        "orientation": "horizontal"
+      }
+    },
+
+    "menu-item#a-cadastro":{
+      "props": {
+        "blockClass": "attendance",
+        "id": "menu-item-a-cadastro",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "/atendimento-cadastro",
+            "noFollow": true,
+            "tagTitle": "Cadastro",
+            "text": "Cadastro"
+        }
+      }
+    },
+    "menu-item#a-cancelamento":{
+      "props": {
+        "blockClass": "attendance",
+        "id": "menu-item-a-cancelamento",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "/atendimento-cancelamento",
+            "noFollow": true,
+            "tagTitle": "Cancelamento/Devolução",
+            "text": "Cancelamento/Devolução"
+        }
+      }
+    },
+    "menu-item#a-como-comprar":{
+      "props": {
+        "blockClass": "attendance",
+        "id": "menu-item-a-comprar",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "/atendimento-comprar",
+            "noFollow": true,
+            "tagTitle": "Como Comprar",
+            "text": "Como Comprar"
+        }
+      }
+    },
+    "menu-item#a-contato":{
+      "props": {
+        "blockClass": "attendance",
+        "id": "menu-item-a-contato",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "/atendimento-contato",
+            "noFollow": true,
+            "tagTitle": "Contato",
+            "text": "Contato"
+        }
+      }
+    },
+    "menu-item#a-entrega":{
+      "props": {
+        "blockClass": "attendance",
+        "id": "menu-item-a-entrega",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "/atendimento-entrega",
+            "noFollow": true,
+            "tagTitle": "Entrega",
+            "text": "Entrega"
+        }
+      }
+    },
+    "menu-item#a-formas":{
+      "props": {
+        "blockClass": "attendance",
+        "id": "menu-item-a-formas",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "/atendimento-pagamento",
+            "noFollow": true,
+            "tagTitle": "Formas de Pagamento",
+            "text": "Formas de Pagamento"
+        }
+      }
+    },
+    "menu-item#a-servico":{
+      "props": {
+        "blockClass": "attendance",
+        "id": "menu-item-a-servico",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "/atendimento-servicos",
+            "noFollow": true,
+            "tagTitle": "Serviços e Promoções",
+            "text": "Serviços e Promoções"
+        }
+      }
+    },
+    "menu-item#a-sobre-a":{
+      "props": {
+        "blockClass": "attendance",
+        "id": "menu-item-a-sobre-a-loja",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "/atendimento-sobre-a-calvin-klein",
+            "noFollow": true,
+            "tagTitle": "Sobre a Calvin Klein",
+            "text": "Sobre a Calvin Klein "
+        }
+      }
+    },
+    "menu-item#a-troca-e-devolucao":{
+      "props": {
+        "blockClass": "attendance",
+        "id": "menu-item-a-troca-e-devolucao",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "/atendimento-troca-e-devolucao",
+            "noFollow": true,
+            "tagTitle": "Troca e Devolução",
+            "text": "Troca e Devolução"
+        }
+      }
+    },
+
+    "rich-text#attendance-title":{
+        "props":{
+            "text": "# TITLE-HERE",
+            "blockClass": "title-attendance"
+        }
+    },
+
+    "flex-layout.row#disclosure":{
+        "children":[
+            "flex-layout.col#disclosure"
+        ],
+        "props":{
+            "blockClass": "disclosure-box"
+        }
+    },
+
+    "flex-layout.col#disclosure":{
+        "children":[
+            "disclosure-layout-group#group"
+        ]
+    },
+
+    "disclosure-layout-group#group": {
+        "children": [
+            "disclosure-layout#first", 
+            "disclosure-layout#second", 
+            "disclosure-layout#third",
+            "disclosure-layout#fourth",
+            "disclosure-layout#fifth"
+        ],
+        "props":{
+            "blockClass": "disclosure-box"
+        }
+      },
+    
+      "disclosure-layout#first": {
+        "children": ["disclosure-trigger#first", "disclosure-content#first"]
+      },
+      "disclosure-trigger#first": {
+        "children": ["disclosure-state-indicator", "rich-text#question1"]
+      },
+      "disclosure-content#first": {
+        "children": ["rich-text#answer1"]
+      },
+      "rich-text#question1": {
+        "props": {
+          "text": "How can I change my shipping address?",
+          "blockClass": "disclosure-title"
+        }
+      },
+      "rich-text#answer1": {
+        "props": {
+          "text": "Call us at the number (212) 1234-1234.",
+          "blockClass": "disclosure-text"
+        }
+      },
+    
+      "disclosure-layout#second": {
+        "children": ["disclosure-trigger#second", "disclosure-content#first"]
+      },
+      "disclosure-trigger#second": {
+        "children": ["disclosure-state-indicator", "rich-text#question1"]
+      },
+      "disclosure-content#second": {
+        "children": ["rich-text#answer1"]
+      },
+      "rich-text#question2": {
+        "props": {
+          "text": "How can I track my order?",
+          "blockClass": "disclosure-title"
+        }
+      },
+      "rich-text#answer2": {
+        "props": {
+          "text": "After logging into your account, you can find this info at the link Orders.",
+          "blockClass": "disclosure-text"
+        }
+      },
+
+      "disclosure-layout#third": {
+        "children": ["disclosure-trigger#third", "disclosure-content#third"]
+      },
+      "disclosure-trigger#third": {
+        "children": ["disclosure-state-indicator", "rich-text#question3"]
+      },
+      "disclosure-content#third": {
+        "children": ["rich-text#answer3"]
+      },
+      "rich-text#question3": {
+        "props": {
+          "text": "How can I track my order?",
+          "blockClass": "disclosure-title"
+        }
+      },
+      "rich-text#answer3": {
+        "props": {
+          "text": "After logging into your account, you can find this info at the link Orders.",
+          "blockClass": "disclosure-text"
+        }
+      },
+
+
+      "disclosure-layout#fourth": {
+        "children": ["disclosure-trigger#fourth", "disclosure-content#fourth"]
+      },
+      "disclosure-trigger#fourth": {
+        "children": ["disclosure-state-indicator", "rich-text#question4"]
+      },
+      "disclosure-content#fourth": {
+        "children": ["rich-text#answer4"]
+      },
+      "rich-text#question4": {
+        "props": {
+          "text": "How can I change my shipping address?",
+          "blockClass": "disclosure-title"
+        }
+      },
+      "rich-text#answer4": {
+        "props": {
+          "text": "Call us at the number (212) 1234-1234.",
+          "blockClass": "disclosure-text"
+        }
+      },
+
+      "disclosure-layout#fifth": {
+        "children": ["disclosure-trigger#fifth", "disclosure-content#fifth"]
+      },
+      "disclosure-trigger#fifth": {
+        "children": ["disclosure-state-indicator", "rich-text#question5"]
+      },
+      "disclosure-content#fifth": {
+        "children": ["rich-text#answer5"]
+      },
+      "rich-text#question5": {
+        "props": {
+          "text": "How can I change my shipping address?",
+          "blockClass": "disclosure-title"
+        }
+      },
+      "rich-text#answer5": {
+        "props": {
+          "text": "Call us at the number (212) 1234-1234.",
+          "blockClass": "disclosure-text"
+        }
+      },
+
+    "disclosure-state-indicator": {
+        "props": {
+            "Show": "rich-text#show",
+            "Hide": "rich-text#hide"
+        }
+    },
+
+    "rich-text#show":{
+        "props":{
+            "text": "",
+            "blockClass": "up"
+        }
+    },
+
+    "rich-text#hide":{
+        "props":{
+            "text": "",
+            "blockClass": "down"
+        }
+    },
+
+    "rich-text#attendance-bottom":{
+      "props":{
+        "text": "Ainda precisa de ajuda? Escolha como você quer entrar em contato:",
+        "blockClass": "attendance-bottom-text"
+      }
+    },
+    "flex-layout.row#attendance-bottom":{
+      "children":[
+        "rich-text#email",
+        "rich-text#chat",
+        "rich-text#telefone"
+      ],
+      "props":{
+        "blockClass": "attendance-bottom"
+      }
+    },
+
+    "rich-text#email":{
+      "props":{
+        "text": "E-MAIL",
+        "blockClass": "attendance-mail"
+      }
+    },
+    "rich-text#chat":{
+      "props":{
+        "text": "CHAT",
+        "blockClass": "attendance-chat"
+      }
+    },
+    "rich-text#telefone":{
+      "props":{
+        "text": "TELEFONE",
+        "blockClass": "attendance-phone"
+      }
+    }
+    
+  }

@@ -1,0 +1,298 @@
+{
+  "vtex.menu@2.x:menu#Products": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer-text"
+    },
+    "children": [
+    ]
+  },
+ 
+
+  "vtex.menu@2.x:menu#footer-decoration": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+    ]
+  },
+
+  "vtex.menu@2.x:menu#footer-bags": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+    ]
+  },
+
+  "vtex.menu@2.x:menu#footer-clothing": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+
+    ]
+  },
+
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#infos-mobile",
+      "menu-item#explore-mobile",
+      "menu-item#sobre-mobile",
+      "menu-item#atendimento-mobile",
+      "menu-item#idioma-mobile"
+    ]
+  },
+
+  "menu-item#atendimento-mobile":{
+    "props": {
+      "blockClass": "main-footer-item",
+      "id": "menu-item-category-atendimento",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "ATENDIMENTO AO CLIENTE",
+        "text": "ATENDIMENTO AO CLIENTE"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#atendimento"]
+  },
+  "menu-item#idioma-mobile":{
+    "props": {
+      "blockClass": "main-footer-item",
+      "id": "menu-item-category-idioma",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "IDIOMA",
+        "text": "IDIOMA"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#idioma"]
+  },
+
+  "menu-item#infos-mobile": {
+    "props": {
+      "blockClass": "main-footer-item",
+      "id": "menu-item-category-infos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "INFORMAÇÕES ÚTEIS",
+        "text": "INFORMAÇÕES ÚTEIS"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#infos"]
+  },
+  "vtex.menu@2.x:submenu.accordion#infos": {
+    "children": ["vtex.menu@2.x:menu#infos"]
+  },
+
+  "vtex.menu@2.x:menu#infos": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+    ]
+  },
+
+  "menu-item#explore-mobile": {
+    "props": {
+      "blockClass": "main-footer-item",
+      "id": "menu-item-category-explore",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "EXPLORE",
+        "text": "EXPLORE"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#explore"]
+  },
+  "vtex.menu@2.x:submenu.accordion#explore": {
+    "children": ["vtex.menu@2.x:menu#explore"]
+  },
+
+  "menu-item#sobre-mobile": {
+    "props": {
+      "blockClass": "main-footer-item",
+      "id": "menu-item-category-sobre",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "SOBRE",
+        "text": "SOBRE"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#sobre"]
+  },
+  "vtex.menu@2.x:submenu.accordion#sobre": {
+    "children": ["vtex.menu@2.x:menu#footer-sobre"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#atendimento":{
+    "children": ["rich-text#atendimento-footer"]
+  },
+
+  "rich-text#atendimento-footer":{
+    "props":{
+      "blockClass": "atendimento-footer",
+      "text": "Telefone: (11) 2388-8250 Horário de Atendimento Segunda à Sexta das 8h às 20h Exceto Feriados ENDEREÇO Rod Coronel Policia Militar Nelson Tranchesi, 1730, Galpão 01 e 02. Bairro Itaqui, Itapevi - SP CEP: 06969-110"
+    }
+  },
+
+  "vtex.menu@2.x:submenu.accordion#idioma":{
+    "children":["locale-switcher"]
+  },
+
+  "vtex.menu@2.x:menu#footer-atendimento":{
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+    ]
+  },
+
+  "vtex.menu@2.x:menu#explore":{
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+    ]
+  },
+
+  "vtex.menu@2.x:menu#footer-sobre": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+    ]
+  },
+
+  "vtex.menu@2.x:menu#footer-idioma":{
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+    ]
+  },
+
+  "menu-item#clothing": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    }
+  },
+
+  "menu-item#shorts": {
+    "props": {
+      "id": "menu-item-shorts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shorts",
+        "noFollow": false,
+        "tagTitle": "Shorts",
+        "text": "Shorts"
+      }
+    }
+  },
+
+  "menu-item#tank-tops": {
+    "props": {
+      "id": "menu-item-tank-tops",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/tank-tops",
+        "noFollow": false,
+        "tagTitle": "Tank tops",
+        "text": "Tank tops"
+      }
+    }
+  },
+
+  "menu-item#shirts": {
+    "props": {
+      "id": "menu-item-shirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shirts",
+        "noFollow": false,
+        "tagTitle": "Shirts",
+        "text": "Shirts"
+      }
+    }
+  },
+
+  "menu-item#sweatshirt": {
+    "props": {
+      "id": "menu-item-sweat-shirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/sweatshirt",
+        "noFollow": false,
+        "tagTitle": "Sweatshirt",
+        "text": "Sweatshirt"
+      }
+    }
+  },
+
+  "menu-item#cropped": {
+    "props": {
+      "id": "menu-item-cropped",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/cropped",
+        "noFollow": false,
+        "tagTitle": "Cropped",
+        "text": "Cropped"
+      }
+    }
+  }
+}

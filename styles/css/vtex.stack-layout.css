@@ -1,0 +1,19 @@
+.stackItem--product {
+  width: 100%;
+}
+
+.stackItem--quickview {
+  bottom: 65px;
+  height: 60px;
+  top: auto;
+}
+
+.stackItem--quickview{
+  width: 100%;
+}
+
+.stackItem--quickview{
+  z-index: 999 !important;
+}
+
+
