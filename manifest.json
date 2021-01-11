@@ -71,7 +71,8 @@
     "vtex.render-runtime": "8.x",
     "vtex.docs-graphql": "0.x",
     "vtex.messages": "1.x",
-    "vtex.render-server": "8.x"
+    "vtex.render-server": "8.x",
+    "vtex.reviews-and-ratings": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
