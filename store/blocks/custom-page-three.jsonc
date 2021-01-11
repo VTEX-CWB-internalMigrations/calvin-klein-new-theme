@@ -1,0 +1,98 @@
+{
+    "store.custom#third-type": {
+      "blocks": [
+        "flex-layout.row#video-start",
+        //"iframe#iframe-video",
+        "flex-layout.row#title-menu",
+        "flex-layout.row#title-text",
+        "flex-layout.row#first-shelf",
+        "flex-layout.row#title-menu-2",
+        "flex-layout.row#title-text-2",
+        "image#custom1",
+        "image#custom-mobile-1",
+        "rich-text#custom-1",
+        "image#custom2",
+        "image#custom-mobile-2",
+        "rich-text#custom-2"
+      ]
+    },
+
+    "flex-layout.row#video-start":{
+        "children":[
+            "rich-text#video-department"
+        ]
+    },
+
+    "flex-layout.row#title-text":{
+        "children":[
+            "rich-text#custom-subtitle"
+        ]
+    },
+
+    "flex-layout.row#title-text-2":{
+        "children":[
+            "rich-text#custom-subtitle"
+        ]
+    },
+
+    "rich-text#video-department":{
+        "props":{
+            "text": "PLACE YOUR VIDEO HERE",
+            "blockClass": "video-department"
+        }
+    },
+
+    "rich-text#custom-subtitle":{
+        "props":{
+            "text": "PLACE HERE YOUR SUBTITLE",
+            "blockClass": "subtitle-custom"
+        }
+    },
+
+    "flex-layout.row#title-menu-2":{
+        "children":[
+            "flex-layout.col#title-menu"
+        ],
+        "props":{
+            
+        }
+    },
+
+    "iframe#iframe-video":{
+        "props": {
+            "src": "https://player.vimeo.com/video/461926674?background=1",
+            "height": "600",
+            "width": "900"
+          }
+    },
+    "image#custom-mobile-1":{
+        "props":{
+            "blockClass": "mobile-custom-image"
+        }
+    },
+    "image#custom-mobile-2":{
+        "props":{
+            "blockClass": "mobile-custom-image"
+        }
+    },
+    "image#custom1":{
+        "props":{
+            "blockClass": "desktop-custom-image"
+        }
+    },
+    "rich-text#custom-1":{
+        "props":{
+            
+        }
+    },
+    "image#custom2":{
+        "props":{
+            "blockClass": "desktop-custom-image"
+        }
+    },
+    "rich-text#custom-2":{
+        "props":{
+
+        }
+    }
+  }

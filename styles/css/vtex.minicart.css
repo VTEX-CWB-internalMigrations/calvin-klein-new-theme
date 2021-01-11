@@ -1,0 +1,11 @@
+.openIconContainer--minicart-mobile{
+    padding: 0px;
+}
+
+.cartIcon{
+    height: 20px;
+}
+
+.labelDiscountText , .sellingPrice{
+    font-family: calvin-klein;
+}

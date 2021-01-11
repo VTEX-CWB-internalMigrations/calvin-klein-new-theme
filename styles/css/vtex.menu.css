@@ -1,0 +1,135 @@
+.styledLinkContent{
+    font-family: calvin-klein;
+}
+
+.styledLinkContent--main-menu-item{
+    font-size: 12px
+}
+
+.styledLinkContainer--department-middles{
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 5px 5px;
+    transition: 0.5s;
+}
+
+.styledLinkContent--department-middles{
+    font-size: 13px;
+}
+
+.styledLinkContainer--department-middles:hover{
+    background: #000;
+}
+
+.styledLinkContainer--department-middles:hover .styledLinkContent--department-middles{
+    color: #fff;
+}
+
+.menuContainer--department-middles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.menuContainer--footer-text .styledLinkContent{
+    font-size: 13px;
+}
+
+.styledLinkContent--main-footer-item{
+    padding: 10px 0px;
+    border-top: 0.5px solid #d1d1d1;
+}
+
+.styledLinkContent--main-mobile{
+    font-size: 20px;
+}
+
+.menuItem--main-mobile{
+    padding: 5px 0px;
+}
+
+.styledLinkContainer--institutional-item{
+    margin-left: 0px;
+}
+
+.styledLinkContent--institutional-item{
+    font-size: 14px;
+}
+
+.menuContainer--attendance-menu{
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+.menuContainer--attendance-menu .styledLinkContainer{
+    padding: 10px 10px 6px;
+    margin: 10px;
+    border: 1px solid #000;
+}
+
+.menuContainer--attendance-menu .styledLinkContainer:hover {
+    background: #000;
+}
+
+.menuContainer--attendance-menu .styledLinkContainer:hover .styledLinkContent--attendance{
+    color: #fff;
+}
+
+.styledLinkContent--submenuTitle{
+    white-space: nowrap;
+}
+
+
+@media only screen and (min-width: 640px) {
+    .submenuContainer--main-submenu{
+        position: absolute;
+        left: 0px;
+        width: 100vw;
+        height: fit-content;
+        background: #fff;
+    }
+
+    .submenuWrapper--main-submenu{
+        width: 100%;
+        border-bottom: 0px;
+        padding-top: 40px;
+    }
+
+    .submenu--main-submenu{
+        background: #fff;
+        width: 100%;
+        max-width: 1600px;
+        margin: 0px auto;
+        padding: 30px 0px;
+    }
+
+    .menuContainer--submenuTitle .menuItem--submenuTitle:first-child .styledLinkContent{
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+}
+
+.submenuWrapper--main-submenu{
+    position: relative;
+    min-height: 400px;
+}
+
+
+
+@media only screen and (max-width: 640px) {
+    .styledLinkContent--institutional-item{
+        text-align: center;
+        margin: 5px auto;
+        display: block;
+    }
+    .styledLinkContainer--institutional-item{
+        margin: 0px;
+    }
+
+    .menuContainer--main-menu-inst{
+        background: #d4d4d4;
+    }
+}

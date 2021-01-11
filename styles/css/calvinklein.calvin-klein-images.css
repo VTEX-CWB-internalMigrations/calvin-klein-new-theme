@@ -1,0 +1,36 @@
+.imagesContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.imagesContainer .eachImage:not(:first-child) {
+    margin-top:40px;
+}
+
+.wholeModal{
+    height: 100vh;
+    width: 150vw;
+}
+
+.thumbnailContainer .eachImage {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    
+}
+
+.thumbnailContainer .eachImage:not(:first-child) {
+    margin-top: 10px;
+}
+
+.imagesContainer .eachImage {
+    cursor: pointer;
+}
+
+.mainModalImage{
+    align-items: center;
+    z-index: 2000;
+    left: 35%;
+    width: 125vh;
+    position: absolute;
+    cursor:zoom-in;
+    margin-left: -8%;
+}

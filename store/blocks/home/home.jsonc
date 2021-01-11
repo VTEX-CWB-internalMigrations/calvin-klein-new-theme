@@ -1,0 +1,516 @@
+{
+  "store.home": {
+    "blocks": [
+      "info-card#main-infocard",
+      "info-card#main--mobile",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "__fold__.experimentalLazyAssets",
+      "flex-layout.row#department-links",
+      "info-card#second-infocard",
+      "info-card#second-infocard-mobile",
+      "__fold__",
+      "flex-layout.row#buttons-text",
+      //"flex-layout.row#first-shelf",
+      "info-card#third-infocard",
+      "info-card#third-infocard-mobile",
+      //"flex-layout.row#third-shelf",
+      "flex-layout.row#outlet-text",
+      "flex-layout.row#double-images",
+      "list-context.image-list#bottom-images",
+      //"newsletter",
+      "flex-layout.row#newsletter"
+
+    ]
+  },
+
+  "flex-layout.row#newsletter":{
+    "children":[
+      "flex-layout.col#newsletter"
+    ],
+    "props":{
+      "blockClass": "newsletter-row"
+    }
+  },
+
+  "flex-layout.col#newsletter":{
+    "children":[
+      "rich-text#newsletter-title",
+      "newsletter-form"
+    ],
+    "props":{
+      "blockClass": "newsletter-col"
+    }
+  },
+
+  "rich-text#newsletter-title":{
+    "props":{
+      "text": "ASSINE NOSSA NEWSLETTER",
+      "blockClass": "newsletter-title"
+    }
+  },
+
+  "newsletter-form": {
+    "children": [
+      "flex-layout.row#top-newsletter",
+      "newsletter-checkbox-confirmation"
+
+    ]
+  },
+
+  "flex-layout.row#top-newsletter":{
+    "children":[
+      "newsletter-input-email",
+      "newsletter-submit"
+    ],
+    "props":{
+      "blockClass": "newsletter-input"
+    }
+  },
+
+  "newsletter-input-email":{
+    "props":{
+
+    }
+  },
+  "newsletter-checkbox-confirmation":{
+    "props":{
+      "checkboxLabel": "Gostaria de receber atualizações dos últimos produtos e promoções por e-mail ou outros canais. Por favor veja a nossa {firstLink} para mais informações",
+      "firstLabelLink": {
+        "url": "/politica-de-privacidade",
+        "text": "política de privacidade"
+      }
+    }
+  },
+  "newsletter-submit":{
+    "props":{
+      
+    }
+  },
+
+  "info-card#main--mobile":{
+    "props":{
+      "id": "info-card-main-home-mobile",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Título",
+      "subhead": "Texto informativo cadastrado aqui",
+      "callToActionText": "Botão de ação",
+      "callToActionUrl": "/sale/d",
+      "blockClass": ["info-card-home", "info-card-home-mobile"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#second-infocard-mobile":{
+    "props":{
+      "id": "info-card-main-home-mobile",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Título",
+      "subhead": "Texto informativo cadastrado aqui",
+      "callToActionText": "Botão de ação",
+      "callToActionUrl": "/sale/d",
+      "blockClass": ["info-card-home", "info-card-home-mobile"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#third-infocard-mobile":{
+    "props":{
+      "id": "info-card-main-home-mobile",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Título",
+      "subhead": "Texto informativo cadastrado aqui",
+      "callToActionText": "Botão de ação",
+      "callToActionUrl": "/sale/d",
+      "blockClass": ["info-card-home", "info-card-home-mobile"],
+      "textAlignment": "left"
+    }
+  },
+  
+
+
+  "list-context.image-list#bottom-images": {
+    "children": ["slider-layout#bottom-images"],
+    "props": {
+      "blockClass": "images-bottom",
+      "images": [
+      ]
+    }
+  },
+
+  "slider-layout#bottom-images": {
+    "props": {
+      "blockClass": "images-bottom",
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "showPaginationDots": "never",
+      "showNavigationArrows": "mobileOnly"
+    }
+  },
+
+  
+
+  "info-card#main-infocard":{
+    "props": {
+      "id": "info-card-main-home",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Título",
+      "subhead": "Texto informativo cadastrado aqui",
+      "callToActionText": "Botão de ação",
+      "callToActionUrl": "/sale/d",
+      "blockClass": ["info-card-home" , "info-card-home-desktop"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#second-infocard":{
+    "props": {
+      "id": "info-card-second-home",
+      "isFullModeStyle": true,
+      "textPosition": "right",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Título",
+      "subhead": "Texto informativo cadastrado aqui",
+      "callToActionText": "Botão de ação",
+      "callToActionUrl": "/sale/d",
+      "blockClass": ["info-card-home","info-card-home-desktop","right-infocard"],
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#third-infocard":{
+    "props": {
+      "id": "info-card-second-home",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Título",
+      "subhead": "Texto informativo cadastrado aqui",
+      "callToActionText": "Botão de ação",
+      "callToActionUrl": "/sale/d",
+      "blockClass": ["info-card-home", "info-card-home-desktop" ,"right-infocard"],
+      "textAlignment": "left"
+    }
+  },
+
+  "flex-layout.row#buttons-text":{
+    "children":[
+      "flex-layout.col#outlet-text"
+    ],
+    "props":{
+      "blockClass": "flex-outlet"
+    }
+  },
+
+  "flex-layout.row#outlet-text":{
+    "children":[
+      "flex-layout.col#outlet-text"
+    ],
+    "props":{
+      "blockClass": "flex-outlet"
+    }
+  },
+
+  "flex-layout.col#outlet-text":{
+    "children":[
+      "flex-layout.row#outlet-one",
+      "flex-layout.row#outlet-two",
+      "flex-layout.row#outlet-three"
+    ]
+  },
+
+  "flex-layout.row#outlet-one":{
+    "children":[
+      "rich-text#outlet-one"
+    ],
+    "props":{
+      "blockClass": "flex-outlet-inside"
+    }
+  },
+  "flex-layout.row#outlet-two":{
+    "children":[
+      "rich-text#outlet-two"
+    ]
+  },
+  "flex-layout.row#outlet-three":{
+    "children":[
+      "flex-layout.col#oulet-button",
+      "flex-layout.col#oulet-button-two"
+    ]
+  },
+
+  "flex-layout.col#oulet-button":{
+    "children":[
+      "rich-text#outlet-button"
+    ]
+  },
+  "flex-layout.col#oulet-button-two":{
+    "children":[
+      "rich-text#outlet-button-two"
+    ]
+  },
+
+  "rich-text#outlet-one":{
+    "props":{
+      "text": "## TÍTULO",
+      "blockClass": ["shelfTitle", "outlet-title"]
+    }
+  },
+  "rich-text#outlet-two":{
+    "props":{
+      "text": "Texto descritivo",
+      "blockClass": ["outlet-text"]
+    }
+  },
+  "rich-text#outlet-button":{
+    "props":{
+      "text": "BOTÃO UM",
+      "blockClass": ["shelf-buttons", "outlet-buttons"]
+    }
+  },
+  "rich-text#outlet-button-two":{
+    "props":{
+      "text": "BOTÃO DOIS",
+      "blockClass": ["shelf-buttons", "outlet-buttons"]
+    }
+  },
+
+  "flex-layout.row#department-links":{
+    "children":[
+      "flex-layout.col#department-links"
+    ]
+  },
+  "flex-layout.col#department-links":{
+    "children":[
+      "flex-layout.row#department-links-2",
+      "flex-layout.row#department-links-3"
+    ]
+  },
+
+  "flex-layout.row#department-links-2":{
+    "children":[
+      "rich-text#department-titles"
+    ]
+  },
+  "rich-text#department-titles":{
+    "props":{
+      "blockClass": "titles-page",
+      "text": "NAVEGUE"
+    }
+  },
+  "flex-layout.row#department-links-3":{
+    "children":[
+      "vtex.menu@2.x:menu#department-middles-menu"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#department-middles-menu":{
+    "props": {
+      "blockClass": "department-middles",
+      "experimentalOptimizeRendering": true,
+      "orientation": "horizontal"
+    }
+  },
+
+
+  "shelf#home": {
+    "blocks": ["product-summary.shelf"]
+  },
+
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+
+  "flex-layout.row#first-shelf":{
+    "children":[
+      "flex-layout.col#first-shelf"
+    ]
+  },
+
+  "flex-layout.row#third-shelf":{
+    "children":[
+      "flex-layout.col#first-shelf"
+    ]
+  },
+
+  "flex-layout.col#first-shelf":{
+    "children":[
+      //"flex-layout.row#first-shelf-inside"
+      "flex-layout.row#shelf"
+    ]
+  },
+
+  "flex-layout.row#first-shelf-inside":{
+    "children":[
+      "flex-layout.col#first-shelf-inside"
+    ],
+    "props":{
+      "blockClass": ["shelf-flex", "shelf-right"]
+    }
+  },
+
+  "flex-layout.col#first-shelf-inside":{
+    "children":[
+      "rich-text#shelf-title",
+      "flex-layout.row#first-shelf-inside-buttons"
+    ]
+  },
+  "flex-layout.row#first-shelf-inside-buttons":{
+    "children":[
+      "rich-text#button-one-one",
+      "rich-text#button-one-two"
+    ]
+  },
+  "rich-text#button-one-one":{
+    "props":{
+      "text": "COMPRAR FEMININO",
+      "blockClass": "shelf-buttons"
+    }
+  },
+  "rich-text#button-one-two":{
+    "props":{
+      "text": "COMPRAR MASCULINO",
+      "blockClass": "shelf-buttons"
+    }
+  },
+
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "## Summer",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf",
+      "showPaginationDots": "never"
+    }
+  },
+
+  "flex-layout.row#double-images":{
+    "children":[
+      "flex-layout.col#first-info",
+      "flex-layout.col#second-info"
+    ]
+  },
+
+  "flex-layout.col#first-info":{
+    "children":[
+      "info-card#middle-first"
+    ],
+    "props":{
+      "blockClass": "double-image-block"
+    }
+  },
+  "flex-layout.col#second-info":{
+    "children":[
+      "info-card#middle-second"
+    ],
+    "props":{
+      "blockClass": "double-image-block"
+    }
+  },
+
+  "info-card#middle-first":{
+    "props": {
+      "id": "info-card-firts",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Título",
+      "callToActionText": "Texto de ação",
+      "callToActionUrl": "",
+      "blockClass": "info-card-double",
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#middle-second":{
+    "props": {
+      "id": "info-card-second",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Título",
+      "callToActionText": "Texto de ação",
+      "callToActionUrl": "",
+      "blockClass": "info-card-double",
+      "textAlignment": "left"
+    }
+  }
+  
+  /*"flex-layout.row#newsletter":{
+    "children":[
+      "flex-layout.col#newsletter"
+    ],
+    "props":{
+      "blockClass": "newsletter-box"
+    }
+  },
+  "flex-layout.col#newsletter":{
+    "children":[
+      "newsletter",
+      "rich-text#newsletter-rich-text"
+    ]
+  },
+  "rich-text#newsletter-rich-text":{
+    "props":{
+      "blockClass": "newsletter-text",
+      "text": "Ao submeter o email, você afirma que gostaria de receber atualizações dos últimos produtos e promoções por e-mail ou outros canais. Por favor veja a nossa política de privacidade para mais informações"
+    }
+  }*/
+}

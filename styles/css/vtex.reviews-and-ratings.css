@@ -1,0 +1,39 @@
+.inlineContainer {
+  margin-left: 0rem ;
+  margin-bottom: 3rem;
+}
+
+.star--filled {
+  color: #000;
+}
+
+.star--empty {
+  color: #d4d4d4;
+}
+
+.summaryContainer{
+  margin-bottom: 15px;
+}
+
+.summaryContainer{
+  font-size: 0px;
+}
+
+.summaryContainer .star{
+  font-size: 15px;
+}
+
+.reviewsHeading{font-size: 1rem;text-transform: uppercase;color: #333;  }
+.loginLink{background: #eee;width: auto;display: inline-block;color: #484848;border-radius: 3px;text-transform: uppercase;font-size: .7rem;}
+.review__comment{border:0;margin:0;padding:0;}
+
+.reviewsHeading{
+  font-size: 30px;
+  font-family: 'calvin-klein';
+  font-weight: 100;
+}
+
+.container{
+  max-width: 1200px;
+  margin-bottom: 50px;
+}

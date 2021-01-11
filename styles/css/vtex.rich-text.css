@@ -1,0 +1,477 @@
+.paragraph , .heading , .link{
+  font-family: calvin-klein;
+}
+
+.container--deals {
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+}
+
+.container--shelfTitle {
+  color: #727273;
+  justify-content: center;
+  text-align: center;
+}
+
+.headingLevel2--shelfTitle {
+  font-weight: 200;
+}
+
+.container--deals .paragraph {
+  margin: 0;
+}
+
+.container--link {
+  justify-content: center;
+}
+
+.container--question {
+  justify-content: center;
+}
+
+.container--question .paragraph {
+  text-align: center;
+  max-width: 540px;
+  margin: 0 16px;
+  padding-top: 120px;
+  color: #03034E;
+}
+
+.container--question .strong {
+  font-size: 32px;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.container--link .paragraph {
+  text-align: center;
+  max-width: 540px;
+  padding-top: 36px;
+  padding-bottom: 84px;
+  color: #03034E;
+}
+
+.container--link .strong {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container--link .link {
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 300;
+  color: #03034E;
+}
+
+.container--title {
+  color: #03034E;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.paragraph--top-message{
+  margin: 4px 0px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.link--top-message{
+  color: #d1d1d1;
+}
+
+.paragraph--titles-page{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+.container--titles-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paragraph--footer-title{
+  font-size: 15px;
+  font-weight: 600;
+  padding-left: 20px;
+}
+
+.paragraph--footer{
+  font-size: 13px;
+}
+
+.paragraph--footer-text{
+  margin: 0px;
+  font-size: 13px;
+  padding-left: 20px;
+}
+
+.container--shelfTitle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+.heading--shelfTitle{
+  margin-bottom: 0px;
+  font-weight: 600;
+  color: #000;
+  margin-top: 15px;
+}
+
+.paragraph--shelfTitle{
+  text-align: center;
+  margin: 0px;
+  color: #000;
+}
+
+.container--shelf-buttons .link{
+  text-decoration: none;
+  color: #000;
+}
+
+.container--shelf-buttons .paragraph{
+  background: #0000;
+  border: 1px solid #000;
+  border-radius: 0px;
+  transition: 0.5s;
+  padding-top: .25em;
+  padding-bottom: .32em;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.container--shelf-buttons .paragraph:hover {
+  text-decoration: none;
+  background: #000;
+  color: #fff;
+}
+
+.container--shelf-buttons .paragraph:hover .link {
+  color: #fff;
+}
+
+.container--newsletter-text{
+  position: absolute;
+  color: #fff;
+  bottom: 70px;
+  width: 100%;
+  font-size: 12px;
+  margin: 0px auto;
+}
+
+.paragraph--newsletter-text{
+  padding: 0px 18px;
+}
+
+.wrapper--atendimento-footer{
+  margin: 0px 10px;
+  font-size: 14px;
+}
+
+.container--outlet-title , .container--outlet-text , .container--outlet-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paragraph--outlet-buttons{
+  text-align: center;
+}
+
+.wrapper--outlet-buttons{
+  width: 100%;
+}
+
+.container--outlet-buttons .paragraph--outlet-buttons{
+  margin: 5px 0px;
+  padding: 5px 0px;
+}
+
+.heading--shelfTitle{
+  font-size: 35px;
+}
+
+.paragraph--shelf-buttons{
+  margin: 5px 0px;
+}
+
+.wrapper--shelf-buttons{
+  width: 100%;
+  text-align: center;
+}
+
+.heading--department-info{
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+
+.paragraph--department-info{
+  font-size: 13px;
+}
+
+.wrapper--department-info{
+  max-width: 800px;
+  margin: 0px auto;
+  padding: 0px 20px;
+}
+
+.paragraph--video-department{
+  font-size: 0px;
+  width: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.wrapper--video-department{
+  width: 100%;
+}
+
+.wrapper--subtitle-custom{
+  width: 100%;
+}
+
+.paragraph--subtitle-custom{
+  text-align: center;
+}
+
+.wrapper--institutional-title{
+  width: 100%;
+}
+
+.wrapper--institutional-title .paragraph{
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.wrapper--institutional-subtitle{
+  width: 100%;
+}
+
+.wrapper--institutional-subtitle .paragraph{
+  font-size: 13px;
+  font-family: calvin-klein;
+  text-align: center;
+  max-width: 700px;
+  margin: 10px auto 35px;
+}
+
+.wrapper--institutional-title .paragraph--inside-title{
+  text-align: left;
+  border-bottom: 1px solid #d1d1d1;
+
+}
+
+.wrapper--institutional-subtitle .paragraph--inside--text{
+  max-width: unset;
+  width: 100%;
+  text-align: left;
+  padding: 10px 15px;
+}
+
+.wrapper--institutional-subtitle .paragraph--inside-text{
+  text-align: left;
+  width: 100%;
+  margin: 15px 0px 25px;
+}
+
+.paragraph--menu-title-inst{
+  font-size: 13px;
+  margin-top: 40px;
+  color: #8b8b8b;
+}
+
+.heading--inside-text{
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.container--up::before{
+  content: "";
+  background: url(https://calvinklein.vteximg.com.br/arquivos/up-icon.png);
+  width: 30px;
+  height: 25px;
+  background-size: 22px;
+  background-repeat: no-repeat;
+}
+
+.container--down::before{
+  content: "";
+  background: url(https://calvinklein.vteximg.com.br/arquivos/down-icon.png);
+  width: 30px;
+  height: 25px;
+  background-size: 22px;
+  background-repeat: no-repeat;
+}
+
+.container--title-attendance{
+  max-width: 960px;
+  margin: 0px auto;
+  margin-top: 30px;
+}
+
+.wrapper--title-attendance{
+  width: 100%;
+}
+
+.heading--title-attendance{
+  font-size: 30px;
+}
+
+.container--attendance-bottom-text{
+  font-size: 14px;
+  max-width: 930px;
+  margin: 15px auto 0px;
+}
+
+.container--disclosure-text{
+  background: #f8f8f8;
+  padding: 0px 15px;
+}
+
+.wrapper--attendance-mail, .wrapper--attendance-chat, .wrapper--attendance-phone{
+  display: flex;
+  align-items: center;
+}
+
+.paragraph--attendance-mail, .paragraph--attendance-chat, .paragraph--attendance-phone{
+  margin-left: 10px;
+}
+
+.wrapper--attendance-mail::before{
+  content: "";
+  background: url(https://calvinklein.vteximg.com.br/arquivos/attendance-icon-1.png);
+  width: 30px;
+  height: 25px;
+  display: inline-flex;
+  background-size: 30px;
+  background-repeat: no-repeat;
+}
+
+.wrapper--attendance-chat::before{
+  content: "";
+  background: url(https://calvinklein.vteximg.com.br/arquivos/attendance-icon-2.png);
+  width: 30px;
+  height: 25px;
+  display: inline-flex;
+  background-size: 30px;
+  background-repeat: no-repeat;
+}
+
+.wrapper--attendance-phone::before{
+  content: "";
+  background: url(https://calvinklein.vteximg.com.br/arquivos/attendance-icon-3.png);
+  width: 30px;
+  height: 25px;
+  display: inline-flex;
+  background-size: 30px;
+  background-repeat: no-repeat;
+}
+
+.paragraph--disclosure-text{
+  font-size: 13px;
+  color: #7d7d7d;
+}
+
+.container--new-institutional , .wrapper--new-institutional{
+  width: 100%;
+  text-align: center;
+}
+
+.paragraph--new-institutional{
+  font-size: 13px;
+}
+
+.wrapper--new-institutional{
+  border-bottom: 1px solid #cdcdcd;
+}
+
+.container--fast-buy{
+  padding: 5px;
+  width: 100%;
+}
+
+.wrapper--fast-buy{
+  width: 100%;
+  margin: 0px 35px;
+  border: 1px solid #888;
+  padding: 5px 0px;
+  background: #fff;
+}
+
+.wrapper--fast-buy .paragraph{
+  text-align: center;
+  margin: 0px auto;
+}
+
+.paragraph--newsletter-title{
+  font-size: 30px;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 0px;
+}
+
+.wrapper--form-main-title .paragraph{
+  font-size: 22px;
+}
+
+.wrapper--form-sub-title .paragraph{
+  margin: 45px 0px 0px;
+}
+
+
+@media only screen and (min-width: 640px) {
+
+  .container--outlet-buttons .paragraph--outlet-buttons{
+    margin: 20px;
+  }
+
+  .heading--shelfTitle{
+    font-size: 50px;
+  }
+
+  .container--newsletter-text{
+    position: absolute;
+    color: #fff;
+    bottom: 70px;
+    width: 430px;
+    font-size: 12px;
+    margin: 0px auto;
+    left: 33.5%;
+  }
+
+  .paragraph--newsletter-text{
+    padding: 0px 0px
+  }
+
+  .container--question .strong {
+    font-size: 40px;
+    line-height: 3rem;
+  }
+
+  .container--about {
+    max-width: 85%;
+  }
+
+  .container--title {
+    color: #03034E;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 60%;
+  }
+
+  .container--title .paragraph {
+    line-height: 1.3em;
+  }
+}

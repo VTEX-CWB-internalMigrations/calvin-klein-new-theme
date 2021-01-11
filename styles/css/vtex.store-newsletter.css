@@ -1,0 +1,35 @@
+.emailInputContainer :global(.vtex-input-prefix__group){
+    border: 0px;
+    border-bottom: 1px solid #fff;
+}
+
+.emailInputContainer :global(.vtex-styleguide-9-x-input){
+    color: #fff;
+    background-color: #fff0;
+}
+
+.confirmationCheckboxContainer :global(.vtex-checkbox__line-container){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    padding: 10px 0px;
+}
+
+.confirmationCheckboxContainer :global(.vtex-checkbox__label){
+    color: #fff;
+}
+
+.labelLink{
+    color: #fff;
+}
+
+.formSubmitContainer :global(.vtex-button){
+    background: #0000;
+    border: #0000;
+}
+
+.defaultSuccessMessage{
+    color: #fff;
+}
+
