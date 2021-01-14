@@ -34,7 +34,8 @@
 }
 
 .menuContainer--footer-text .styledLinkContent{
-    font-size: 13px;
+    font-size: 15px;
+    margin: 10px 0px;
 }
 
 .styledLinkContent--main-footer-item{
@@ -78,7 +79,7 @@
 }
 
 .styledLinkContent--submenuTitle{
-    white-space: nowrap;
+    white-space: normal;
 }
 
 

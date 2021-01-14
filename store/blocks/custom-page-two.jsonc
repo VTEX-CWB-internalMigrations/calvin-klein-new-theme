@@ -2,7 +2,7 @@
     "store.custom#second-type": {
       "blocks": [
         "flex-layout.row#title-menu",
-        "flex-layout.row#double-images",
+        "flex-layout.row#double-images-custom",
         "flex-layout.row#bottom-row",
         "info-card#men-one-right",
         "info-card#men-two-right",
@@ -10,6 +10,59 @@
         "info-card#men-three-right",
         "flex-layout.row#bottom-row-2"
       ]
+    },
+
+
+    "flex-layout.row#double-images-custom":{
+      "children":[
+        "flex-layout.col#first-info-custom",
+        "flex-layout.col#second-info-custom"
+      ]
+    },
+  
+    "flex-layout.col#first-info-custom":{
+      "children":[
+        "info-card#middle-first-custom"
+      ],
+      "props":{
+        "blockClass": "double-image-block"
+      }
+    },
+    "flex-layout.col#second-info-custom":{
+      "children":[
+        "info-card#middle-second-custom"
+      ],
+      "props":{
+        "blockClass": "double-image-block"
+      }
+    },
+
+    "info-card#middle-first-custom":{
+      "props": {
+        "id": "info-card-firts",
+        "isFullModeStyle": false,
+        "textPosition": "left",
+        "imageUrl": "https://calvinklein.vtexassets.com/assets/vtex.file-manager-graphql/images/55179849-deea-43f2-8226-5572af5ba4ea___c339296b3befde3c25d07dbdd94f741f.png",
+        "headline": "CAIMENTO PERFEITO",
+        "callToActionText": "COMPRE AGORA",
+        "callToActionUrl": "/masculino/roupas/camisas",
+        "blockClass": "info-card-double",
+        "textAlignment": "left"
+      }
+    },
+  
+    "info-card#middle-second-custom":{
+      "props": {
+        "id": "info-card-second",
+        "isFullModeStyle": false,
+        "textPosition": "left",
+        "imageUrl": "https://calvinklein.vtexassets.com/assets/vtex.file-manager-graphql/images/ce2b3246-59e0-4064-ba92-992a1309f4fa___2124c1a9b50a47b2eb80fbe2f28b866a.png",
+        "headline": "",
+        "callToActionText": "Texto de ação",
+        "callToActionUrl": "",
+        "blockClass": ["info-card-double", "without-button"],
+        "textAlignment": "left"
+      }
     },
 
     "info-card#men-one-right":{

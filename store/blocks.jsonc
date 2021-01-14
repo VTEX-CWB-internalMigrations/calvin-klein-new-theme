@@ -48,6 +48,12 @@
     ]
   },
 
+  "product-price-savings#summary":{
+    "props":{
+      "message": "{savingsPercentage} OFF"
+    }
+  },
+
   "product-summary.shelf#minicart":{
     "children":[
       "product-summary-image#shelf-minicart",

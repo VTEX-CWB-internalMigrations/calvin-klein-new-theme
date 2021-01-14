@@ -102,7 +102,7 @@
         "variant": "secondary"
       },
       "displayMode": "button",
-      "label": "View details",
+      "label": "Ver Detalhes",
       "href": "/{slug}/p"
     }
   },
@@ -118,6 +118,7 @@
   "flex-layout.col#quickview-images": {
     "children": [
       "product-images#quickview"
+      //"calvin-klein-context"
     ]
   },
   "flex-layout.col#quickview-product-details": {
@@ -146,7 +147,8 @@
   "product-images#quickview" : {
     "props": {
       "blockClass": "quickview",
-      "showNavigationArrows": true
+      "showNavigationArrows": true,
+      "hiddenImages": "quadradodecor"
     }
   }
 }

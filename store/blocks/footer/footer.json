@@ -34,12 +34,10 @@
       "flex-layout.col#2-footer-menu",
       "flex-layout.col#3-footer-menu",
       "flex-layout.col#4-footer-menu",
-      "flex-layout.col#5-footer-menu",
-      "footer-spacer",
-      "footer-spacer"
+      "flex-layout.col#5-footer-menu"
     ],
     "props": {
-      "blockClass": "menu-row",
+      "blockClass": ["menu-row", "footer-menu-row"],
       "paddingTop": 6,
       "paddingBottom": 3
     }
@@ -166,14 +164,6 @@
         {
           "name": "Instagram",
           "url": "https://www.instagram.com/vtextruecloud/"
-        },
-        {
-          "name": "Twitter",
-          "url": "https://twitter.com/vtexonline"
-        },
-        {
-          "name": "Youtube",
-          "url": "https://www.youtube.com/user/VTEXTV"
         }
       ]
     }
