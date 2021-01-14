@@ -51,9 +51,27 @@
       //"modal-trigger#images",
       //"flex-layout.row#product-image",
       //"flex-layout.row#product-image",
-      "calvin-klein-context",
+      "responsive-layout.desktop#images",
+      "responsive-layout.tablet#images",
+      "responsive-layout.phone#images",
       "product-bookmark",
       "product-specification-badges"
+    ]
+  },
+
+  "responsive-layout.desktop#images":{
+    "children":[
+      "calvin-klein-context"
+    ]
+  },
+  "responsive-layout.tablet#images":{
+    "children":[
+      "calvin-klein-context"
+    ]
+  },
+  "responsive-layout.phone#images":{
+    "children":[
+      "flex-layout.row#product-image"
     ]
   },
 

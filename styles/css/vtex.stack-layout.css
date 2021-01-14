@@ -16,4 +16,9 @@
   z-index: 999 !important;
 }
 
+.stackItem--product{
+  display: block;
+  position: relative;
+}
+
 

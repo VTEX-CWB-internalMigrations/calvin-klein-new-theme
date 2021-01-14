@@ -3,9 +3,14 @@
   padding: 0 0.5rem;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 940px) {
   .flexRowContent--container-price-and-quantity{
-    display:flex;
+    display: flex;
+    flex-direction: column;
+  }
+  .flexRowContent--container-price-and-quantity .stretchChildrenWidth{
+    margin-top: 10px;
+    width: 100% !important;
   }
 }
 
@@ -275,8 +280,9 @@
 }
 
 .flexRowContent--product-price-content .stretchChildrenWidth{
-  width: auto !important;
+  width: auto!important;
   padding: 0px 5px 0px 0px;
+  display: inline-block;
 }
 
 @media screen and (min-width: 640px) {
