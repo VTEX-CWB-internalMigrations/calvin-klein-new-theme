@@ -1,0 +1,12 @@
+.relatedProducts :global(.vtex-product-summary-2-x-containerNormal){
+    padding: 10px;
+}
+
+.relatedProducts .title{
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    padding: 0px 10px;
+    color: #000;
+}
