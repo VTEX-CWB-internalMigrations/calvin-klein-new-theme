@@ -427,7 +427,24 @@
 }
 
 .wrapper--form-sub-title .paragraph{
-  margin: 45px 0px 0px;
+  color: #fff;
+  padding: 5px;
+  margin: 0px;
+}
+
+.paragraph--genero-sub-title{
+  margin: 0px;
+  font-size: 14px;
+}
+
+.paragraph--form-sub-title-text{
+  font-size: 13px;
+  margin: 35px 0px 0px 0px;
+}
+
+.container--form-sub-title{
+  background: #737373;
+  margin: 25px 0px 10px;
 }
 
 

@@ -8,8 +8,10 @@
     "flex-layout.row#updateRegister":{
         "children":[
             "flex-layout.col#updateRegister"
-
-        ]
+        ],
+        "props":{
+            "blockClass": "custom-register"
+        }
     },
 
     "flex-layout.col#updateRegister":{
@@ -57,9 +59,37 @@
         }
     },
 
+    "rich-text#formSubTitle4-1":{
+        "props":{
+            "text": "Selecione as categorias que você deseja receber comunicação",
+            "blockClass": "form-sub-title-text"
+        }
+    },
+
+    "rich-text#formSubTitle4-2":{
+        "props":{
+            "text": "Além da Calvin Klein, gostaria de receber comunicações de quais outras marcas do grupo PVH",
+            "blockClass": "form-sub-title-text"
+        }
+    },
+
+    "rich-text#formSubTitle5":{
+        "props":{
+            "text": "ACEITO RECEBER COMUNICAÇÃO POR:",
+            "blockClass": "form-sub-title"
+        }
+    },
+
+    "rich-text#formSubTitle5-1":{
+        "props":{
+            "text": "Caso não queira ficar por dentro das novidades e promoções da marca, deixe os campos abaixo em branco:",
+            "blockClass": "form-sub-title-text"
+        }
+    },
+
     "form#register": {
         "props": {
-          "entity": "AC",
+          "entity": "RC",
           "schema": "mdv1",
           "blockClass": "register-update-form"
         },
@@ -75,7 +105,11 @@
             "flex-layout.row#form-four",
             "flex-layout.row#form-five",
             "rich-text#formSubTitle4",
+            "rich-text#formSubTitle4-1",
             "flex-layout.row#form-six",
+            "rich-text#formSubTitle4-2",
+            "flex-layout.row#form-seven",
+            "flex-layout.row#form-eight",
             "form-submit"
         ]
     },
@@ -84,7 +118,8 @@
         "children":[
             "form-input.text#nome",
             "form-input.text#sobrenome",
-            "form-input.text#genero"
+            "flex-layout.col#form-one-3"
+            //"form-input.text#genero"
         ]
     },
 
@@ -105,10 +140,39 @@
             "pointer": "#/properties/sobrenome"
         }
     },
-    
-    "form-input.text#genero":{
+
+    "flex-layout.col#form-one-3":{
+        "children":[
+            "rich-text#formSubTitleGenero",
+            "flex-layout.row#form-one-3-1"
+        ]
+    },
+
+    "rich-text#formSubTitleGenero":{
         "props":{
-            "pointer": "#/properties/genero"
+            "text": "Gênero",
+            "blockClass": "genero-sub-title"
+        }
+    },
+
+    "flex-layout.row#form-one-3-1":{
+        "children":[
+            "form-input.checkbox#genero_feminino",
+            "form-input.checkbox#genero_masculino"
+        ],
+        "props":{
+            "blockClass": "genero-input"
+        }
+    },
+
+    "form-input.checkbox#genero_feminino":{
+        "props":{
+            "pointer": "#/properties/genero_feminino"
+        }
+    },
+    "form-input.checkbox#genero_masculino":{
+        "props":{
+            "pointer": "#/properties/genero_masculino"
         }
     },
 
@@ -229,8 +293,21 @@
 
     "flex-layout.row#form-six-1-1":{
         "children":[
-            "form-input.text#lancamentos"
+            "form-input.checkbox#lancamentos",
+            "form-input.checkbox#promocoes"
+            //"form-input.text#lancamentos"
         ]
+    },
+
+    "form-input.checkbox#lancamentos":{
+        "props":{
+            "pointer": "#/properties/lancamentos"
+        }
+    },
+    "form-input.checkbox#promocoes":{
+        "props":{
+            "pointer": "#/properties/promocoes"
+        }
     },
 
     "form-input.text#lancamentos":{
@@ -254,13 +331,110 @@
 
     "flex-layout.row#form-six-2-1":{
         "children":[
-            "form-input.text#genero-promotion"
+            "form-input.checkbox#feminino",
+            "form-input.checkbox#masculino"
         ]
     },
 
-    "form-input.text#genero-promotion":{
+    "form-input.checkbox#masculino":{
         "props":{
-            "pointer": "#/properties/segundaopcao"
+            "pointer": "#/properties/promo_masculino"
+        }
+    },
+
+    "form-input.checkbox#feminino":{
+        "props":{
+            "pointer": "#/properties/promo_feminino"
+        }
+    },
+
+    "flex-layout.row#form-seven":{
+        "children":[
+            "flex-layout.col#form-seven-1",
+            "flex-layout.col#form-seven-2"
+        ]
+    },
+
+    "flex-layout.col#form-seven-1":{
+        "children":[
+            "image#image-form-3",
+            "flex-layout.row#form-seven-1-1"
+        ]
+    },
+    "flex-layout.col#form-seven-2":{
+        "children":[
+            "image#image-form-4",
+            "flex-layout.row#form-seven-2-1"
+        ]
+    },
+
+    "image#image-form-3":{
+        "props":{
+            "src": "assets/form-3.png"
+        }
+    },
+    "flex-layout.row#form-seven-1-1":{
+        "children":[
+            "form-input.checkbox#izod"
+        ]
+    },
+    "form-input.checkbox#izod":{
+        "props":{
+            "pointer": "#/properties/izod"
+        }
+    },
+
+    "image#image-form-4":{
+        "props":{
+            "src": "assets/form-4.png"
+        }
+    },
+    "flex-layout.row#form-seven-2-1":{
+        "children":[
+            "form-input.checkbox#vanheusen"
+        ]
+    },
+    "form-input.checkbox#vanheusen":{
+        "props":{
+            "pointer": "#/properties/van_heusen"
+        }
+    },
+
+    "flex-layout.row#form-eight":{
+        "children":[
+            "flex-layout.col#form-eight"
+        ]
+    },
+
+    "flex-layout.col#form-eight":{
+        "children":[
+            "rich-text#formSubTitle5",
+            "rich-text#formSubTitle5-1",
+            "form-input.checkbox#selecionartodas",
+            "form-input.checkbox#receberporemail",
+            "form-input.checkbox#receberporwhatsapp",
+            "form-input.checkbox#receberporsms"
+        ]
+    },
+
+    "form-input.checkbox#selecionartodas":{
+        "props":{
+            "pointer": "#/properties/selecionartodas"
+        }
+    },
+    "form-input.checkbox#receberporemail":{
+        "props":{
+            "pointer": "#/properties/receberporemail"
+        }
+    },
+    "form-input.checkbox#receberporwhatsapp":{
+        "props":{
+            "pointer": "#/properties/whatsapp"
+        }
+    },
+    "form-input.checkbox#receberporsms":{
+        "props":{
+            "pointer": "#/properties/sms"
         }
     },
 

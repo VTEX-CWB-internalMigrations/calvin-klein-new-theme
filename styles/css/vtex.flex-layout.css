@@ -285,6 +285,14 @@
   display: inline-block;
 }
 
+.flexRowContent--genero-input :global(.vtex-checkbox__label), .flexRow--custom-register :global(.vtex-checkbox__label){
+  font-size: 13px;
+}
+
+.flexRow--custom-register :global(.vtex-checkbox__line-container){
+  margin: 5px 0px;
+}
+
 @media screen and (min-width: 640px) {
   .flexCol--infosMain{
     padding: 0px 60px;
