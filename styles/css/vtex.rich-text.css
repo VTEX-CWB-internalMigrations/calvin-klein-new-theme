@@ -427,9 +427,10 @@
 }
 
 .wrapper--form-sub-title .paragraph{
-  color: #fff;
+  color: #000;
   padding: 5px;
   margin: 0px;
+  display: flex;
 }
 
 .paragraph--genero-sub-title{
@@ -443,8 +444,23 @@
 }
 
 .container--form-sub-title{
-  background: #737373;
+  background: #ececec;
   margin: 25px 0px 10px;
+}
+
+.wrapper--politica-recadastro .paragraph{
+  font-size: 12px;
+  margin: 0px;
+}
+
+.container--succes-recadastro{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2a6d00;
+  background: #49a70f70;
+  padding: 15px;
+  margin-bottom: 50px;
 }
 
 

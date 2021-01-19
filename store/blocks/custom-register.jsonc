@@ -110,8 +110,21 @@
             "rich-text#formSubTitle4-2",
             "flex-layout.row#form-seven",
             "flex-layout.row#form-eight",
+            "flex-layout.row#form-nine",
             "form-submit"
         ]
+    },
+
+    "form-success": {
+        "children": [
+          "rich-text#successSubmit"
+        ]
+    },
+    "rich-text#successSubmit": {
+        "props": {
+          "text": "SEUS DADOS FORAM ENVIADOS CORRETAMENTE!",
+           "blockClass": "succes-recadastro"
+        }
     },
 
     "flex-layout.row#form-one":{
@@ -125,19 +138,22 @@
 
     "form-input.text#cpf":{
         "props":{
-            "pointer": "#/properties/cpf"
+            "pointer": "#/properties/cpf",
+            "label": "CPF *"
         }
     },
 
     "form-input.text#nome":{
         "props":{
-            "pointer": "#/properties/nome"
+            "pointer": "#/properties/nome",
+            "label": "Nome *"
         }
     },
 
     "form-input.text#sobrenome":{
         "props":{
-            "pointer": "#/properties/sobrenome"
+            "pointer": "#/properties/sobrenome",
+            "label": "Sobrenome *"
         }
     },
 
@@ -187,7 +203,8 @@
 
     "form-input.text#celular":{
         "props":{
-            "pointer": "#/properties/celular"
+            "pointer": "#/properties/celular",
+            "label": "Celular *"
         }
     },
 
@@ -199,7 +216,8 @@
 
     "form-input.text#email":{
         "props":{
-            "pointer": "#/properties/email"
+            "pointer": "#/properties/email",
+            "label": "E-mail *"
         }
     },
 
@@ -214,19 +232,22 @@
 
     "form-input.text#cep":{
         "props":{
-            "pointer": "#/properties/cep"
+            "pointer": "#/properties/cep",
+            "label": "CEP *"
         }
     },
 
     "form-input.text#endereco":{
         "props":{
-            "pointer": "#/properties/endereco"
+            "pointer": "#/properties/endereco",
+            "label": "Endereço *"
         }
     },
 
     "form-input.text#numero":{
         "props":{
-            "pointer": "#/properties/numero"
+            "pointer": "#/properties/numero",
+            "label": "Número *"
         }
     },
 
@@ -248,13 +269,15 @@
 
     "form-input.text#bairro":{
         "props":{
-            "pointer": "#/properties/bairro"
+            "pointer": "#/properties/bairro",
+            "label": "Bairro *"
         }
     },
 
     "form-input.text#cidade":{
         "props":{
-            "pointer": "#/properties/cidade"
+            "pointer": "#/properties/cidade",
+            "label": "Cidade *"
         }
     },
 
@@ -267,7 +290,8 @@
 
     "form-input.text#estado":{
         "props":{
-            "pointer": "#/properties/estado"
+            "pointer": "#/properties/estado",
+            "label": "Estado *"
         }
     },
 
@@ -444,9 +468,39 @@
         }
     },
 
+    "flex-layout.row#form-nine":{
+        "children":[
+            "flex-layout.col#form-nine"
+        ],
+        "props":{
+            "blockClass": "accept-flex"
+        }
+    },
+
+    "flex-layout.col#form-nine":{
+        "children":[
+            "form-input.checkbox#accept",
+            "rich-text#politica"
+        ]
+    },
+
+    "form-input.checkbox#accept":{
+        "props":{
+            "pointer": "#/properties/accept",
+            "label": "Li e Aceito a Política de Privacidade e Segurança *"
+        }
+    },
+
+    "rich-text#politica":{
+        "props":{
+            "text": "[Política de privacidade e segurança](/institucional/seguranca-e-privacidade)",
+            "blockClass": "politica-recadastro"
+        }
+    },
+
     "form-submit":{
         "props":{
-            "label": "Submit"
+            "label": "ATUALIZAR CADASTRO"
         }
     }
 
