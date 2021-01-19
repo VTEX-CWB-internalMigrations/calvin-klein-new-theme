@@ -10,3 +10,7 @@
     padding: 0px 10px;
     color: #000;
 }
+
+.relatedProducts :global(.vtex-product-summary-2-x-imageNormal){
+    max-height: unset !important;
+}

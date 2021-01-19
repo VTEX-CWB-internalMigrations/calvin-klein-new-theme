@@ -91,6 +91,13 @@
 .element--minicart .productBrand{
   padding: 0px 40px 0px 0px;
 }
+.valueWrapper--quickview{
+  padding: 15px;
+}
+
+.hoverEffect{
+  z-index: 9;
+}
 
 @media only screen and (min-width: 940px) {
   .productBrand{
