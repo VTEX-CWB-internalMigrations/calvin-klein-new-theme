@@ -69,7 +69,7 @@
 }
 
 .listPrice--summary , .installments--summary{
-  padding: 0px 55px;
+  padding: 0px 10px;
 }
 
 .savings--summary{
@@ -91,5 +91,11 @@
 @media only screen and (max-width: 640px) {
   .installments--productDetails-installments{
     font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 940px) {
+  .listPrice--summary , .installments--summary{
+    padding: 0px 55px;
   }
 }

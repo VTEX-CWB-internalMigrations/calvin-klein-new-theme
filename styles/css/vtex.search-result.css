@@ -7,11 +7,6 @@
     text-align: center;
 }
 
-.galleryItem--normal{
-    flex-basis: 33% !important;
-    max-width: 33% !important;
-}
-
 .totalProducts--layout{
     display: flex;
     align-items: center;
@@ -69,3 +64,11 @@
 .buttonShowMore{
     margin-bottom: 20px;
 }
+
+@media only screen and (min-width: 940px) {
+    .galleryItem--normal{
+        flex-basis: 33% !important;
+        max-width: 33% !important;
+    }
+}
+

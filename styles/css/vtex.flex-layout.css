@@ -149,7 +149,7 @@
 }
 
 .flexRowContent--price-summary-row{
-  padding: 0px 55px;
+  padding: 0px 10px;
   margin-bottom: 5px;
 }
 
@@ -306,4 +306,14 @@
 .flexRowContent--product-main{
   align-self: flex-start;
 }
+
+@media only screen and (min-width: 940px) {
+  .flexRowContent--price-summary-row{
+    padding: 0px 55px;
+    margin-bottom: 5px;
+  }
+}
+
+
+
 

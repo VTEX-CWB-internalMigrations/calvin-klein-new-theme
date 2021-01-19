@@ -51,7 +51,7 @@
 
 .imageStackContainer , .imageNormal{
   width: 100%;
-  max-height: unset !important;
+  max-height: 200px !important;
 }
 
 .productNameContainer{
@@ -65,7 +65,7 @@
 
 .productBrand{
   font-size: 15px;
-  padding: 0px 55px;
+  padding: 0px 10px;
   line-height: 1.4;
 }
 
@@ -90,6 +90,17 @@
 
 .element--minicart .productBrand{
   padding: 0px 40px 0px 0px;
+}
+
+@media only screen and (min-width: 940px) {
+  .productBrand{
+    padding: 0px 55px;
+  }
+
+  .imageStackContainer , .imageNormal{
+    width: 100%;
+    max-height: unset !important;
+  }
 }
 
 
