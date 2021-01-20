@@ -308,11 +308,11 @@
   },
   "flex-layout.col#cookie-message-2":{
     "children":[
-      "modal-header",
+      "modal-header#cookie",
       "modal-actions.close#cookie-message"
     ]
   },
-  "modal-header":{
+  "modal-header#cookie":{
     "props":{
       "showCloseButton": true,
       "blockClass": "cookie-modal"

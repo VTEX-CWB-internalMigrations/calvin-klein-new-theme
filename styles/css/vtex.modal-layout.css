@@ -143,6 +143,29 @@
 .closeButton--cookie-accept{
   padding: 0px;
 }
+
+.paper--newsletter-block-class{
+  padding: 40px;
+  position: relative;
+}
+
+.headerContainer--newsletter-modal{
+  width: fit-content;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background: #000;
+  border-radius: 0px;
+}
+
+.closeButton--newsletter-modal{
+  padding: 0px;
+}
+
+.closeIcon--newsletter-modal{
+  color: #fff;
+}
+
 @media only screen and (max-width: 640px) {
   .headerContainer--cookie-modal{
     position: absolute;

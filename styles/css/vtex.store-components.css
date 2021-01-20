@@ -46,12 +46,10 @@
 
 .inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
   background-color: transparent;
-  color: #fff;
   border: none;
 }
 
 .inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
-  color: #fff;
   font-size: 16px;
 }
 
@@ -444,6 +442,16 @@
   margin-bottom: 15px;
 }
 
+.confirmationTitle--newsletter-modal{
+    padding: 10px 10px 0px 10px;
+    background: #eaeaea;
+}
+
+.confirmationText--newsletter-modal{
+  padding: 10px 10px 10px 10px;
+  background: #eaeaea;
+}
+
 /* .carouselContainer{
   display: flex;
   flex-direction: column-reverse;
@@ -564,6 +572,31 @@
   }
 }
 
+.newsletter--newsletter-modal{
+  background: #fff0
+}
+
+.container--newsletter-modal{
+  padding: 0px !important;
+}
+
+.buttonContainer--newsletter-modal :global(.vtex-button){
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  margin-top: 10px;
+  margin-right: 0px;
+  width: 100%;
+}
+
+.inputGroup--newsletter-modal{
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonContainer--newsletter-modal{
+  padding: 0px;
+}
 
 @media only screen and (min-width: 1200px) {
   .productImagesGallerySlide{

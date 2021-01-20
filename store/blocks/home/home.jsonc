@@ -1,6 +1,7 @@
 {
   "store.home": {
     "blocks": [
+      "modal-trigger#newsletter",
       "info-card#main-infocard",
       "info-card#main--mobile",
       /* You can make references to blocks defined in other files.
@@ -24,67 +25,68 @@
     ]
   },
 
+  "modal-trigger#newsletter": {
+    "children": [
+      "modal-layout#newsletter"
+    ],
+    "props":{
+      "trigger": "load"
+    }
+  },
+
+  "modal-layout#newsletter":{
+    "children":[
+      "flex-layout.row#newsletter"
+    ],
+    "props":{
+      "fullScreen": false,
+      "blockClass": "newsletter-block-class"
+    }
+  },
+
   "flex-layout.row#newsletter":{
     "children":[
       "flex-layout.col#newsletter"
     ],
     "props":{
-      "blockClass": "newsletter-row"
+      "blockClass": "newsletter-message-flex"
     }
   },
 
   "flex-layout.col#newsletter":{
     "children":[
-      "rich-text#newsletter-title",
-      "newsletter-form"
-    ],
-    "props":{
-      "blockClass": "newsletter-col"
-    }
-  },
-
-  "rich-text#newsletter-title":{
-    "props":{
-      "text": "ASSINE NOSSA NEWSLETTER",
-      "blockClass": "newsletter-title"
-    }
-  },
-
-  "newsletter-form": {
-    "children": [
-      "flex-layout.row#top-newsletter",
-      "newsletter-checkbox-confirmation"
-
+      "modal-header#newsletter",
+      "rich-text#sign-newsletter-title",
+      "rich-text#sign-newsletter-text",
+      "newsletter#modal"
     ]
   },
 
-  "flex-layout.row#top-newsletter":{
-    "children":[
-      "newsletter-input-email",
-      "newsletter-submit"
-    ],
+  "modal-header#newsletter":{
     "props":{
-      "blockClass": "newsletter-input"
+      "showCloseButton": true,
+      "blockClass": "newsletter-modal"
     }
   },
 
-  "newsletter-input-email":{
+  "rich-text#sign-newsletter-title":{
     "props":{
+      "text": "CADASTRE-SE EM NOSSA NEWSLETTER",
+      "blockClass": "newsletter-title-modal"
+    }
+  },
+  "rich-text#sign-newsletter-text":{
+    "props":{
+      "text": "Insira seu e-mail e fique por dentro de nossas novidades e promoções.",
+      "blockClass": "newsletter-text-modal"
+    }
+  },
 
-    }
-  },
-  "newsletter-checkbox-confirmation":{
+  "newsletter#modal":{
     "props":{
-      "checkboxLabel": "Gostaria de receber atualizações dos últimos produtos e promoções por e-mail ou outros canais. Por favor veja a nossa {firstLink} para mais informações",
-      "firstLabelLink": {
-        "url": "/politica-de-privacidade",
-        "text": "política de privacidade"
-      }
-    }
-  },
-  "newsletter-submit":{
-    "props":{
-      
+      "blockClass": "newsletter-modal",
+      "submit": "CADASTRAR",
+      "label": ""
     }
   },
 
