@@ -25,6 +25,7 @@
     ]
   },
 
+  // NEWSLETTER MODAL
   "modal-trigger#newsletter": {
     "children": [
       "modal-layout#newsletter"
@@ -36,7 +37,7 @@
 
   "modal-layout#newsletter":{
     "children":[
-      "flex-layout.row#newsletter"
+      "flex-layout.row#newsletter-modal"
     ],
     "props":{
       "fullScreen": false,
@@ -44,21 +45,21 @@
     }
   },
 
-  "flex-layout.row#newsletter":{
+  "flex-layout.row#newsletter-modal":{
     "children":[
-      "flex-layout.col#newsletter"
+      "flex-layout.col#newsletter-modal"
     ],
     "props":{
       "blockClass": "newsletter-message-flex"
     }
   },
 
-  "flex-layout.col#newsletter":{
+  "flex-layout.col#newsletter-modal":{
     "children":[
       "modal-header#newsletter",
       "rich-text#sign-newsletter-title",
       "rich-text#sign-newsletter-text",
-      "newsletter#modal"
+      "form#newsletter-modal"
     ]
   },
 
@@ -82,11 +83,161 @@
     }
   },
 
+  "form#newsletter-modal":{
+    "props":{
+      "entity": "NN",
+      "schema": "mdv1",
+      "blockClass": "modal-newsletter"
+    },
+    "children": [
+      "form-input.text#email-news",
+      "flex-layout.row#genero-modal",
+      "flex-layout.row#agreement-modal",
+      "flex-layout.row#register-modal"
+    ],
+    "blocks": ["form-success"]
+  },
+
+  "form-input.text#email-news":{
+    "props":{
+      "pointer": "#/properties/email",
+      "label": "",
+      "placeholder": "E-mail"
+    }
+  },
+
+  "flex-layout.row#genero-modal":{
+    "children":[
+      "form-input.checkbox#masculino-news",
+      "form-input.checkbox#feminino-news"
+    ],
+    "props":{
+      "blockClass": "genero-modal"
+    }
+  },
+
+  "flex-layout.row#agreement-modal":{
+    "children":[
+      "form-input.checkbox#agreement-news",
+      "rich-text#agreement-modal"
+    ],
+    "props":{
+      "blockClass": "agreement-modal"
+    }
+  },
+
+  "flex-layout.row#register-modal":{
+    "children":[
+      "form-submit#modal"
+    ],
+    "props":{
+      "blockClass": "register-modal"
+    }
+  },
+
+  "rich-text#agreement-modal":{
+    "props":{
+      "blockClass": "agreement-modal",
+      "text": "Eu concordo com os [Termos & Condições](/termos-e-condicoes) e [Política de Privacidade](/politica-de-privacidade)"
+    }
+  },
+
+  "form-input.checkbox#masculino-news":{
+    "props":{
+      "pointer": "#/properties/masculino",
+      "label": "Masculino"
+    }
+  },
+
+  "form-input.checkbox#feminino-news":{
+    "props":{
+      "pointer": "#/properties/feminino",
+      "label": "Feminino"
+    }
+  },
+  "form-input.checkbox#agreement-news":{
+    "props":{
+      "pointer": "#/properties/accept",
+      "label": ""
+    }
+  },
+
+  "form-submit#modal":{
+    "props":{
+      "label": "CADASTRAR"
+  }
+  },
+
   "newsletter#modal":{
     "props":{
       "blockClass": "newsletter-modal",
       "submit": "CADASTRAR",
       "label": ""
+    }
+  },
+
+  // NEWSLETTER
+  "flex-layout.row#newsletter":{
+    "children":[
+      "flex-layout.col#newsletter"
+    ],
+    "props":{
+      "blockClass": "newsletter-row"
+    }
+  },
+
+  "flex-layout.col#newsletter":{
+    "children":[
+      "rich-text#newsletter-title",
+      "newsletter-form"
+    ],
+    "props":{
+      "blockClass": "newsletter-col"
+    }
+  },
+
+  "rich-text#newsletter-title":{
+    "props":{
+      "text": "ASSINE NOSSA NEWSLETTER",
+      "blockClass": "newsletter-title"
+    }
+  },
+
+  "newsletter-form": {
+    "children": [
+      "flex-layout.row#top-newsletter",
+      "newsletter-checkbox-confirmation"
+
+    ]
+  },
+
+  "flex-layout.row#top-newsletter":{
+    "children":[
+      "newsletter-input-email",
+      "newsletter-submit"
+    ],
+    "props":{
+      "blockClass": "newsletter-input"
+    }
+  },
+
+  "newsletter-input-email":{
+    "props":{
+
+    }
+  },
+  "newsletter-checkbox-confirmation":{
+    "props":{
+      "checkboxLabel": "Gostaria de receber atualizações dos últimos produtos e promoções por e-mail ou outros canais. Por favor veja a nossa {firstLink} para mais informações",
+      "firstLabelLink": {
+        "url": "/politica-de-privacidade",
+        "text": "política de privacidade"
+      }
+    }
+  },
+  "newsletter-submit":{
+    "props":{
+      
     }
   },
 

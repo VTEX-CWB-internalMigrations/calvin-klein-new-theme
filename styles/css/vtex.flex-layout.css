@@ -228,7 +228,7 @@
 }
 
 .flexRow--newsletter-row{
-  background: #1d1d1d;
+  background: #e8e8e8;
   padding: 70px 0px;
 }
 
@@ -303,7 +303,58 @@
   padding: 5px;
 }
 
+.flexRowContent--genero-modal{
+  margin: 10px 0px;
+}
+
+.flexRowContent--agreement-modal .stretchChildrenWidth{
+  width: auto !important;
+}
+
+.flexRowContent--genero-modal :global(.vtex-checkbox__label){
+  font-size: 13px;
+}
+
+.flexRowContent--register-modal :global(.vtex-button ){
+  width: 100%;
+}
+
+.flexRowContent--register-modal :global(.vtex-store-form-0-x-formSubmitContainer){
+  margin: 15px 0px 0px;
+}
+
+.flexRowContent--genero-modal .stretchChildrenWidth{
+  width: auto !important;
+  display: inline-flex;
+}
+
+.flexRowContent--agreement-modal .stretchChildrenWidth:first-child{
+  width: 5% !important;
+  display: inline-flex;
+}
+
+.flexRowContent--agreement-modal .stretchChildrenWidth:last-child{
+  width: 80% !important;
+  display: inline-flex;
+}
+
+
 @media screen and (min-width: 640px) {
+
+  .flexRowContent--agreement-modal .stretchChildrenWidth:first-child{
+    width: auto !important;
+    display: inline-flex;
+  }
+  
+  .flexRowContent--agreement-modal .stretchChildrenWidth:last-child{
+    width: auto !important;
+    display: inline-flex;
+  }
+
+  .flexRowContent--agreement-modal .stretchChildrenWidth{
+    width: auto !important;
+  }
+
   .flexRowContent--cookie-message-flex .stretchChildrenWidth:first-child{
     width: 80% !important;
     padding: 10px;

@@ -417,7 +417,7 @@
 
 .paragraph--newsletter-title{
   font-size: 30px;
-  color: #fff;
+  color: #000;
   font-weight: 600;
   margin-top: 0px;
 }
@@ -499,7 +499,15 @@
   text-align: center;
 }
 
+.container--agreement-modal .paragraph{
+  margin: 0px;
+  font-size: 12px;
+  padding: 0px 7px;
+}
 
+.wrapper--agreement-modal .link{
+  color: #000;
+}
 
 @media only screen and (min-width: 640px) {
   .wrapper--cookie-text .paragraph{
