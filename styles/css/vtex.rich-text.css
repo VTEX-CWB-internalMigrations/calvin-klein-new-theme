@@ -469,8 +469,6 @@
 
 .wrapper--cookie-text .paragraph{
   font-size: 13px;
-  max-height: 100px;
-  overflow: scroll;
 }
 
 .link--cookie-text{
@@ -479,6 +477,12 @@
 
 
 @media only screen and (min-width: 640px) {
+
+  .wrapper--cookie-text .paragraph{
+    font-size: 13px;
+    max-height: 100px;
+    overflow: scroll;
+  }
 
   .container--outlet-buttons .paragraph--outlet-buttons{
     margin: 20px;
