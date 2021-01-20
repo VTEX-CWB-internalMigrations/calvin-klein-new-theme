@@ -469,7 +469,10 @@
 
 .wrapper--cookie-text .paragraph{
   font-size: 13px;
+  max-height: 100px;
+  overflow: scroll;
 }
+
 
 .link--cookie-text{
   color: #fff;
@@ -480,8 +483,8 @@
 
   .wrapper--cookie-text .paragraph{
     font-size: 13px;
-    max-height: 100px;
-    overflow: scroll;
+    max-height: unset;
+    overflow: auto;
   }
 
   .container--outlet-buttons .paragraph--outlet-buttons{
