@@ -165,16 +165,9 @@
   "form-submit#modal":{
     "props":{
       "label": "CADASTRAR"
-  }
-  },
-
-  "newsletter#modal":{
-    "props":{
-      "blockClass": "newsletter-modal",
-      "submit": "CADASTRAR",
-      "label": ""
     }
   },
+
 
   // NEWSLETTER
   "flex-layout.row#newsletter":{
@@ -189,12 +182,116 @@
   "flex-layout.col#newsletter":{
     "children":[
       "rich-text#newsletter-title",
-      "newsletter-form"
+      "form#newsletter-footer"
     ],
     "props":{
       "blockClass": "newsletter-col"
     }
   },
+
+  "form#newsletter-footer":{
+    "props":{
+      "entity": "NN",
+      "schema": "mdv1",
+      "blockClass": "modal-newsletter"
+    },
+    "children": [
+      "flex-layout.row#email-and-register-newsletter",
+      "flex-layout.row#genero-newsletter",
+      "flex-layout.row#agreement-newsletter"
+    ],
+    "blocks": ["form-success"]
+  },
+
+  "flex-layout.row#email-and-register-newsletter":{
+    "children":[
+      "form-input.text#email-newsletter",
+      "form-submit#newsletter"
+    ],
+    "props":{
+      "blockClass": "newsletter-row-inside"
+    }
+  },
+
+  "form-input.text#email-newsletter":{
+    "props":{
+      "pointer": "#/properties/email",
+      "label": "",
+      "placeholder": "E-mail"
+    }
+  },
+
+  "flex-layout.row#genero-newsletter":{
+    "children":[
+      "form-input.checkbox#masculino-newsletter",
+      "form-input.checkbox#feminino-newsletter"
+    ],
+    "props":{
+      "blockClass": "genero-newsletter"
+    }
+  },
+
+  "flex-layout.row#agreement-newsletter":{
+    "children":[
+      "form-input.checkbox#agreement-newsletter",
+      "rich-text#agreement-newsletter"
+    ],
+    "props":{
+      "blockClass": "agreement-newsletter"
+    }
+  },
+
+  "flex-layout.row#register-newsletter":{
+    "children":[
+      "form-submit#newsletter"
+    ],
+    "props":{
+      "blockClass": "register-modal"
+    }
+  },
+
+  "rich-text#agreement-newsletter":{
+    "props":{
+      "blockClass": "agreement-modal",
+      "text": "Gostaria de receber atualizações dos últimos produtos e promoções por e-mail ou outros canais. Por favor veja a nossa [Política de Privacidade](/politica-de-privacidade) para mais informações"
+    }
+  },
+
+  "form-input.checkbox#masculino-newsletter":{
+    "props":{
+      "pointer": "#/properties/masculino",
+      "label": "Masculino"
+    }
+  },
+
+  "form-input.checkbox#feminino-newsletter":{
+    "props":{
+      "pointer": "#/properties/feminino",
+      "label": "Feminino"
+    }
+  },
+  "form-input.checkbox#agreement-newsletter":{
+    "props":{
+      "pointer": "#/properties/accept",
+      "label": ""
+    }
+  },
+
+  "form-submit#newsletter":{
+    "props":{
+      "label": "CADASTRAR"
+    }
+  },
+
+  // "flex-layout.col#newsletter":{
+  //   "children":[
+  //     "rich-text#newsletter-title",
+  //     "newsletter-form"
+  //   ],
+  //   "props":{
+  //     "blockClass": "newsletter-col"
+  //   }
+  // },
 
   "rich-text#newsletter-title":{
     "props":{
@@ -203,43 +300,43 @@
     }
   },
 
-  "newsletter-form": {
-    "children": [
-      "flex-layout.row#top-newsletter",
-      "newsletter-checkbox-confirmation"
+  // "newsletter-form": {
+  //   "children": [
+  //     "flex-layout.row#top-newsletter",
+  //     "newsletter-checkbox-confirmation"
 
-    ]
-  },
+  //   ]
+  // },
 
-  "flex-layout.row#top-newsletter":{
-    "children":[
-      "newsletter-input-email",
-      "newsletter-submit"
-    ],
-    "props":{
-      "blockClass": "newsletter-input"
-    }
-  },
+  // "flex-layout.row#top-newsletter":{
+  //   "children":[
+  //     "newsletter-input-email",
+  //     "newsletter-submit"
+  //   ],
+  //   "props":{
+  //     "blockClass": "newsletter-input"
+  //   }
+  // },
 
-  "newsletter-input-email":{
-    "props":{
+  // "newsletter-input-email":{
+  //   "props":{
 
-    }
-  },
-  "newsletter-checkbox-confirmation":{
-    "props":{
-      "checkboxLabel": "Gostaria de receber atualizações dos últimos produtos e promoções por e-mail ou outros canais. Por favor veja a nossa {firstLink} para mais informações",
-      "firstLabelLink": {
-        "url": "/politica-de-privacidade",
-        "text": "política de privacidade"
-      }
-    }
-  },
-  "newsletter-submit":{
-    "props":{
+  //   }
+  // },
+  // "newsletter-checkbox-confirmation":{
+  //   "props":{
+  //     "checkboxLabel": "Gostaria de receber atualizações dos últimos produtos e promoções por e-mail ou outros canais. Por favor veja a nossa {firstLink} para mais informações",
+  //     "firstLabelLink": {
+  //       "url": "/politica-de-privacidade",
+  //       "text": "política de privacidade"
+  //     }
+  //   }
+  // },
+  // "newsletter-submit":{
+  //   "props":{
       
-    }
-  },
+  //   }
+  // },
 
   "info-card#main--mobile":{
     "props":{

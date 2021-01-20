@@ -420,6 +420,7 @@
   color: #000;
   font-weight: 600;
   margin-top: 0px;
+  text-align: center;
 }
 
 .wrapper--form-main-title .paragraph{
@@ -507,6 +508,12 @@
 
 .wrapper--agreement-modal .link{
   color: #000;
+}
+
+.container--newsletter-title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media only screen and (min-width: 640px) {
