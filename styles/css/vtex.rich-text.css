@@ -463,6 +463,20 @@
   margin-bottom: 50px;
 }
 
+.container--cookie-title .paragraph, .container--cookie-text .paragraph{
+  color: #fff;
+}
+
+.wrapper--cookie-text .paragraph{
+  font-size: 13px;
+  max-height: 100px;
+  overflow: scroll;
+}
+
+.link--cookie-text{
+  color: #fff;
+}
+
 
 @media only screen and (min-width: 640px) {
 

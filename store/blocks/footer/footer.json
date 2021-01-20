@@ -8,7 +8,8 @@
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer-2-desktop",
       "flex-layout.row#footer-3-desktop",
-      "floating-chat"
+      "floating-chat",
+      "modal-trigger#cookie-message"
     ]
   },
   "flex-layout.row#footer-0-desktop":{
@@ -217,7 +218,8 @@
     "children": [
       "flex-layout.row#1-footer-mobile",
       "flex-layout.row#2-footer-mobile",
-      "floating-chat"
+      "floating-chat",
+      "modal-trigger#cookie-message"
     ]
   },
   "flex-layout.row#2-footer-mobile": {
@@ -257,6 +259,69 @@
     "props": {
       "text": "All stock and product photos are from photos.icons8.com",
       "blockClass": "footer"
+    }
+  },
+  "modal-trigger#cookie-message": {
+    "children": [
+      "modal-layout#cookie-message"
+    ],
+    "props":{
+      "trigger": "load-session"
+    }
+  },
+  "modal-layout#cookie-message":{
+    "children":[
+      "flex-layout.row#cookie-message"
+    ],
+    "props":{
+      "fullScreen": false,
+      "blockClass": "cookie-block-class",
+      "backdrop": "none"
+    }
+  },
+  "flex-layout.row#cookie-message":{
+    "children":[
+      "flex-layout.col#cookie-message-1",
+      "flex-layout.col#cookie-message-2"
+    ],
+    "props":{
+      "blockClass": "cookie-message-flex"
+    }
+  },
+  "flex-layout.col#cookie-message-1":{
+    "children":[
+      "rich-text#cookie-message-title",
+      "rich-text#cookie-message-text"
+    ]
+  },
+  "rich-text#cookie-message-title":{
+    "props":{
+      "text": "AVISO DE COOKIES",
+      "blockClass": "cookie-title"
+    }
+  },
+  "rich-text#cookie-message-text":{
+    "props":{
+      "blockClass": "cookie-text",
+      "text": "Olá, este é o nosso Aviso de Cookies. Quando você visita nosso site ou usa um aplicativo móvel, nós colocamos um ou mais cookies em seu dispositivo ou usamos o Javascript, HTML 5 e outras tecnologias digitais para coletar informações de seu computador, celular ou outro dispositivo. Esta informação pode conter dados pessoais. Nesta política de cookies, informaremos quais cookies usaremos e quais suas funções. A forma como processamos os dados pessoais que obtemos de seu dispositivo é descrita em nosso [Aviso de Privacidade](/politica-de-privacidade). Quando você visita nosso site, consideraremos isso como sua solicitação especifica para fornecer a você toda a funcionalidade do site, incluindo, entre outros, a capacidade de comprar um item em nossa loja virtual. Para maiores informações sobre a nosso aviso de Cookies acesse o [link](/avisos-e-cookies)."
+    }
+  },
+  "flex-layout.col#cookie-message-2":{
+    "children":[
+      "modal-header",
+      "modal-actions.close#cookie-message"
+    ]
+  },
+  "modal-header":{
+    "props":{
+      "showCloseButton": true,
+      "blockClass": "cookie-modal"
+    }
+  },
+  "modal-actions.close#cookie-message":{
+    "props":{
+      "label": "ESTOU CIENTE",
+      "blockClass": "cookie-accept"
     }
   }
 }
