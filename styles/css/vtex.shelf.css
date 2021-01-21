@@ -14,3 +14,7 @@
 .relatedProducts :global(.vtex-product-summary-2-x-imageNormal){
     max-height: unset !important;
 }
+
+.relatedProducts .shelfContentContainer{
+    padding: 30px;
+}
