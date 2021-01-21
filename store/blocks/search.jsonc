@@ -191,7 +191,7 @@
       "flex-layout.row#productCountMobile",
       "search-title.v2",
       "flex-layout.row#department-links-3",
-      "flex-layout.row#fetchprevious",
+      //"flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
       "flex-layout.row#fetchmore",
       "rich-text#department-info"
