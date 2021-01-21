@@ -4,22 +4,17 @@
       "modal-trigger#newsletter",
       "info-card#main-infocard",
       "info-card#main--mobile",
-      /* You can make references to blocks defined in other files.
-       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "__fold__.experimentalLazyAssets",
       "flex-layout.row#department-links",
       "info-card#second-infocard",
       "info-card#second-infocard-mobile",
       "__fold__",
       "flex-layout.row#buttons-text",
-      //"flex-layout.row#first-shelf",
       "info-card#third-infocard",
       "info-card#third-infocard-mobile",
-      //"flex-layout.row#third-shelf",
       "flex-layout.row#outlet-text",
       "flex-layout.row#double-images",
       "list-context.image-list#bottom-images",
-      //"newsletter",
       "flex-layout.row#newsletter"
 
     ]
@@ -283,15 +278,6 @@
     }
   },
 
-  // "flex-layout.col#newsletter":{
-  //   "children":[
-  //     "rich-text#newsletter-title",
-  //     "newsletter-form"
-  //   ],
-  //   "props":{
-  //     "blockClass": "newsletter-col"
-  //   }
-  // },
 
   "rich-text#newsletter-title":{
     "props":{
@@ -299,44 +285,6 @@
       "blockClass": "newsletter-title"
     }
   },
-
-  // "newsletter-form": {
-  //   "children": [
-  //     "flex-layout.row#top-newsletter",
-  //     "newsletter-checkbox-confirmation"
-
-  //   ]
-  // },
-
-  // "flex-layout.row#top-newsletter":{
-  //   "children":[
-  //     "newsletter-input-email",
-  //     "newsletter-submit"
-  //   ],
-  //   "props":{
-  //     "blockClass": "newsletter-input"
-  //   }
-  // },
-
-  // "newsletter-input-email":{
-  //   "props":{
-
-  //   }
-  // },
-  // "newsletter-checkbox-confirmation":{
-  //   "props":{
-  //     "checkboxLabel": "Gostaria de receber atualizações dos últimos produtos e promoções por e-mail ou outros canais. Por favor veja a nossa {firstLink} para mais informações",
-  //     "firstLabelLink": {
-  //       "url": "/politica-de-privacidade",
-  //       "text": "política de privacidade"
-  //     }
-  //   }
-  // },
-  // "newsletter-submit":{
-  //   "props":{
-      
-  //   }
-  // },
 
   "info-card#main--mobile":{
     "props":{
@@ -622,7 +570,6 @@
 
   "flex-layout.col#first-shelf":{
     "children":[
-      //"flex-layout.row#first-shelf-inside"
       "flex-layout.row#shelf"
     ]
   },
@@ -743,24 +690,4 @@
     }
   }
   
-  /*"flex-layout.row#newsletter":{
-    "children":[
-      "flex-layout.col#newsletter"
-    ],
-    "props":{
-      "blockClass": "newsletter-box"
-    }
-  },
-  "flex-layout.col#newsletter":{
-    "children":[
-      "newsletter",
-      "rich-text#newsletter-rich-text"
-    ]
-  },
-  "rich-text#newsletter-rich-text":{
-    "props":{
-      "blockClass": "newsletter-text",
-      "text": "Ao submeter o email, você afirma que gostaria de receber atualizações dos últimos produtos e promoções por e-mail ou outros canais. Por favor veja a nossa política de privacidade para mais informações"
-    }
-  }*/
 }

@@ -134,7 +134,6 @@
             "menu-item#sixth-institutional",
             "menu-item#seventh-institutional",
             "menu-item#eigth-institutional"
-            //"menu-item#nineth-institutional"
         ],
         "props":{
             "orientation": "vertical",

@@ -1,0 +1,9 @@
+.badgeText{
+   background: #ddd;
+    padding: 5px;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    z-index: 999;
+    margin: 45px;
+}

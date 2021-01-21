@@ -2,7 +2,6 @@
     "store.custom#third-type": {
       "blocks": [
         "flex-layout.row#video-start",
-        //"iframe#iframe-video",
         "flex-layout.row#title-menu",
         "flex-layout.row#title-text",
         "flex-layout.row#first-shelf",

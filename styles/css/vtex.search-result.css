@@ -74,6 +74,10 @@
     padding: 5px !important;
 }
 
+.galleryItem{
+    position: relative;
+}
+
 @media only screen and (min-width: 940px) {
     .galleryItem--normal{
         flex-basis: 33% !important;

@@ -2,10 +2,6 @@
     "store.custom#attendance-type": {
       "blocks": [
         "flex-layout.row#title-menu-attendance"
-        //"rich-text#attendance-title",
-        //"flex-layout.row#disclosure",
-        //"rich-text#attendance-bottom",
-        //"flex-layout.row#attendance-bottom"
       ]
     },
 

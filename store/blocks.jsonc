@@ -40,12 +40,23 @@
     "children": [
       "stack-layout#prodsum",
       "product-summary-name",
+      //"product-specification-badges",
       //"product-rating-inline",
       "product-list-price#summary",
       "flex-layout.row#selling-price-savings",
       "product-installments#summary"
       //"buy-button#product"
     ]
+  },
+
+  "product-specification-badges": {
+    "props": {
+      "specificationGroupName": "allSpecifications",
+      "specificationsOptions": [{
+        "specificationName": "infantil",
+        "displayValue": "SPECIFICATION_NAME"
+      }]
+    }
   },
 
   "product-price-savings#summary":{

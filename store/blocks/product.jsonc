@@ -6,7 +6,6 @@
       "shelf.relatedProducts",
       "responsive-layout.desktop#reviews",
       "responsive-layout.phone#reviews"
-      //"shelf.relatedProducts"
     ]
   },
   "flex-layout.row#product-breadcrumb": {
@@ -49,9 +48,6 @@
       "blockClass": "product"
     },
     "children": [
-      //"modal-trigger#images",
-      //"flex-layout.row#product-image",
-      //"flex-layout.row#product-image",
       "responsive-layout.desktop#images",
       "responsive-layout.tablet#images",
       "responsive-layout.phone#images",
@@ -157,13 +153,8 @@
     "children": [
       "flex-layout.row#product-name",
       "product-rating-summary",
-      //"flex-layout.row#list-price-savings",
-      //"flex-layout.row#selling-price",
-      //"product-installments",
-      // "product-identifier.product",
       "flex-layout.row#price-content",
       "product-installments",
-      //"product-separator",
       "sku-selector",
       "flex-layout.row#buy-button",
       "product-assembly-options",

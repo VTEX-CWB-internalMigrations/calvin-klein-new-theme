@@ -363,6 +363,10 @@
 }
 
 @media only screen and (max-width: 640px) {
+  .shippingContainer :global(.vtex-button){
+    right: 137px;
+  }
+
   .share-social{display:none;}
   
   .specificationsTable{
