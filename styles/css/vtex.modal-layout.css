@@ -111,7 +111,7 @@
 .paper--cookie-block-class{
   margin: 0px;
   background: rgba(0,0,0,.9);
-  padding: 15px;
+  padding: 0px;
   position: relative;
 }
 
@@ -133,6 +133,7 @@
   border-radius: 40px;
   margin-right: 0px;
   margin-left: auto;
+  margin-top: 10px;
   height: 32px;
 }
 
@@ -171,5 +172,9 @@
     position: absolute;
     right: 10px;
     top: 10px;
+  }
+
+  .paper--cookie-block-class{
+    padding: 15px;
   }
 }

@@ -3,6 +3,7 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
+        "orderByField": "OrderByBestDiscountDESC",
         "maxItemsPerPage": 48,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
@@ -14,7 +15,7 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
-        "orderByField": "OrderByReleaseDateDESC",
+        "orderByField": "OrderByBestDiscountDESC",
         "hideUnavailableItems": true,
         "maxItemsPerPage": 48,
         "skusFilter": "ALL",
@@ -27,6 +28,7 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
+        "orderByField": "OrderByBestDiscountDESC",
         "maxItemsPerPage": 48,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
@@ -38,6 +40,7 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
+        "orderByField": "OrderByBestDiscountDESC",
         "maxItemsPerPage": 48,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
@@ -49,6 +52,7 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
+        "orderByField": "OrderByBestDiscountDESC",
         "maxItemsPerPage": 48,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
