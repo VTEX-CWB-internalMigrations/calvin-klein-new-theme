@@ -398,6 +398,11 @@
   height: 55px;
 }
 
+.flexRow--small-seo-box{
+  margin-bottom: 45px;
+  padding: 0px 5px;
+}
+
 @media screen and (min-width: 640px) {
 
   .flexRowContent--agreement-modal .stretchChildrenWidth:first-child{
