@@ -362,6 +362,27 @@
   display: none;
 }
 
+.infoCardHeadline--info-card-home-desktop-one{
+  color: #c50000;
+  font-size: 115px;
+  font-family: 'calvin-klein';
+}
+
+.infoCardSubhead--info-card-home-desktop-one{
+  color: #c50000;
+  font-size: 60px;
+  font-family: 'calvin-klein';
+}
+
+.infoCardCallActionContainer--info-card-home-desktop-one :global(.vtex-button){
+  background: #fff !important;
+  border: 1px solid #fff;
+}
+
+.infoCardCallActionContainer--info-card-home-desktop-one :global(.vtex-button):hover{
+  background: #000 !important;
+}
+
 @media only screen and (max-width: 640px) {
   .shippingContainer :global(.vtex-button){
     right: 137px;

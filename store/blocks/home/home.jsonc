@@ -16,7 +16,6 @@
       "flex-layout.row#double-images",
       "list-context.image-list#bottom-images",
       "flex-layout.row#newsletter"
-
     ]
   },
 
@@ -368,7 +367,7 @@
       "subhead": "Texto informativo cadastrado aqui",
       "callToActionText": "Botão de ação",
       "callToActionUrl": "/sale/d",
-      "blockClass": ["info-card-home" , "info-card-home-desktop"],
+      "blockClass": ["info-card-home" , "info-card-home-desktop", "info-card-home-desktop-one"],
       "textAlignment": "left"
     }
   },
