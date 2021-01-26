@@ -383,6 +383,26 @@
   background: #000 !important;
 }
 
+.infoCardHeadline--info-card-home-desktop-three, .infoCardSubhead--info-card-home-desktop-three{
+  color: #fff
+}
+
+.infoCardCallActionContainer--info-card-home-desktop-three :global(.vtex-button){
+  border: 1px solid #fff;
+}
+
+.infoCardCallActionContainer--info-card-home-desktop-three :global(.vtex-button__label){
+  color: #fff;
+}
+
+.infoCardCallActionContainer--info-card-home-desktop-three :global(.vtex-button):hover{
+  background: #fff !important;
+}
+
+.infoCardCallActionContainer--info-card-home-desktop-three :global(.vtex-button):hover :global(.vtex-button__label){
+  color: #000 !important;
+}
+
 @media only screen and (max-width: 640px) {
   .shippingContainer :global(.vtex-button){
     right: 137px;

@@ -40,7 +40,8 @@
     "children": [
       "stack-layout#prodsum",
       "product-summary-name",
-      //"product-specification-badges",
+      "product-specification-badges#boy",
+      "product-specification-badges#girl",
       //"product-rating-inline",
       "product-list-price#summary",
       "flex-layout.row#selling-price-savings",
@@ -49,12 +50,24 @@
     ]
   },
 
-  "product-specification-badges": {
+  "product-specification-badges#boy": {
     "props": {
       "specificationGroupName": "allSpecifications",
       "specificationsOptions": [{
-        "specificationName": "infantil",
-        "displayValue": "SPECIFICATION_NAME"
+        "specificationName": "Gênero",
+        "visibleWhen": "Menino",
+        "displayValue": "INFANTIL"
+      }]
+    }
+  },
+
+  "product-specification-badges#girl": {
+    "props": {
+      "specificationGroupName": "allSpecifications",
+      "specificationsOptions": [{
+        "specificationName": "Gênero",
+        "visibleWhen": "Menina",
+        "displayValue": "INFANTIL"
       }]
     }
   },

@@ -382,7 +382,7 @@
       "subhead": "Texto informativo cadastrado aqui",
       "callToActionText": "Botão de ação",
       "callToActionUrl": "/sale/d",
-      "blockClass": ["info-card-home","info-card-home-desktop","right-infocard"],
+      "blockClass": ["info-card-home","info-card-home-desktop","right-infocard", "info-card-home-desktop-two"],
       "textAlignment": "left"
     }
   },
@@ -397,7 +397,7 @@
       "subhead": "Texto informativo cadastrado aqui",
       "callToActionText": "Botão de ação",
       "callToActionUrl": "/sale/d",
-      "blockClass": ["info-card-home", "info-card-home-desktop" ,"right-infocard"],
+      "blockClass": ["info-card-home", "info-card-home-desktop" ,"right-infocard", "info-card-home-desktop-three"],
       "textAlignment": "left"
     }
   },

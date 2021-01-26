@@ -1,9 +1,17 @@
 .badgeText{
-   background: #ddd;
     padding: 5px;
     position: absolute;
-    top: 20px;
+    top: 0px;
     left: 0px;
-    z-index: 999;
-    margin: 45px;
+    z-index: 99;
+    font-size: 12px;
+    background-color: #233248;
+    color: #fff;
+}
+
+@media screen and (min-width: 40em) {
+    .badgeText{
+        top: 0px;
+        margin: 45px;
+    }
 }
