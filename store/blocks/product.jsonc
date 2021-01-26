@@ -51,8 +51,7 @@
       "responsive-layout.desktop#images",
       "responsive-layout.tablet#images",
       "responsive-layout.phone#images",
-      "product-bookmark",
-      "product-specification-badges"
+      "product-bookmark"
     ]
   },
 
@@ -109,15 +108,6 @@
       "iconCloseSize": 22
     }
   },
-
-  "product-specification-badges": {
-    "props": {
-      "specificationGroupName": "Group",
-      "specificationName": "On Sale",
-      "visibleWhen": "True",
-      "displayValue": "SPECIFICATION_NAME"
-    }
-  },
   "responsive-layout.desktop#reviews":{
     "children":[
       "product-reviews"      
@@ -155,6 +145,8 @@
       "product-rating-summary",
       "flex-layout.row#price-content",
       "product-installments",
+      "product-specification-badges#boy-product",
+      "product-specification-badges#girl-product",
       "sku-selector",
       "flex-layout.row#buy-button",
       "product-assembly-options",
@@ -164,6 +156,30 @@
       "disclosure-layout-group#product-infos",
       "responsive-layout.phone"
     ]
+  },
+
+  "product-specification-badges#boy-product": {
+    "props": {
+      "blockClass": "specification-badge-product",
+      "specificationGroupName": "allSpecifications",
+      "specificationsOptions": [{
+        "specificationName": "Gênero",
+        "visibleWhen": "Menino",
+        "displayValue": "INFANTIL"
+      }]
+    }
+  },
+
+  "product-specification-badges#girl-product": {
+    "props": {
+      "blockClass": "specification-badge-product",
+      "specificationGroupName": "allSpecifications",
+      "specificationsOptions": [{
+        "specificationName": "Gênero",
+        "visibleWhen": "Menina",
+        "displayValue": "INFANTIL"
+      }]
+    }
   },
 
   "flex-layout.row#price-content":{

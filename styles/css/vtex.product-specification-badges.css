@@ -9,6 +9,16 @@
     color: #fff;
 }
 
+.groupContainer--specification-badge-product{
+    margin: 25px 0px 0px 0px;
+}
+
+.badgeText--specification-badge-product{
+    margin: 0px !important;
+    font-size: 15px;
+    position: relative;
+}
+
 @media screen and (min-width: 40em) {
     .badgeText{
         top: 0px;
