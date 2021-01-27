@@ -691,4 +691,5 @@
 .infoCardContainer{
   max-width: 1600px;
   margin: 0px auto;
+  background-size: contain !important;
 }

@@ -23,6 +23,7 @@
         "children": [
           "flex-layout.row#searchbread",
           "flex-layout.row#department-links-3",
+          "flex-layout.row#small-text-seo",
           "flex-layout.row#result"
         ],
         "props": {
@@ -44,7 +45,8 @@
           "flex-layout.row#productCountMobile",
           "flex-layout.row#department-links-3",
           "image#searchImage",
-          "flex-layout.row#fetchprevious",
+          //"flex-layout.row#fetchprevious",
+          "flex-layout.row#small-text-seo",
           "flex-layout.row#contentmobile",
           "flex-layout.row#fetchmore",
           "rich-text#department-info"
