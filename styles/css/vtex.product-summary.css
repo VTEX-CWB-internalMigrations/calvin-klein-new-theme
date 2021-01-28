@@ -102,6 +102,12 @@
   z-index: 9;
 }
 
+.diagonalCross{background:#bebebe; pointer-events: none;}
+.diagonalCross::before, 
+.diagonalCross::after{background-color: rgb(255, 255, 255);content: "";height: 1px;left: 50%;position: absolute;top: 50%;width: 135%;z-index:2;}
+.diagonalCross::before{transform: translate(-50%) rotate(40deg);}
+.diagonalCross::after{transform: translate(-50%) rotate(-40deg);}
+
 @media only screen and (min-width: 940px) {
   .productBrand{
     padding: 0px 55px;

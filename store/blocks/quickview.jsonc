@@ -38,6 +38,8 @@
       "vtex.store-components:product-name",
       "flex-layout.col#quickviewPrice",
       "product-summary-sku-selector#quickview"
+
+      //"sku-selector"
     ],
     "props": {
       "blockClass": "quickviewContent"
