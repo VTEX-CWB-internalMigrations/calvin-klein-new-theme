@@ -147,6 +147,7 @@
       "product-installments",
       "product-specification-badges#boy-product",
       "product-specification-badges#girl-product",
+      //"shelf.relatedProducts#same-products",
       "sku-selector",
       "flex-layout.row#buy-button",
       "product-assembly-options",
@@ -156,6 +157,36 @@
       "disclosure-layout-group#product-infos",
       "responsive-layout.phone"
     ]
+  },
+
+  "shelf.relatedProducts#same-products":{
+    "blocks":[
+      "product-summary.shelf#same-products"
+    ],
+    "props":{
+      "blockClass": "same-products-shelf",
+      "recommendation": "similars",
+      "productList":{
+        "titleText": "CORES"
+      } 
+    }
+  },
+
+  "product-summary.shelf#same-products":{
+    "children":[
+      "product-specification-badges#same-products"
+    ]
+  },
+
+  "product-specification-badges#same-products": {
+    "props": {
+      "blockClass": "same-products",
+      "specificationGroupName": "allSpecifications",
+      "specificationsOptions": [{
+        "specificationName": "Cor",
+        "displayValue": "SPECIFICATION_VALUE"
+      }]
+    }
   },
 
   "product-specification-badges#boy-product": {
@@ -344,8 +375,14 @@
       "marginBottom": 3
     },
     "children": [
-      "vtex.store-components:product-name"
+      "vtex.store-components:product-name#pdp"
     ]
+  },
+
+  "vtex.store-components:product-name#pdp":{
+    "props":{
+      "showSku": true
+    }
   },
 
   "sku-selector": {

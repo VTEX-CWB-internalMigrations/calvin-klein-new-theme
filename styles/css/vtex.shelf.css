@@ -18,3 +18,14 @@
 .relatedProducts .shelfContentContainer{
     padding: 30px;
 }
+
+.title--same-products-shelf{
+    font-size: 0.75rem !important;
+    color: #000;
+    text-transform: uppercase ;
+    padding: 30px 0px 10px !important;
+}
+
+.shelfContentContainer--same-products-shelf{
+    padding: 0px !important;
+}

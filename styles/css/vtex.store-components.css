@@ -643,6 +643,10 @@
   padding: 0px;
 }
 
+.productNameContainer .productBrand:first-child{
+  display: none;
+}
+
 @media only screen and (min-width: 1200px) {
   .productImagesGallerySlide{
     width: 640px !important
