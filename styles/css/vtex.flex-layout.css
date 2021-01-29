@@ -442,6 +442,10 @@
   align-self: flex-start;
 }
 
+.flexRowContent--confirmationButtons{
+  display: none;
+}
+
 @media only screen and (min-width: 940px) {
   .flexRowContent--price-summary-row{
     padding: 0px 55px;
