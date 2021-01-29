@@ -1,0 +1,17 @@
+{
+    "store.custom#attendance-neoassist": {
+    "blocks": [
+      "iframe#neoassist"
+    ]
+  },
+
+  "iframe#neoassist":{
+      "props":{
+        "src": "https://synapcom.neoassist.com/?th=tag_calvinfixa",
+        "width": "100%",
+        "height": "100%",
+        "blockClass": "atendimento-neoassist"
+      }
+  }
+ 
+}
