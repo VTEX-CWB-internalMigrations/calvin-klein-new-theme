@@ -100,8 +100,9 @@
     "props": {
       "type": "product-summary.shelf",
       "showDiscount": true,
-      "labelMiniCartEmpty": "",
-      "labelButtonFinishShopping": "Finalizar Compra"
+      "labelMiniCartEmpty": "SEU CARRINHO ESTÁ VAZIO",
+      "labelButtonFinishShopping": "Finalizar Compra",
+      "showShippingCost": true
     }
   },
   "login":{

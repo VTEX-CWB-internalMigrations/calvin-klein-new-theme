@@ -147,7 +147,7 @@
       "product-installments",
       "product-specification-badges#boy-product",
       "product-specification-badges#girl-product",
-      //"shelf.relatedProducts#same-products",
+      "shelf.relatedProducts#same-products",
       "sku-selector",
       "flex-layout.row#buy-button",
       "product-assembly-options",
@@ -167,7 +167,8 @@
       "blockClass": "same-products-shelf",
       "recommendation": "similars",
       "productList":{
-        "titleText": "CORES"
+        "titleText": "OUTRAS CORES:",
+        "minItemsPerPage": "3"
       } 
     }
   },
@@ -175,7 +176,10 @@
   "product-summary.shelf#same-products":{
     "children":[
       "product-specification-badges#same-products"
-    ]
+    ],
+    "props":{
+      "blockClass": "same-products"
+    }
   },
 
   "product-specification-badges#same-products": {

@@ -29,3 +29,12 @@
 .shelfContentContainer--same-products-shelf{
     padding: 0px !important;
 }
+
+.sliderContainer--same-products-shelf :global(.vtex-slider-0-x-dotsContainer), .sliderContainer--same-products-shelf .dot{
+    display: none;
+}
+
+.sliderContainer--same-products-shelf :global(.vtex-slider-0-x-sliderFrame){
+    display: flex;
+    justify-content: flex-start;
+}

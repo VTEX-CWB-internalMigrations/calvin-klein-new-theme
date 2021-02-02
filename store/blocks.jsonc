@@ -82,7 +82,6 @@
     "children":[
       "product-summary-image#shelf-minicart",
       "product-summary-name",
-      //"product-rating-inline",
       "product-list-price#summary"
     ],
     "props":{

@@ -197,7 +197,7 @@
 .frameAround{bottom:0;left:0;top:0;right:0;border-radius:0;}
 .diagonalCross{background:#bebebe;}
 .diagonalCross::before, 
-.diagonalCross::after{background-color: rgb(255, 255, 255);content: "";height: 1px;left: 50%;position: absolute;top: 50%;width: 135%;z-index:2;}
+.diagonalCross::after{background-color: rgb(255, 255, 255);content: "";height: 1px;left: 50%;position: absolute;top: 50%;width: 65%;z-index:2;}
 .diagonalCross::before{transform: translate(-50%) rotate(40deg);}
 .diagonalCross::after{transform: translate(-50%) rotate(-40deg);}
 .skuSelectorOptionsList{margin-left:0;}
