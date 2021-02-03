@@ -1,0 +1,480 @@
+{
+    "store.custom#managers-phones": {
+        "blocks": [
+          "flex-layout.row#title",
+          "flex-layout.row#title-state",
+          "flex-layout.row#manager-phone-1",
+          "flex-layout.row#manager-phone-2",
+          "flex-layout.row#manager-phone-3",
+          "flex-layout.row#manager-phone-4",
+
+          "flex-layout.row#title-state-2",
+          "flex-layout.row#manager-phone-5",
+          "flex-layout.row#manager-phone-6",
+          "flex-layout.row#manager-phone-7",
+
+          "flex-layout.row#title-state-3",
+          "flex-layout.row#manager-phone-8",
+          "flex-layout.row#manager-phone-9",
+
+          "flex-layout.row#title-state-4",
+          "flex-layout.row#manager-phone-10",
+
+          "flex-layout.row#title-state-5",
+          "flex-layout.row#manager-phone-11",
+          "flex-layout.row#manager-phone-12",
+          "flex-layout.row#manager-phone-13",
+
+          "flex-layout.row#title-state-6",
+          "flex-layout.row#manager-phone-12",
+          "flex-layout.row#manager-phone-13",
+          "flex-layout.row#manager-phone-14",
+
+          "flex-layout.row#title-state-7",
+          "flex-layout.row#manager-phone-13",
+
+          "flex-layout.row#title-state-8",
+          "flex-layout.row#manager-phone-14",
+          "flex-layout.row#manager-phone-15",
+          "flex-layout.row#manager-phone-16",
+          "flex-layout.row#manager-phone-17",
+
+          "flex-layout.row#title-state-9",
+          "flex-layout.row#manager-phone-18",
+          "flex-layout.row#manager-phone-19",
+          "flex-layout.row#manager-phone-20",
+          "flex-layout.row#manager-phone-21",
+          "flex-layout.row#manager-phone-22",
+          "flex-layout.row#manager-phone-23",
+          "flex-layout.row#manager-phone-24",
+          "flex-layout.row#manager-phone-25",
+          "flex-layout.row#manager-phone-26",
+          "flex-layout.row#manager-phone-27",
+          "flex-layout.row#manager-phone-28",
+          "flex-layout.row#manager-phone-29",
+          "flex-layout.row#manager-phone-30"
+
+        ]
+      },
+
+      "flex-layout.row#title":{
+          "children":[
+            "rich-text#managers-title"
+          ],
+          "props":{
+            "blockClass": ["managers-title", "managers-box"]
+        }
+      },
+
+      "rich-text#managers-title":{
+        "props":{
+            "text": "#### Título da página aqui",
+            "blockClass": "managers-title"
+        }
+      },
+
+      "flex-layout.row#title-state":{
+        "children":[
+            "rich-text#managers-state"
+        ],
+        "props":{
+            "blockClass": ["managers-state", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#title-state-2":{
+        "children":[
+            "rich-text#managers-state"
+        ],
+        "props":{
+            "blockClass": ["managers-state", "managers-box"]
+        }
+      },
+
+
+      "flex-layout.row#title-state-3":{
+        "children":[
+            "rich-text#managers-state"
+        ],
+        "props":{
+            "blockClass": ["managers-state", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#title-state-4":{
+        "children":[
+            "rich-text#managers-state"
+        ],
+        "props":{
+            "blockClass": ["managers-state", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#title-state-5":{
+        "children":[
+            "rich-text#managers-state"
+        ],
+        "props":{
+            "blockClass": ["managers-state", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#title-state-6":{
+        "children":[
+            "rich-text#managers-state"
+        ],
+        "props":{
+            "blockClass": ["managers-state", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#title-state-7":{
+        "children":[
+            "rich-text#managers-state"
+        ],
+        "props":{
+            "blockClass": ["managers-state", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#title-state-8":{
+        "children":[
+            "rich-text#managers-state"
+        ],
+        "props":{
+            "blockClass": ["managers-state", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#title-state-9":{
+        "children":[
+            "rich-text#managers-state"
+        ],
+        "props":{
+            "blockClass": ["managers-state", "managers-box"]
+        }
+      },
+
+      "rich-text#managers-state":{
+          "props":{
+              "text": "Estado Aqui",
+              "blockClass": "managers-state"
+          }
+      },
+
+      "flex-layout.row#manager-phone-1":{
+        "children":[
+            "rich-text#managers-name",
+            "rich-text#managers-phone"
+        ],
+        "props":{
+            "blockClass": ["managers-phone", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#manager-phone-2":{
+        "children":[
+            "rich-text#managers-name",
+            "rich-text#managers-phone"
+        ],
+        "props":{
+            "blockClass": ["managers-phone", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#manager-phone-3":{
+        "children":[
+            "rich-text#managers-name",
+            "rich-text#managers-phone"
+        ],
+        "props":{
+            "blockClass": ["managers-phone", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#manager-phone-4":{
+        "children":[
+            "rich-text#managers-name",
+            "rich-text#managers-phone"
+        ],
+        "props":{
+            "blockClass": ["managers-phone", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#manager-phone-5":{
+        "children":[
+            "rich-text#managers-name",
+            "rich-text#managers-phone"
+        ],
+        "props":{
+            "blockClass": ["managers-phone", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#manager-phone-6":{
+        "children":[
+            "rich-text#managers-name",
+            "rich-text#managers-phone"
+        ],
+        "props":{
+            "blockClass": ["managers-phone", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#manager-phone-7":{
+        "children":[
+            "rich-text#managers-name",
+            "rich-text#managers-phone"
+        ],
+        "props":{
+            "blockClass": ["managers-phone", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#manager-phone-8":{
+        "children":[
+            "rich-text#managers-name",
+            "rich-text#managers-phone"
+        ],
+        "props":{
+            "blockClass": ["managers-phone", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#manager-phone-9":{
+        "children":[
+            "rich-text#managers-name",
+            "rich-text#managers-phone"
+        ],
+        "props":{
+            "blockClass": ["managers-phone", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#manager-phone-10":{
+        "children":[
+            "rich-text#managers-name",
+            "rich-text#managers-phone"
+        ],
+        "props":{
+            "blockClass": ["managers-phone", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#manager-phone-11":{
+        "children":[
+            "rich-text#managers-name",
+            "rich-text#managers-phone"
+        ],
+        "props":{
+            "blockClass": ["managers-phone", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#manager-phone-12":{
+        "children":[
+            "rich-text#managers-name",
+            "rich-text#managers-phone"
+        ],
+        "props":{
+            "blockClass": ["managers-phone", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#manager-phone-13":{
+        "children":[
+            "rich-text#managers-name",
+            "rich-text#managers-phone"
+        ],
+        "props":{
+            "blockClass": ["managers-phone", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#manager-phone-14":{
+        "children":[
+            "rich-text#managers-name",
+            "rich-text#managers-phone"
+        ],
+        "props":{
+            "blockClass": ["managers-phone", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#manager-phone-15":{
+        "children":[
+            "rich-text#managers-name",
+            "rich-text#managers-phone"
+        ],
+        "props":{
+            "blockClass": ["managers-phone", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#manager-phone-16":{
+        "children":[
+            "rich-text#managers-name",
+            "rich-text#managers-phone"
+        ],
+        "props":{
+            "blockClass": ["managers-phone", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#manager-phone-17":{
+        "children":[
+            "rich-text#managers-name",
+            "rich-text#managers-phone"
+        ],
+        "props":{
+            "blockClass": ["managers-phone", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#manager-phone-18":{
+        "children":[
+            "rich-text#managers-name",
+            "rich-text#managers-phone"
+        ],
+        "props":{
+            "blockClass": ["managers-phone", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#manager-phone-19":{
+        "children":[
+            "rich-text#managers-name",
+            "rich-text#managers-phone"
+        ],
+        "props":{
+            "blockClass": ["managers-phone", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#manager-phone-20":{
+        "children":[
+            "rich-text#managers-name",
+            "rich-text#managers-phone"
+        ],
+        "props":{
+            "blockClass": ["managers-phone", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#manager-phone-21":{
+        "children":[
+            "rich-text#managers-name",
+            "rich-text#managers-phone"
+        ],
+        "props":{
+            "blockClass": ["managers-phone", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#manager-phone-22":{
+        "children":[
+            "rich-text#managers-name",
+            "rich-text#managers-phone"
+        ],
+        "props":{
+            "blockClass": ["managers-phone", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#manager-phone-23":{
+        "children":[
+            "rich-text#managers-name",
+            "rich-text#managers-phone"
+        ],
+        "props":{
+            "blockClass": ["managers-phone", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#manager-phone-24":{
+        "children":[
+            "rich-text#managers-name",
+            "rich-text#managers-phone"
+        ],
+        "props":{
+            "blockClass": ["managers-phone", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#manager-phone-25":{
+        "children":[
+            "rich-text#managers-name",
+            "rich-text#managers-phone"
+        ],
+        "props":{
+            "blockClass": ["managers-phone", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#manager-phone-26":{
+        "children":[
+            "rich-text#managers-name",
+            "rich-text#managers-phone"
+        ],
+        "props":{
+            "blockClass": ["managers-phone", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#manager-phone-27":{
+        "children":[
+            "rich-text#managers-name",
+            "rich-text#managers-phone"
+        ],
+        "props":{
+            "blockClass": ["managers-phone", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#manager-phone-28":{
+        "children":[
+            "rich-text#managers-name",
+            "rich-text#managers-phone"
+        ],
+        "props":{
+            "blockClass": ["managers-phone", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#manager-phone-29":{
+        "children":[
+            "rich-text#managers-name",
+            "rich-text#managers-phone"
+        ],
+        "props":{
+            "blockClass": ["managers-phone", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#manager-phone-30":{
+        "children":[
+            "rich-text#managers-name",
+            "rich-text#managers-phone"
+        ],
+        "props":{
+            "blockClass": ["managers-phone", "managers-box"]
+        }
+      },
+
+      "rich-text#managers-name":{
+        "props":{
+            "text": "Nome Aqui",
+            "blockClass": "managers-name"
+        }
+      },
+
+      "rich-text#managers-phone":{
+        "props":{
+            "text": "[Telefone Aqui](http://api.whatsapp.com/send?1=pt_BR&phone=#)",
+            "blockClass": "managers-phone"
+        }
+      }
+  
+    
+}
