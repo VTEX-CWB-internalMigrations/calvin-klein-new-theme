@@ -26,15 +26,15 @@
           "flex-layout.row#manager-phone-13",
 
           "flex-layout.row#title-state-6",
-          "flex-layout.row#manager-phone-12",
-          "flex-layout.row#manager-phone-13",
-          "flex-layout.row#manager-phone-14",
+          "flex-layout.row#manager-phone-31",
+          "flex-layout.row#manager-phone-32",
+          "flex-layout.row#manager-phone-33",
 
           "flex-layout.row#title-state-7",
-          "flex-layout.row#manager-phone-13",
+          "flex-layout.row#manager-phone-34",
 
           "flex-layout.row#title-state-8",
-          "flex-layout.row#manager-phone-14",
+          "flex-layout.row#manager-phone-35",
           "flex-layout.row#manager-phone-15",
           "flex-layout.row#manager-phone-16",
           "flex-layout.row#manager-phone-17",
@@ -453,6 +453,56 @@
       },
 
       "flex-layout.row#manager-phone-30":{
+        "children":[
+            "rich-text#managers-name",
+            "rich-text#managers-phone"
+        ],
+        "props":{
+            "blockClass": ["managers-phone", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#manager-phone-31":{
+        "children":[
+            "rich-text#managers-name",
+            "rich-text#managers-phone"
+        ],
+        "props":{
+            "blockClass": ["managers-phone", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#manager-phone-32":{
+        "children":[
+            "rich-text#managers-name",
+            "rich-text#managers-phone"
+        ],
+        "props":{
+            "blockClass": ["managers-phone", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#manager-phone-33":{
+        "children":[
+            "rich-text#managers-name",
+            "rich-text#managers-phone"
+        ],
+        "props":{
+            "blockClass": ["managers-phone", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#manager-phone-34":{
+        "children":[
+            "rich-text#managers-name",
+            "rich-text#managers-phone"
+        ],
+        "props":{
+            "blockClass": ["managers-phone", "managers-box"]
+        }
+      },
+
+      "flex-layout.row#manager-phone-35":{
         "children":[
             "rich-text#managers-name",
             "rich-text#managers-phone"
