@@ -1,0 +1,17 @@
+{
+    "store.custom#iframe-boleto": {
+        "children":[
+            "iframe#iframe-boleto"
+        ]
+    },
+
+    "iframe#iframe-boleto":{
+        "props":{
+            "src": "https://secure1.nexxera.com/cobranca/sacado/buscarGrupo.do?codGrupo=2403",
+            "width": "100%",
+            "height": "100%",
+            "blockClass": "iframe-boleto"
+        }
+    }
+  
+}

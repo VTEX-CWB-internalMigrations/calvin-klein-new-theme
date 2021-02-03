@@ -2,6 +2,10 @@
     height: 1400px;
 }
 
+.container--iframe-boleto{
+    height: 1000px;
+}
+
 @media screen and (min-width: 640px) {
     .container--atendimento-neoassist{
         height: 1200px;
