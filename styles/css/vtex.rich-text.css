@@ -594,6 +594,38 @@
   color: #000;
 }
 
+.wrapper--ipad-store .paragraph, .wrapper--ipad-store .heading{
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.container--ipad-vendor {
+  max-width: 95%;
+  margin: 0px auto;
+  padding: 0px 10px;
+  border-right: 1px solid #d1d1d1;
+  border-bottom: 1px solid #d1d1d1;
+  border-left: 1px solid #d1d1d1;
+}
+
+.wrapper--ipad-title{
+  text-align: center;
+}
+
+.link--ipad-vendor{
+  color: #000;
+}
+
+.paragraph--ipad-vendor{
+  line-height: 35px;
+}
+
+.container--ipad-vendor{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media only screen and (min-width: 640px) {
 
   .paragraph--managers-name .paragraph--managers-phone{

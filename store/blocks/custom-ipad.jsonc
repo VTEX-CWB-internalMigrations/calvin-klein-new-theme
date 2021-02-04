@@ -1,0 +1,363 @@
+{
+    "store.custom#ipad-vendors": {
+        "blocks": [
+            "disclosure-layout-group#ipad"
+        ]
+    },
+
+    "disclosure-layout-group#ipad":{
+        "children":[
+            "flex-layout.row#ipad"
+        ]
+    },
+
+    "flex-layout.row#ipad":{
+        "children":[
+            "flex-layout.col#ipad"
+        ]
+    },
+
+    "flex-layout.col#ipad":{
+        "children":[
+            "rich-text#ipad-info-text",
+            "disclosure-layout#ipad-1",
+            "disclosure-layout#ipad-2",
+            "disclosure-layout#ipad-3",
+            "disclosure-layout#ipad-4",
+            "disclosure-layout#ipad-5",
+            "disclosure-layout#ipad-6",
+            "disclosure-layout#ipad-7",
+            "disclosure-layout#ipad-8",
+            "disclosure-layout#ipad-9",
+            "disclosure-layout#ipad-10",
+            "disclosure-layout#ipad-11",
+            "disclosure-layout#ipad-12",
+            "disclosure-layout#ipad-13",
+            "disclosure-layout#ipad-14",
+            "disclosure-layout#ipad-15",
+            "disclosure-layout#ipad-16",
+            "disclosure-layout#ipad-17",
+            "disclosure-layout#ipad-18",
+            "disclosure-layout#ipad-19",
+            "disclosure-layout#ipad-20",
+            "disclosure-layout#ipad-21",
+            "disclosure-layout#ipad-22",
+            "disclosure-layout#ipad-23",
+            "disclosure-layout#ipad-24",
+            "disclosure-layout#ipad-25",
+            "disclosure-layout#ipad-26",
+            "disclosure-layout#ipad-27",
+            "disclosure-layout#ipad-28",
+            "disclosure-layout#ipad-29",
+            "disclosure-layout#ipad-30"
+        ],
+        "props":{
+            "blockClass": "ipad-flex"
+        }
+    },
+
+    "rich-text#ipad-info-text":{
+        "props":{
+            "blockClass": "ipad-title",
+            "text": "Nos desculpe pelo incômodo, foram precisos alguns ajustes na funcionalidade Ipad. Escolha uma loja e seu nome abaixo para continuar com a navegação correta"
+        }
+    },
+
+    "disclosure-layout#ipad-1":{
+        "children":[
+            "disclosure-trigger#ipad", 
+            "disclosure-content#ipad"
+        ],
+        "props":{
+            "blockClass": "ipad-disclosure"
+        }
+    },
+
+    "disclosure-layout#ipad-2":{
+        "children":[
+            "disclosure-trigger#ipad", 
+            "disclosure-content#ipad"
+        ],
+        "props":{
+            "blockClass": "ipad-disclosure"
+        }
+    },
+    "disclosure-layout#ipad-3":{
+        "children":[
+            "disclosure-trigger#ipad", 
+            "disclosure-content#ipad"
+        ],
+        "props":{
+            "blockClass": "ipad-disclosure"
+        }
+    },
+    "disclosure-layout#ipad-4":{
+        "children":[
+            "disclosure-trigger#ipad", 
+            "disclosure-content#ipad"
+        ],
+        "props":{
+            "blockClass": "ipad-disclosure"
+        }
+    },
+    "disclosure-layout#ipad-5":{
+        "children":[
+            "disclosure-trigger#ipad", 
+            "disclosure-content#ipad"
+        ],
+        "props":{
+            "blockClass": "ipad-disclosure"
+        }
+    },
+    "disclosure-layout#ipad-6":{
+        "children":[
+            "disclosure-trigger#ipad", 
+            "disclosure-content#ipad"
+        ],
+        "props":{
+            "blockClass": "ipad-disclosure"
+        }
+    },
+    "disclosure-layout#ipad-7":{
+        "children":[
+            "disclosure-trigger#ipad", 
+            "disclosure-content#ipad"
+        ],
+        "props":{
+            "blockClass": "ipad-disclosure"
+        }
+    },
+    "disclosure-layout#ipad-8":{
+        "children":[
+            "disclosure-trigger#ipad", 
+            "disclosure-content#ipad"
+        ],
+        "props":{
+            "blockClass": "ipad-disclosure"
+        }
+    },
+    "disclosure-layout#ipad-9":{
+        "children":[
+            "disclosure-trigger#ipad", 
+            "disclosure-content#ipad"
+        ],
+        "props":{
+            "blockClass": "ipad-disclosure"
+        }
+    },
+    "disclosure-layout#ipad-10":{
+        "children":[
+            "disclosure-trigger#ipad", 
+            "disclosure-content#ipad"
+        ],
+        "props":{
+            "blockClass": "ipad-disclosure"
+        }
+    },
+    "disclosure-layout#ipad-11":{
+        "children":[
+            "disclosure-trigger#ipad", 
+            "disclosure-content#ipad"
+        ],
+        "props":{
+            "blockClass": "ipad-disclosure"
+        }
+    },
+    "disclosure-layout#ipad-12":{
+        "children":[
+            "disclosure-trigger#ipad", 
+            "disclosure-content#ipad"
+        ],
+        "props":{
+            "blockClass": "ipad-disclosure"
+        }
+    },
+    "disclosure-layout#ipad-13":{
+        "children":[
+            "disclosure-trigger#ipad", 
+            "disclosure-content#ipad"
+        ],
+        "props":{
+            "blockClass": "ipad-disclosure"
+        }
+    },
+    "disclosure-layout#ipad-14":{
+        "children":[
+            "disclosure-trigger#ipad", 
+            "disclosure-content#ipad"
+        ],
+        "props":{
+            "blockClass": "ipad-disclosure"
+        }
+    },
+    "disclosure-layout#ipad-15":{
+        "children":[
+            "disclosure-trigger#ipad", 
+            "disclosure-content#ipad"
+        ],
+        "props":{
+            "blockClass": "ipad-disclosure"
+        }
+    },
+    "disclosure-layout#ipad-16":{
+        "children":[
+            "disclosure-trigger#ipad", 
+            "disclosure-content#ipad"
+        ],
+        "props":{
+            "blockClass": "ipad-disclosure"
+        }
+    },
+    "disclosure-layout#ipad-17":{
+        "children":[
+            "disclosure-trigger#ipad", 
+            "disclosure-content#ipad"
+        ],
+        "props":{
+            "blockClass": "ipad-disclosure"
+        }
+    },
+    "disclosure-layout#ipad-18":{
+        "children":[
+            "disclosure-trigger#ipad", 
+            "disclosure-content#ipad"
+        ],
+        "props":{
+            "blockClass": "ipad-disclosure"
+        }
+    },
+    "disclosure-layout#ipad-19":{
+        "children":[
+            "disclosure-trigger#ipad", 
+            "disclosure-content#ipad"
+        ],
+        "props":{
+            "blockClass": "ipad-disclosure"
+        }
+    },
+    "disclosure-layout#ipad-20":{
+        "children":[
+            "disclosure-trigger#ipad", 
+            "disclosure-content#ipad"
+        ],
+        "props":{
+            "blockClass": "ipad-disclosure"
+        }
+    },
+    "disclosure-layout#ipad-21":{
+        "children":[
+            "disclosure-trigger#ipad", 
+            "disclosure-content#ipad"
+        ],
+        "props":{
+            "blockClass": "ipad-disclosure"
+        }
+    },
+    "disclosure-layout#ipad-22":{
+        "children":[
+            "disclosure-trigger#ipad", 
+            "disclosure-content#ipad"
+        ],
+        "props":{
+            "blockClass": "ipad-disclosure"
+        }
+    },
+    "disclosure-layout#ipad-23":{
+        "children":[
+            "disclosure-trigger#ipad", 
+            "disclosure-content#ipad"
+        ],
+        "props":{
+            "blockClass": "ipad-disclosure"
+        }
+    },
+    "disclosure-layout#ipad-24":{
+        "children":[
+            "disclosure-trigger#ipad", 
+            "disclosure-content#ipad"
+        ],
+        "props":{
+            "blockClass": "ipad-disclosure"
+        }
+    },
+    "disclosure-layout#ipad-25":{
+        "children":[
+            "disclosure-trigger#ipad", 
+            "disclosure-content#ipad"
+        ],
+        "props":{
+            "blockClass": "ipad-disclosure"
+        }
+    },
+    "disclosure-layout#ipad-26":{
+        "children":[
+            "disclosure-trigger#ipad", 
+            "disclosure-content#ipad"
+        ],
+        "props":{
+            "blockClass": "ipad-disclosure"
+        }
+    },
+    "disclosure-layout#ipad-27":{
+        "children":[
+            "disclosure-trigger#ipad", 
+            "disclosure-content#ipad"
+        ],
+        "props":{
+            "blockClass": "ipad-disclosure"
+        }
+    },
+    "disclosure-layout#ipad-28":{
+        "children":[
+            "disclosure-trigger#ipad", 
+            "disclosure-content#ipad"
+        ],
+        "props":{
+            "blockClass": "ipad-disclosure"
+        }
+    },
+    "disclosure-layout#ipad-29":{
+        "children":[
+            "disclosure-trigger#ipad", 
+            "disclosure-content#ipad"
+        ],
+        "props":{
+            "blockClass": "ipad-disclosure"
+        }
+    },
+    "disclosure-layout#ipad-30":{
+        "children":[
+            "disclosure-trigger#ipad", 
+            "disclosure-content#ipad"
+        ],
+        "props":{
+            "blockClass": "ipad-disclosure"
+        }
+    },
+    "disclosure-trigger#ipad":{
+        "children":[
+            "rich-text#ipad-store"
+        ]
+    }, 
+    "disclosure-content#ipad":{
+        "children":[
+            "rich-text#ipad-vendors"
+        ]
+    },
+
+    "rich-text#ipad-store":{
+        "props":{
+            "text": "Nome da loja aqui",
+            "blockClass": ["ipad-disclosure", "ipad-store"]
+        }
+    },
+
+    "rich-text#ipad-vendors":{
+        "props":{
+            "text": "Lista de Vendedores",
+            "blockClass": ["ipad-disclosure", "ipad-vendor"]
+        }
+    }
+  
+    
+}
