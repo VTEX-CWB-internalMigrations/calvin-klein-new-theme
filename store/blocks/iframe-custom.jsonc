@@ -1,8 +1,23 @@
 {
     "store.custom#iframe-boleto": {
         "children":[
-            "iframe#iframe-boleto"
+            "rich-text#boleto-text",
+            "rich-text#boleto-link"
         ]
+    },
+
+    "rich-text#boleto-text":{
+        "props":{
+            "text": "Caso queira acessar a funcionalidade de boletos, clique no link abaixo:",
+            "blockClass": "text-boleto"
+        }
+    },
+
+    "rich-text#boleto-link":{
+        "props":{
+            "text": "[LINK DE REDIRECIONAMENTO](https://secure1.nexxera.com/cobranca/sacado/buscarGrupo.do?codGrupo=2403)",
+            "blockClass": "link-boleto"
+        }
     },
 
     "iframe#iframe-boleto":{
@@ -13,5 +28,5 @@
             "blockClass": "iframe-boleto"
         }
     }
-  
+
 }

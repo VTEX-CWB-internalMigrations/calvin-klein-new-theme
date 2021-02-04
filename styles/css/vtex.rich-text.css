@@ -576,6 +576,24 @@
   color: #000;
 }
 
+.container--text-boleto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.container--link-boleto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.container--link-boleto{
+  color: #000;
+}
+
 @media only screen and (min-width: 640px) {
 
   .paragraph--managers-name .paragraph--managers-phone{
