@@ -4,7 +4,7 @@
     "props": {
       "context": {
         "orderByField": "OrderByBestDiscountDESC",
-        "maxItemsPerPage": 48,
+        "maxItemsPerPage": 30,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
@@ -17,7 +17,7 @@
       "context": {
         "orderByField": "OrderByBestDiscountDESC",
         "hideUnavailableItems": true,
-        "maxItemsPerPage": 48,
+        "maxItemsPerPage": 30,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
@@ -29,7 +29,7 @@
     "props": {
       "context": {
         "orderByField": "OrderByBestDiscountDESC",
-        "maxItemsPerPage": 48,
+        "maxItemsPerPage": 30,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
@@ -41,7 +41,7 @@
     "props": {
       "context": {
         "orderByField": "OrderByBestDiscountDESC",
-        "maxItemsPerPage": 48,
+        "maxItemsPerPage": 30,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
@@ -53,7 +53,7 @@
     "props": {
       "context": {
         "orderByField": "OrderByBestDiscountDESC",
-        "maxItemsPerPage": 48,
+        "maxItemsPerPage": 30,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
