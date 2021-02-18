@@ -96,7 +96,7 @@
         "blocks": ["form-success"],
         "children":[
             "rich-text#formSubTitle1",
-            "form-input.text#cpf",
+            "flex-layout.row#form-zero",
             "flex-layout.row#form-one",
             "rich-text#formSubTitle2",
             "flex-layout.row#form-two",
@@ -124,6 +124,27 @@
         "props": {
           "text": "SEUS DADOS FORAM ENVIADOS CORRETAMENTE!",
            "blockClass": "succes-recadastro"
+        }
+    },
+
+    "flex-layout.row#form-zero":{
+        "children":[
+            "form-input.text#cpf",
+            "form-input.text#nascimento",
+            "flex-layout.col#form-one-0"
+        ]
+    },
+
+    "flex-layout.col#form-one-0":{
+        "props":{
+            
+        }
+    },
+
+    "form-input.text#nascimento":{
+        "props":{
+            "pointer": "#/properties/dataNasc",
+            "label": "Data de Nascimento *"
         }
     },
 
