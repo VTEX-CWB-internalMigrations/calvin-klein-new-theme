@@ -144,7 +144,8 @@
     "form-input.text#nascimento":{
         "props":{
             "pointer": "#/properties/dataNasc",
-            "label": "Data de Nascimento *"
+            "label": "Data de Nascimento *",
+            "placeholder": "00/00/0000"
         }
     },
 
@@ -160,7 +161,8 @@
     "form-input.text#cpf":{
         "props":{
             "pointer": "#/properties/cpf",
-            "label": "CPF *"
+            "label": "CPF *",
+            "placeholder": "000.000.000-00"
         }
     },
 
@@ -225,7 +227,8 @@
     "form-input.text#celular":{
         "props":{
             "pointer": "#/properties/celular",
-            "label": "Celular *"
+            "label": "Celular *",
+            "placeholder": "1199999999"
         }
     },
 
@@ -254,7 +257,8 @@
     "form-input.text#cep":{
         "props":{
             "pointer": "#/properties/cep",
-            "label": "CEP *"
+            "label": "CEP *",
+            "placeholder": "00000000"
         }
     },
 
